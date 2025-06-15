@@ -1,0 +1,224 @@
+[0.329s] Invoking command in '/home/pi/ros2_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/lslidar_msgs -- -j4 -l4
+[3.803s] [  1%] Built target lslidar_msgs__cpp
+[3.808s] [ 12%] Built target lslidar_msgs__rosidl_generator_c
+[3.814s] [ 12%] Built target ament_cmake_python_copy_lslidar_msgs
+[3.815s] [ 23%] Built target lslidar_msgs__rosidl_typesupport_cpp
+[3.816s] [ 34%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp
+[3.818s] [ 46%] Built target lslidar_msgs__rosidl_typesupport_introspection_cpp
+[3.819s] [ 57%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c
+[3.820s] [ 68%] Built target lslidar_msgs__rosidl_typesupport_c
+[3.821s] [ 79%] Built target lslidar_msgs__rosidl_typesupport_introspection_c
+[3.823s] [ 79%] Built target lslidar_msgs
+[3.825s] [ 80%] Built target lslidar_msgs__py
+[3.832s] [ 90%] Built target lslidar_msgs__rosidl_generator_py
+[3.834s] [ 93%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.835s] [ 96%] Built target lslidar_msgs__rosidl_typesupport_c__pyext
+[3.836s] [100%] Built target lslidar_msgs__rosidl_typesupport_introspection_c__pyext
+[5.046s] running egg_info
+[5.053s] writing lslidar_msgs.egg-info/PKG-INFO
+[5.056s] writing dependency_links to lslidar_msgs.egg-info/dependency_links.txt
+[5.058s] writing top-level names to lslidar_msgs.egg-info/top_level.txt
+[5.087s] reading manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[5.097s] writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[5.351s] [100%] Built target ament_cmake_python_build_lslidar_msgs_egg
+[7.152s] Invoked command in '/home/pi/ros2_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/lslidar_msgs -- -j4 -l4
+[7.175s] Invoking command in '/home/pi/ros2_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/lslidar_msgs
+[7.254s] -- Install configuration: ""
+[7.262s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/ament_index/resource_index/rosidl_interfaces/lslidar_msgs
+[7.270s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[7.274s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[7.275s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.h
+[7.277s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.h
+[7.279s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.h
+[7.281s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_c__visibility_control.h
+[7.283s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.h
+[7.305s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[7.309s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__functions.h
+[7.310s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.h
+[7.311s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.h
+[7.314s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.h
+[7.316s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__functions.c
+[7.317s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.h
+[7.318s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__functions.c
+[7.319s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.h
+[7.320s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.h
+[7.321s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.h
+[7.327s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.h
+[7.344s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.c
+[7.357s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.c
+[7.360s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__functions.h
+[7.362s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.h
+[7.363s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.h
+[7.366s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.h
+[7.370s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.h
+[7.376s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.h
+[7.383s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.c
+[7.395s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.h
+[7.397s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.sh
+[7.399s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.dsv
+[7.400s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so
+[7.411s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[7.413s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[7.414s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.415s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[7.416s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_c.h
+[7.418s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_c.h
+[7.419s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_c.h
+[7.420s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_c.h
+[7.422s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_c.h
+[7.423s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so
+[7.424s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[7.428s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[7.435s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.hpp
+[7.437s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.hpp
+[7.439s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.hpp
+[7.440s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.hpp
+[7.441s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.hpp
+[7.442s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[7.444s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.hpp
+[7.445s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__builder.hpp
+[7.446s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.hpp
+[7.447s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__builder.hpp
+[7.448s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.hpp
+[7.450s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.hpp
+[7.451s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__traits.hpp
+[7.453s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__traits.hpp
+[7.454s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__builder.hpp
+[7.456s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__builder.hpp
+[7.457s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.hpp
+[7.458s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__traits.hpp
+[7.459s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.hpp
+[7.461s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.hpp
+[7.462s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__traits.hpp
+[7.463s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__traits.hpp
+[7.464s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.hpp
+[7.465s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.hpp
+[7.466s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.hpp
+[7.468s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__builder.hpp
+[7.469s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.470s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[7.471s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[7.472s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.474s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[7.475s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/dds_fastrtps
+[7.476s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[7.477s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_cpp.hpp
+[7.479s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[7.480s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_cpp.hpp
+[7.481s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_cpp.hpp
+[7.483s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.485s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[7.487s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[7.490s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[7.492s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_c.h
+[7.494s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_c.h
+[7.497s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.c
+[7.498s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_c.h
+[7.499s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_c.h
+[7.500s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_c.h
+[7.501s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.c
+[7.503s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.c
+[7.504s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.c
+[7.505s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.c
+[7.506s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.508s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so
+[7.509s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so
+[7.510s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[7.511s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[7.512s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[7.513s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.cpp
+[7.515s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_cpp.hpp
+[7.516s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.cpp
+[7.518s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.cpp
+[7.519s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_cpp.hpp
+[7.520s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.cpp
+[7.521s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_cpp.hpp
+[7.522s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_cpp.hpp
+[7.524s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.cpp
+[7.526s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_cpp.hpp
+[7.527s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so
+[7.529s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so
+[7.530s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.sh
+[7.534s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.dsv
+[7.535s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info
+[7.537s] -- Installing: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/PKG-INFO
+[7.543s] -- Installing: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/top_level.txt
+[7.547s] -- Installing: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/SOURCES.txt
+[7.553s] -- Installing: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/dependency_links.txt
+[7.559s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs
+[7.564s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[7.567s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c
+[7.570s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py
+[7.574s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[7.577s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so
+[7.580s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[7.583s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg
+[7.588s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py
+[7.592s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan.py
+[7.595s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan_s.c
+[7.598s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet_s.c
+[7.601s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop.py
+[7.605s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep.py
+[7.608s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point_s.c
+[7.611s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py
+[7.615s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point.py
+[7.618s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop_s.c
+[7.621s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep_s.c
+[7.624s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[7.627s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.126s] Listing '/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs'...
+[8.128s] Listing '/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg'...
+[8.194s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[8.207s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[8.216s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[8.228s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so
+[8.235s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.idl
+[8.237s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.idl
+[8.239s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.idl
+[8.243s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.idl
+[8.251s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.idl
+[8.256s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.msg
+[8.258s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.msg
+[8.260s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.msg
+[8.261s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.msg
+[8.268s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.msg
+[8.272s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/ament_index/resource_index/package_run_dependencies/lslidar_msgs
+[8.275s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/ament_index/resource_index/parent_prefix_path/lslidar_msgs
+[8.280s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.sh
+[8.290s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.dsv
+[8.292s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.sh
+[8.293s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.dsv
+[8.294s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.bash
+[8.301s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.sh
+[8.302s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.zsh
+[8.304s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.dsv
+[8.306s] -- Installing: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/package.dsv
+[8.308s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/ament_index/resource_index/packages/lslidar_msgs
+[8.309s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport.cmake
+[8.312s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport-noconfig.cmake
+[8.315s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[8.316s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.318s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cppExport.cmake
+[8.319s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.335s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.347s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport.cmake
+[8.349s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.350s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport.cmake
+[8.352s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[8.364s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[8.367s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.375s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport.cmake
+[8.376s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[8.378s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport.cmake
+[8.379s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport-noconfig.cmake
+[8.380s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake-extras.cmake
+[8.382s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.383s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.391s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[8.392s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[8.394s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.397s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.399s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig.cmake
+[8.400s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig-version.cmake
+[8.404s] -- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/package.xml
+[8.483s] Invoked command in '/home/pi/ros2_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/lslidar_msgs

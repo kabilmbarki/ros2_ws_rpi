@@ -1,0 +1,131 @@
+[0.000000] (-) TimerEvent: {}
+[0.003228] (joy_config_pkg) JobQueued: {'identifier': 'joy_config_pkg', 'dependencies': OrderedDict()}
+[0.004739] (lslidar_msgs) JobQueued: {'identifier': 'lslidar_msgs', 'dependencies': OrderedDict()}
+[0.005019] (my_car_controller) JobQueued: {'identifier': 'my_car_controller', 'dependencies': OrderedDict()}
+[0.005264] (serbot_controller) JobQueued: {'identifier': 'serbot_controller', 'dependencies': OrderedDict()}
+[0.005499] (serbot_description) JobQueued: {'identifier': 'serbot_description', 'dependencies': OrderedDict()}
+[0.005740] (serial_control) JobQueued: {'identifier': 'serial_control', 'dependencies': OrderedDict()}
+[0.005976] (teleop_twist_keyboard) JobQueued: {'identifier': 'teleop_twist_keyboard', 'dependencies': OrderedDict()}
+[0.006224] (lslidar_driver) JobQueued: {'identifier': 'lslidar_driver', 'dependencies': OrderedDict([('lslidar_msgs', '/home/pi/ros2_ws/install/lslidar_msgs')])}
+[0.006540] (lslidar_msgs) JobStarted: {'identifier': 'lslidar_msgs'}
+[0.088325] (joy_config_pkg) JobStarted: {'identifier': 'joy_config_pkg'}
+[0.096656] (-) TimerEvent: {}
+[0.145415] (my_car_controller) JobStarted: {'identifier': 'my_car_controller'}
+[0.197395] (-) TimerEvent: {}
+[0.226248] (serbot_controller) JobStarted: {'identifier': 'serbot_controller'}
+[0.299644] (-) TimerEvent: {}
+[0.326335] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'cmake'}
+[0.332664] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'build'}
+[0.339642] (lslidar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ros2_ws/build/lslidar_msgs', '--', '-j4', '-l4'], 'cwd': '/home/pi/ros2_ws/build/lslidar_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.137.1 58229 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ros2_ws/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/lslidar_driver:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/lslidar_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 58229 192.168.137.35 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/build/serbot_controller:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/build/my_car_controller:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/lslidar_driver:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble')]), 'shell': False}
+[0.372157] (joy_config_pkg) JobProgress: {'identifier': 'joy_config_pkg', 'progress': 'cmake'}
+[0.378799] (joy_config_pkg) JobProgress: {'identifier': 'joy_config_pkg', 'progress': 'build'}
+[0.381447] (joy_config_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ros2_ws/build/joy_config_pkg', '--', '-j4', '-l4'], 'cwd': '/home/pi/ros2_ws/build/joy_config_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.137.1 58229 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ros2_ws/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/lslidar_driver:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/joy_config_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 58229 192.168.137.35 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/build/serbot_controller:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/build/my_car_controller:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/lslidar_driver:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble')]), 'shell': False}
+[0.402278] (-) TimerEvent: {}
+[0.505994] (-) TimerEvent: {}
+[0.608492] (-) TimerEvent: {}
+[0.710380] (-) TimerEvent: {}
+[0.812455] (-) TimerEvent: {}
+[0.914147] (-) TimerEvent: {}
+[1.017229] (-) TimerEvent: {}
+[1.120407] (-) TimerEvent: {}
+[1.222818] (-) TimerEvent: {}
+[1.325698] (-) TimerEvent: {}
+[1.427375] (-) TimerEvent: {}
+[1.528822] (-) TimerEvent: {}
+[1.630270] (-) TimerEvent: {}
+[1.731777] (-) TimerEvent: {}
+[1.833342] (-) TimerEvent: {}
+[1.934883] (-) TimerEvent: {}
+[2.036409] (-) TimerEvent: {}
+[2.138325] (-) TimerEvent: {}
+[2.240088] (-) TimerEvent: {}
+[2.341612] (-) TimerEvent: {}
+[2.443184] (-) TimerEvent: {}
+[2.544854] (-) TimerEvent: {}
+[2.646374] (-) TimerEvent: {}
+[2.747953] (-) TimerEvent: {}
+[2.849653] (-) TimerEvent: {}
+[2.953354] (-) TimerEvent: {}
+[3.054749] (-) TimerEvent: {}
+[3.156221] (-) TimerEvent: {}
+[3.258609] (-) TimerEvent: {}
+[3.360459] (-) TimerEvent: {}
+[3.462368] (-) TimerEvent: {}
+[3.563936] (-) TimerEvent: {}
+[3.665581] (-) TimerEvent: {}
+[3.767838] (-) TimerEvent: {}
+[3.809887] (lslidar_msgs) StdoutLine: {'line': b'[  1%] Built target lslidar_msgs__cpp\n'}
+[3.814601] (lslidar_msgs) StdoutLine: {'line': b'[ 12%] Built target lslidar_msgs__rosidl_generator_c\n'}
+[3.818702] (lslidar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.825847] (lslidar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.827722] (lslidar_msgs) StdoutLine: {'line': b'[ 23%] Built target lslidar_msgs__rosidl_typesupport_cpp\n'}
+[3.835901] (lslidar_msgs) StdoutLine: {'line': b'[ 34%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[3.837538] (lslidar_msgs) StderrLine: {'line': b"failed to create symbolic link '/home/pi/ros2_ws/build/lslidar_msgs/ament_cmake_python/lslidar_msgs/lslidar_msgs' because existing path cannot be removed: Is a directory\n"}
+[3.838826] (lslidar_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_lslidar_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_lslidar_msgs] Error 1\n'}
+[3.839904] (lslidar_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_lslidar_msgs.dir/all] Error 2\n'}
+[3.840800] (lslidar_msgs) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.841645] (lslidar_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.868102] (-) TimerEvent: {}
+[3.969975] (-) TimerEvent: {}
+[4.071582] (-) TimerEvent: {}
+[4.173525] (-) TimerEvent: {}
+[4.275176] (-) TimerEvent: {}
+[4.376720] (-) TimerEvent: {}
+[4.478314] (-) TimerEvent: {}
+[4.580445] (-) TimerEvent: {}
+[4.682053] (-) TimerEvent: {}
+[4.783849] (-) TimerEvent: {}
+[4.885714] (-) TimerEvent: {}
+[4.987298] (-) TimerEvent: {}
+[5.088887] (-) TimerEvent: {}
+[5.190463] (-) TimerEvent: {}
+[5.291913] (-) TimerEvent: {}
+[5.393368] (-) TimerEvent: {}
+[5.494872] (-) TimerEvent: {}
+[5.596467] (-) TimerEvent: {}
+[5.698085] (-) TimerEvent: {}
+[5.799994] (-) TimerEvent: {}
+[5.901548] (-) TimerEvent: {}
+[6.003255] (-) TimerEvent: {}
+[6.105351] (-) TimerEvent: {}
+[6.214253] (-) TimerEvent: {}
+[6.315873] (-) TimerEvent: {}
+[6.417834] (-) TimerEvent: {}
+[6.519329] (-) TimerEvent: {}
+[6.620765] (-) TimerEvent: {}
+[6.722451] (-) TimerEvent: {}
+[6.825178] (-) TimerEvent: {}
+[6.903496] (joy_config_pkg) CommandEnded: {'returncode': 0}
+[6.909122] (joy_config_pkg) JobProgress: {'identifier': 'joy_config_pkg', 'progress': 'install'}
+[6.925471] (-) TimerEvent: {}
+[6.989543] (joy_config_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/ros2_ws/build/joy_config_pkg'], 'cwd': '/home/pi/ros2_ws/build/joy_config_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.137.1 58229 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ros2_ws/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/lslidar_driver:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/joy_config_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 58229 192.168.137.35 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/build/serbot_controller:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/build/my_car_controller:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/lslidar_driver:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble')]), 'shell': False}
+[7.009139] (lslidar_msgs) CommandEnded: {'returncode': 2}
+[7.025938] (-) TimerEvent: {}
+[7.128842] (-) TimerEvent: {}
+[7.203884] (lslidar_msgs) JobEnded: {'identifier': 'lslidar_msgs', 'rc': 2}
+[7.225878] (my_car_controller) JobEnded: {'identifier': 'my_car_controller', 'rc': 'SIGINT'}
+[7.229992] (-) TimerEvent: {}
+[7.233063] (serbot_controller) JobEnded: {'identifier': 'serbot_controller', 'rc': 'SIGINT'}
+[7.236608] (joy_config_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.238103] (joy_config_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.239234] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/joy_config_pkg/share/ament_index/resource_index/package_run_dependencies/joy_config_pkg\n'}
+[7.240385] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/joy_config_pkg/share/ament_index/resource_index/parent_prefix_path/joy_config_pkg\n'}
+[7.241581] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/environment/ament_prefix_path.sh\n'}
+[7.242751] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/environment/ament_prefix_path.dsv\n'}
+[7.246010] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/environment/path.sh\n'}
+[7.251188] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/environment/path.dsv\n'}
+[7.252325] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/local_setup.bash\n'}
+[7.253203] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/local_setup.sh\n'}
+[7.254032] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/local_setup.zsh\n'}
+[7.254842] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/local_setup.dsv\n'}
+[7.255943] (joy_config_pkg) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/package.dsv\n'}
+[7.256964] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/joy_config_pkg/share/ament_index/resource_index/packages/joy_config_pkg\n'}
+[7.257797] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/cmake/joy_config_pkgConfig.cmake\n'}
+[7.258600] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/cmake/joy_config_pkgConfig-version.cmake\n'}
+[7.259511] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/package.xml\n'}
+[7.260391] (joy_config_pkg) JobEnded: {'identifier': 'joy_config_pkg', 'rc': 'SIGINT'}
+[7.268404] (serbot_description) JobSkipped: {'identifier': 'serbot_description'}
+[7.268794] (serial_control) JobSkipped: {'identifier': 'serial_control'}
+[7.269035] (teleop_twist_keyboard) JobSkipped: {'identifier': 'teleop_twist_keyboard'}
+[7.269256] (lslidar_driver) JobSkipped: {'identifier': 'lslidar_driver'}
+[7.269478] (-) EventReactorShutdown: {}

@@ -1,0 +1,31 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/ros2_ws/build/serbot_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/urdf/serbot.urdf
+-- Symlinking: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/urdf/serbot2.urdf
+-- Symlinking: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/urdf/serbot3.urdf
+-- Symlinking: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/launch/display.launch.py
+-- Symlinking: /home/pi/ros2_ws/install/serbot_description/share/ament_index/resource_index/package_run_dependencies/serbot_description
+-- Symlinking: /home/pi/ros2_ws/install/serbot_description/share/ament_index/resource_index/parent_prefix_path/serbot_description
+-- Symlinking: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/environment/path.sh
+-- Symlinking: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/environment/path.dsv
+-- Symlinking: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/local_setup.bash
+-- Symlinking: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/local_setup.sh
+-- Symlinking: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/local_setup.zsh
+-- Symlinking: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/local_setup.dsv
+-- Symlinking: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/package.dsv
+-- Symlinking: /home/pi/ros2_ws/install/serbot_description/share/ament_index/resource_index/packages/serbot_description
+-- Symlinking: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/cmake/serbot_descriptionConfig.cmake
+-- Symlinking: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/cmake/serbot_descriptionConfig-version.cmake
+-- Symlinking: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/package.xml

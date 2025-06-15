@@ -1,0 +1,37 @@
+[0.065s] Invoking command in '/home/pi/ros2_ws/build/serbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble /usr/bin/cmake /home/pi/ros2_ws/src/serbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/serbot_description
+[0.125s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.906s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.959s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.442s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.445s] -- Added test 'lint_cmake' to check CMake code style
+[1.447s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.456s] -- Added test 'xmllint' to check XML markup files
+[1.468s] -- Configuring done
+[1.509s] -- Generating done
+[1.523s] -- Build files have been written to: /home/pi/ros2_ws/build/serbot_description
+[1.533s] Invoked command in '/home/pi/ros2_ws/build/serbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble /usr/bin/cmake /home/pi/ros2_ws/src/serbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/serbot_description
+[1.544s] Invoking command in '/home/pi/ros2_ws/build/serbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/serbot_description -- -j4 -l4
+[1.703s] Invoked command in '/home/pi/ros2_ws/build/serbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/serbot_description -- -j4 -l4
+[1.712s] Invoking command in '/home/pi/ros2_ws/build/serbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/serbot_description
+[1.740s] -- Install configuration: ""
+[1.742s] -- Execute custom install script
+[1.746s] -- Up-to-date symlink: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/urdf/serbot.urdf
+[1.748s] -- Up-to-date symlink: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/urdf/serbot2.urdf
+[1.750s] -- Up-to-date symlink: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/urdf/serbot3.urdf
+[1.755s] -- Up-to-date symlink: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/launch/display.launch.py
+[1.758s] -- Up-to-date symlink: /home/pi/ros2_ws/install/serbot_description/share/ament_index/resource_index/package_run_dependencies/serbot_description
+[1.762s] -- Up-to-date symlink: /home/pi/ros2_ws/install/serbot_description/share/ament_index/resource_index/parent_prefix_path/serbot_description
+[1.764s] -- Up-to-date symlink: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/environment/ament_prefix_path.sh
+[1.766s] -- Up-to-date symlink: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/environment/ament_prefix_path.dsv
+[1.769s] -- Up-to-date symlink: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/environment/path.sh
+[1.770s] -- Up-to-date symlink: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/environment/path.dsv
+[1.772s] -- Up-to-date symlink: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/local_setup.bash
+[1.774s] -- Up-to-date symlink: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/local_setup.sh
+[1.778s] -- Up-to-date symlink: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/local_setup.zsh
+[1.779s] -- Up-to-date symlink: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/local_setup.dsv
+[1.780s] -- Symlinking: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/package.dsv
+[1.816s] -- Up-to-date symlink: /home/pi/ros2_ws/install/serbot_description/share/ament_index/resource_index/packages/serbot_description
+[1.819s] -- Up-to-date symlink: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/cmake/serbot_descriptionConfig.cmake
+[1.821s] -- Up-to-date symlink: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/cmake/serbot_descriptionConfig-version.cmake
+[1.822s] -- Up-to-date symlink: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/package.xml
+[1.831s] Invoked command in '/home/pi/ros2_ws/build/serbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/serbot_description

@@ -1,0 +1,22 @@
+[15.110s] Invoking command in '/home/pi/ros2_ws/src/my_car_controller': PYTHONPATH=/home/pi/ros2_ws/build/my_car_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_car_controller build --build-base /home/pi/ros2_ws/build/my_car_controller/build install --record /home/pi/ros2_ws/build/my_car_controller/install.log --single-version-externally-managed install_data
+[18.295s] running egg_info
+[18.303s] writing ../../build/my_car_controller/my_car_controller.egg-info/PKG-INFO
+[18.312s] writing dependency_links to ../../build/my_car_controller/my_car_controller.egg-info/dependency_links.txt
+[18.315s] writing entry points to ../../build/my_car_controller/my_car_controller.egg-info/entry_points.txt
+[18.317s] writing requirements to ../../build/my_car_controller/my_car_controller.egg-info/requires.txt
+[18.319s] writing top-level names to ../../build/my_car_controller/my_car_controller.egg-info/top_level.txt
+[18.348s] reading manifest file '../../build/my_car_controller/my_car_controller.egg-info/SOURCES.txt'
+[18.362s] writing manifest file '../../build/my_car_controller/my_car_controller.egg-info/SOURCES.txt'
+[18.366s] running build
+[18.367s] running build_py
+[18.384s] running install
+[18.388s] running install_lib
+[18.409s] running install_data
+[18.413s] running install_egg_info
+[18.454s] removing '/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages/my_car_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[18.462s] Copying ../../build/my_car_controller/my_car_controller.egg-info to /home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages/my_car_controller-0.0.0-py3.10.egg-info
+[18.489s] running install_scripts
+[18.744s] Installing serial_bridge script to /home/pi/ros2_ws/install/my_car_controller/lib/my_car_controller
+[18.767s] Installing serial_bridge_2 script to /home/pi/ros2_ws/install/my_car_controller/lib/my_car_controller
+[18.774s] writing list of installed files to '/home/pi/ros2_ws/build/my_car_controller/install.log'
+[19.280s] Invoked command in '/home/pi/ros2_ws/src/my_car_controller' returned '0': PYTHONPATH=/home/pi/ros2_ws/build/my_car_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_car_controller build --build-base /home/pi/ros2_ws/build/my_car_controller/build install --record /home/pi/ros2_ws/build/my_car_controller/install.log --single-version-externally-managed install_data

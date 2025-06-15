@@ -1,0 +1,18 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[31mCMake Error at CMakeLists.txt:28 (find_package):
+  By not providing "Findpcl_conversions.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "pcl_conversions", but CMake did not find one.
+
+  Could not find a package configuration file provided by "pcl_conversions"
+  with any of the following names:
+
+    pcl_conversionsConfig.cmake
+    pcl_conversions-config.cmake
+
+  Add the installation prefix of "pcl_conversions" to CMAKE_PREFIX_PATH or
+  set "pcl_conversions_DIR" to a directory containing one of the above files.
+  If "pcl_conversions" provides a separate development package or SDK, be
+  sure it has been installed.
+
+[0m

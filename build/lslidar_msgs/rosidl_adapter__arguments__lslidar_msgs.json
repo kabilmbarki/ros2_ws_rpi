@@ -1,0 +1,10 @@
+{
+  "package_name": "lslidar_msgs",
+  "non_idl_tuples": [
+    "/home/pi/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs:msg/LslidarDifop.msg",
+    "/home/pi/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs:msg/LslidarPacket.msg",
+    "/home/pi/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs:msg/LslidarPoint.msg",
+    "/home/pi/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs:msg/LslidarScan.msg",
+    "/home/pi/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs:msg/LslidarSweep.msg"
+  ]
+}

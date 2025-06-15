@@ -1,0 +1,522 @@
+[0.000000] (-) TimerEvent: {}
+[0.002851] (joy_config_pkg) JobQueued: {'identifier': 'joy_config_pkg', 'dependencies': OrderedDict()}
+[0.004402] (my_car_controller) JobQueued: {'identifier': 'my_car_controller', 'dependencies': OrderedDict()}
+[0.005615] (serbot_controller) JobQueued: {'identifier': 'serbot_controller', 'dependencies': OrderedDict()}
+[0.006078] (serbot_description) JobQueued: {'identifier': 'serbot_description', 'dependencies': OrderedDict()}
+[0.006316] (serial_control) JobQueued: {'identifier': 'serial_control', 'dependencies': OrderedDict()}
+[0.006553] (teleop_twist_keyboard) JobQueued: {'identifier': 'teleop_twist_keyboard', 'dependencies': OrderedDict()}
+[0.006783] (joy_config_pkg) JobStarted: {'identifier': 'joy_config_pkg'}
+[0.066170] (my_car_controller) JobStarted: {'identifier': 'my_car_controller'}
+[0.097079] (-) TimerEvent: {}
+[0.127343] (serbot_controller) JobStarted: {'identifier': 'serbot_controller'}
+[0.184546] (serbot_description) JobStarted: {'identifier': 'serbot_description'}
+[0.197530] (-) TimerEvent: {}
+[0.242145] (joy_config_pkg) JobProgress: {'identifier': 'joy_config_pkg', 'progress': 'cmake'}
+[0.247189] (joy_config_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/pi/ros2_ws/src/joy_config_pkg/joy_config_pkg', '-DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/joy_config_pkg'], 'cwd': '/home/pi/ros2_ws/build/joy_config_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.137.1 53050 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ros2_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/joy_config_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 53050 192.168.137.101 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble')]), 'shell': False}
+[0.297920] (-) TimerEvent: {}
+[0.399552] (-) TimerEvent: {}
+[0.501331] (-) TimerEvent: {}
+[0.602939] (-) TimerEvent: {}
+[0.704462] (-) TimerEvent: {}
+[0.806021] (-) TimerEvent: {}
+[0.907815] (-) TimerEvent: {}
+[1.009713] (-) TimerEvent: {}
+[1.112564] (-) TimerEvent: {}
+[1.215756] (-) TimerEvent: {}
+[1.317385] (-) TimerEvent: {}
+[1.418825] (-) TimerEvent: {}
+[1.520386] (-) TimerEvent: {}
+[1.621790] (-) TimerEvent: {}
+[1.723171] (-) TimerEvent: {}
+[1.824958] (-) TimerEvent: {}
+[1.955559] (-) TimerEvent: {}
+[2.057070] (-) TimerEvent: {}
+[2.158741] (-) TimerEvent: {}
+[2.260253] (-) TimerEvent: {}
+[2.361812] (-) TimerEvent: {}
+[2.463176] (-) TimerEvent: {}
+[2.564714] (-) TimerEvent: {}
+[2.666260] (-) TimerEvent: {}
+[2.767778] (-) TimerEvent: {}
+[2.869323] (-) TimerEvent: {}
+[2.970925] (-) TimerEvent: {}
+[3.073035] (-) TimerEvent: {}
+[3.176766] (-) TimerEvent: {}
+[3.278609] (-) TimerEvent: {}
+[3.380039] (-) TimerEvent: {}
+[3.481435] (-) TimerEvent: {}
+[3.582904] (-) TimerEvent: {}
+[3.686545] (-) TimerEvent: {}
+[3.789751] (-) TimerEvent: {}
+[3.892710] (-) TimerEvent: {}
+[3.995708] (-) TimerEvent: {}
+[4.098245] (-) TimerEvent: {}
+[4.200721] (-) TimerEvent: {}
+[4.303301] (-) TimerEvent: {}
+[4.406011] (-) TimerEvent: {}
+[4.508649] (-) TimerEvent: {}
+[4.611138] (-) TimerEvent: {}
+[4.713227] (-) TimerEvent: {}
+[4.815730] (-) TimerEvent: {}
+[4.918506] (-) TimerEvent: {}
+[5.021122] (-) TimerEvent: {}
+[5.123639] (-) TimerEvent: {}
+[5.226354] (-) TimerEvent: {}
+[5.329100] (-) TimerEvent: {}
+[5.431679] (-) TimerEvent: {}
+[5.534497] (-) TimerEvent: {}
+[5.637111] (-) TimerEvent: {}
+[5.739712] (-) TimerEvent: {}
+[5.842400] (-) TimerEvent: {}
+[5.945695] (-) TimerEvent: {}
+[6.048420] (-) TimerEvent: {}
+[6.147608] (joy_config_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[6.149218] (-) TimerEvent: {}
+[6.150228] (joy_config_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[6.151370] (joy_config_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.152468] (joy_config_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.156324] (joy_config_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.160311] (joy_config_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.163211] (joy_config_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.164330] (joy_config_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.165900] (joy_config_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.167353] (joy_config_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.168932] (joy_config_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.170360] (joy_config_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.171728] (joy_config_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.173184] (joy_config_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.174425] (serbot_description) JobProgress: {'identifier': 'serbot_description', 'progress': 'cmake'}
+[6.176012] (serbot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/pi/ros2_ws/src/serbot_description', '-DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/serbot_description'], 'cwd': '/home/pi/ros2_ws/build/serbot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.137.1 53050 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ros2_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/serbot_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 53050 192.168.137.101 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble')]), 'shell': False}
+[6.249588] (-) TimerEvent: {}
+[6.352370] (-) TimerEvent: {}
+[6.455114] (-) TimerEvent: {}
+[6.547106] (joy_config_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.555420] (-) TimerEvent: {}
+[6.658245] (-) TimerEvent: {}
+[6.759927] (-) TimerEvent: {}
+[6.868451] (-) TimerEvent: {}
+[6.889938] (serbot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[6.968771] (-) TimerEvent: {}
+[7.071643] (-) TimerEvent: {}
+[7.174585] (-) TimerEvent: {}
+[7.277436] (-) TimerEvent: {}
+[7.381176] (-) TimerEvent: {}
+[7.484232] (-) TimerEvent: {}
+[7.577571] (serbot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[7.584420] (-) TimerEvent: {}
+[7.659444] (serbot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.684681] (-) TimerEvent: {}
+[7.762695] (joy_config_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.784965] (-) TimerEvent: {}
+[7.788385] (joy_config_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.813473] (joy_config_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.876924] (joy_config_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[7.885282] (-) TimerEvent: {}
+[7.903269] (joy_config_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/pi/ros2_ws/build/joy_config_pkg\n'}
+[7.948646] (joy_config_pkg) CommandEnded: {'returncode': 0}
+[7.951736] (joy_config_pkg) JobProgress: {'identifier': 'joy_config_pkg', 'progress': 'build'}
+[7.952112] (joy_config_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ros2_ws/build/joy_config_pkg', '--', '-j4', '-l4'], 'cwd': '/home/pi/ros2_ws/build/joy_config_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.137.1 53050 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ros2_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/joy_config_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 53050 192.168.137.101 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble')]), 'shell': False}
+[7.987862] (-) TimerEvent: {}
+[8.092378] (-) TimerEvent: {}
+[8.194018] (-) TimerEvent: {}
+[8.295727] (-) TimerEvent: {}
+[8.374652] (joy_config_pkg) CommandEnded: {'returncode': 0}
+[8.378028] (joy_config_pkg) JobProgress: {'identifier': 'joy_config_pkg', 'progress': 'install'}
+[8.396094] (-) TimerEvent: {}
+[8.467572] (joy_config_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/ros2_ws/build/joy_config_pkg'], 'cwd': '/home/pi/ros2_ws/build/joy_config_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.137.1 53050 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ros2_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/joy_config_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 53050 192.168.137.101 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble')]), 'shell': False}
+[8.496447] (-) TimerEvent: {}
+[8.511551] (serbot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[8.565714] (joy_config_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.568608] (joy_config_pkg) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/joy_config_pkg/share/ament_index/resource_index/package_run_dependencies/joy_config_pkg\n'}
+[8.573111] (joy_config_pkg) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/joy_config_pkg/share/ament_index/resource_index/parent_prefix_path/joy_config_pkg\n'}
+[8.577532] (joy_config_pkg) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/environment/ament_prefix_path.sh\n'}
+[8.580825] (joy_config_pkg) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/environment/ament_prefix_path.dsv\n'}
+[8.584308] (joy_config_pkg) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/environment/path.sh\n'}
+[8.587476] (joy_config_pkg) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/environment/path.dsv\n'}
+[8.590603] (joy_config_pkg) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/local_setup.bash\n'}
+[8.593763] (joy_config_pkg) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/local_setup.sh\n'}
+[8.597044] (joy_config_pkg) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/local_setup.zsh\n'}
+[8.598295] (-) TimerEvent: {}
+[8.600057] (joy_config_pkg) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/local_setup.dsv\n'}
+[8.603267] (joy_config_pkg) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/package.dsv\n'}
+[8.607402] (joy_config_pkg) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/joy_config_pkg/share/ament_index/resource_index/packages/joy_config_pkg\n'}
+[8.611483] (joy_config_pkg) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/cmake/joy_config_pkgConfig.cmake\n'}
+[8.614454] (joy_config_pkg) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/cmake/joy_config_pkgConfig-version.cmake\n'}
+[8.617848] (joy_config_pkg) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/package.xml\n'}
+[8.629776] (serbot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[8.635018] (serbot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.645654] (joy_config_pkg) CommandEnded: {'returncode': 0}
+[8.648644] (serbot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.676414] (serbot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.699239] (-) TimerEvent: {}
+[8.801628] (-) TimerEvent: {}
+[8.858657] (joy_config_pkg) JobEnded: {'identifier': 'joy_config_pkg', 'rc': 0}
+[8.865848] (serial_control) JobStarted: {'identifier': 'serial_control'}
+[8.902891] (-) TimerEvent: {}
+[9.005155] (-) TimerEvent: {}
+[9.107925] (-) TimerEvent: {}
+[9.211143] (-) TimerEvent: {}
+[9.314176] (-) TimerEvent: {}
+[9.417183] (-) TimerEvent: {}
+[9.520290] (-) TimerEvent: {}
+[9.610069] (serbot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.620590] (-) TimerEvent: {}
+[9.702746] (serbot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[9.707911] (serbot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.716995] (serbot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.720842] (-) TimerEvent: {}
+[9.799415] (serbot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[9.821181] (-) TimerEvent: {}
+[9.924357] (-) TimerEvent: {}
+[10.027241] (-) TimerEvent: {}
+[10.129973] (-) TimerEvent: {}
+[10.232604] (-) TimerEvent: {}
+[10.336580] (-) TimerEvent: {}
+[10.439551] (-) TimerEvent: {}
+[10.542478] (-) TimerEvent: {}
+[10.647486] (-) TimerEvent: {}
+[10.753156] (-) TimerEvent: {}
+[10.856890] (-) TimerEvent: {}
+[10.960669] (-) TimerEvent: {}
+[11.062949] (-) TimerEvent: {}
+[11.164519] (-) TimerEvent: {}
+[11.265891] (-) TimerEvent: {}
+[11.367761] (-) TimerEvent: {}
+[11.471007] (-) TimerEvent: {}
+[11.574296] (-) TimerEvent: {}
+[11.676529] (-) TimerEvent: {}
+[11.779833] (-) TimerEvent: {}
+[11.883121] (-) TimerEvent: {}
+[11.886312] (serbot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[11.983372] (-) TimerEvent: {}
+[12.084857] (-) TimerEvent: {}
+[12.186371] (-) TimerEvent: {}
+[12.287952] (-) TimerEvent: {}
+[12.389988] (serbot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/serbot_controller', 'build', '--build-base', '/home/pi/ros2_ws/build/serbot_controller/build', 'install', '--record', '/home/pi/ros2_ws/build/serbot_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/ros2_ws/src/serbot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.137.1 53050 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/ros2_ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/ros2_ws/build/serbot_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 53050 192.168.137.101 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros2_ws/build/serbot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/joy_config_pkg'}, 'shell': False}
+[12.397042] (-) TimerEvent: {}
+[12.424272] (my_car_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_car_controller', 'build', '--build-base', '/home/pi/ros2_ws/build/my_car_controller/build', 'install', '--record', '/home/pi/ros2_ws/build/my_car_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/ros2_ws/src/my_car_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.137.1 53050 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/ros2_ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/ros2_ws/build/my_car_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 53050 192.168.137.101 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros2_ws/build/my_car_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/joy_config_pkg'}, 'shell': False}
+[12.497430] (-) TimerEvent: {}
+[12.599158] (-) TimerEvent: {}
+[12.701055] (-) TimerEvent: {}
+[12.812757] (-) TimerEvent: {}
+[12.914535] (-) TimerEvent: {}
+[13.016537] (-) TimerEvent: {}
+[13.118210] (-) TimerEvent: {}
+[13.220049] (-) TimerEvent: {}
+[13.322096] (-) TimerEvent: {}
+[13.423913] (-) TimerEvent: {}
+[13.498258] (serbot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[13.524289] (-) TimerEvent: {}
+[13.626011] (-) TimerEvent: {}
+[13.727642] (-) TimerEvent: {}
+[13.829369] (-) TimerEvent: {}
+[13.931093] (-) TimerEvent: {}
+[14.032781] (-) TimerEvent: {}
+[14.134544] (-) TimerEvent: {}
+[14.236467] (-) TimerEvent: {}
+[14.338265] (-) TimerEvent: {}
+[14.441503] (-) TimerEvent: {}
+[14.544280] (-) TimerEvent: {}
+[14.646975] (-) TimerEvent: {}
+[14.748940] (serbot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[14.750408] (-) TimerEvent: {}
+[14.765746] (serbot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[14.778178] (serbot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[14.808548] (serbot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[14.837252] (serbot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.850739] (-) TimerEvent: {}
+[14.905300] (serbot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[14.933798] (serbot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/pi/ros2_ws/build/serbot_description\n'}
+[14.951081] (-) TimerEvent: {}
+[14.986086] (serbot_description) CommandEnded: {'returncode': 0}
+[14.989489] (serbot_description) JobProgress: {'identifier': 'serbot_description', 'progress': 'build'}
+[14.989878] (serbot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ros2_ws/build/serbot_description', '--', '-j4', '-l4'], 'cwd': '/home/pi/ros2_ws/build/serbot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.137.1 53050 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ros2_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/serbot_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 53050 192.168.137.101 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble')]), 'shell': False}
+[15.051595] (-) TimerEvent: {}
+[15.154873] (-) TimerEvent: {}
+[15.258406] (-) TimerEvent: {}
+[15.361715] (-) TimerEvent: {}
+[15.408495] (serbot_description) CommandEnded: {'returncode': 0}
+[15.414487] (serbot_description) JobProgress: {'identifier': 'serbot_description', 'progress': 'install'}
+[15.417204] (serbot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/ros2_ws/build/serbot_description'], 'cwd': '/home/pi/ros2_ws/build/serbot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.137.1 53050 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ros2_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/serbot_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 53050 192.168.137.101 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble')]), 'shell': False}
+[15.462007] (-) TimerEvent: {}
+[15.514680] (serbot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.517868] (serbot_description) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/urdf\n'}
+[15.519726] (serbot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[15.524403] (serbot_description) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/urdf/serbot.urdf\n'}
+[15.527307] (serbot_controller) StdoutLine: {'line': b'creating ../../build/serbot_controller/serbot_controller.egg-info\n'}
+[15.529710] (serbot_controller) StdoutLine: {'line': b'writing ../../build/serbot_controller/serbot_controller.egg-info/PKG-INFO\n'}
+[15.532713] (serbot_description) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/urdf/serbot2.urdf\n'}
+[15.534300] (serbot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/serbot_controller/serbot_controller.egg-info/dependency_links.txt\n'}
+[15.535859] (serbot_controller) StdoutLine: {'line': b'writing entry points to ../../build/serbot_controller/serbot_controller.egg-info/entry_points.txt\n'}
+[15.537977] (serbot_controller) StdoutLine: {'line': b'writing requirements to ../../build/serbot_controller/serbot_controller.egg-info/requires.txt\n'}
+[15.548459] (serbot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/serbot_controller/serbot_controller.egg-info/top_level.txt\n'}
+[15.549814] (serbot_description) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/urdf/serbot3.urdf\n'}
+[15.551066] (serbot_controller) StdoutLine: {'line': b"writing manifest file '../../build/serbot_controller/serbot_controller.egg-info/SOURCES.txt'\n"}
+[15.553103] (serbot_description) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/launch\n'}
+[15.554349] (serbot_description) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/launch/display.launch.py\n'}
+[15.555549] (my_car_controller) StdoutLine: {'line': b'running egg_info\n'}
+[15.560900] (serbot_description) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/serbot_description/share/ament_index/resource_index/package_run_dependencies/serbot_description\n'}
+[15.562258] (-) TimerEvent: {}
+[15.572877] (my_car_controller) StdoutLine: {'line': b'creating ../../build/my_car_controller/my_car_controller.egg-info\n'}
+[15.574156] (my_car_controller) StdoutLine: {'line': b'writing ../../build/my_car_controller/my_car_controller.egg-info/PKG-INFO\n'}
+[15.575192] (serbot_controller) StdoutLine: {'line': b"reading manifest file '../../build/serbot_controller/serbot_controller.egg-info/SOURCES.txt'\n"}
+[15.577593] (my_car_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/my_car_controller/my_car_controller.egg-info/dependency_links.txt\n'}
+[15.579052] (serbot_description) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/serbot_description/share/ament_index/resource_index/parent_prefix_path/serbot_description\n'}
+[15.580362] (my_car_controller) StdoutLine: {'line': b'writing entry points to ../../build/my_car_controller/my_car_controller.egg-info/entry_points.txt\n'}
+[15.589158] (my_car_controller) StdoutLine: {'line': b'writing requirements to ../../build/my_car_controller/my_car_controller.egg-info/requires.txt\n'}
+[15.590373] (my_car_controller) StdoutLine: {'line': b'writing top-level names to ../../build/my_car_controller/my_car_controller.egg-info/top_level.txt\n'}
+[15.591931] (serbot_controller) StdoutLine: {'line': b"writing manifest file '../../build/serbot_controller/serbot_controller.egg-info/SOURCES.txt'\n"}
+[15.593191] (my_car_controller) StdoutLine: {'line': b"writing manifest file '../../build/my_car_controller/my_car_controller.egg-info/SOURCES.txt'\n"}
+[15.594626] (serbot_description) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/environment/ament_prefix_path.sh\n'}
+[15.605853] (serbot_controller) StdoutLine: {'line': b'running build\n'}
+[15.607253] (serbot_controller) StdoutLine: {'line': b'running build_py\n'}
+[15.609228] (serbot_controller) StdoutLine: {'line': b'creating /home/pi/ros2_ws/build/serbot_controller/build\n'}
+[15.610657] (serbot_controller) StdoutLine: {'line': b'creating /home/pi/ros2_ws/build/serbot_controller/build/lib\n'}
+[15.611737] (serbot_controller) StdoutLine: {'line': b'creating /home/pi/ros2_ws/build/serbot_controller/build/lib/serbot_controller\n'}
+[15.621169] (serbot_controller) StdoutLine: {'line': b'copying serbot_controller/__init__.py -> /home/pi/ros2_ws/build/serbot_controller/build/lib/serbot_controller\n'}
+[15.622681] (serbot_description) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/environment/ament_prefix_path.dsv\n'}
+[15.623877] (serbot_controller) StdoutLine: {'line': b'copying serbot_controller/serbot_controller.py -> /home/pi/ros2_ws/build/serbot_controller/build/lib/serbot_controller\n'}
+[15.625603] (serbot_description) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/environment/path.sh\n'}
+[15.627024] (serbot_controller) StdoutLine: {'line': b'running install\n'}
+[15.628327] (my_car_controller) StdoutLine: {'line': b"reading manifest file '../../build/my_car_controller/my_car_controller.egg-info/SOURCES.txt'\n"}
+[15.640917] (serbot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[15.642154] (serbot_description) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/environment/path.dsv\n'}
+[15.643626] (serbot_description) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/local_setup.bash\n'}
+[15.644891] (serbot_controller) StdoutLine: {'line': b'creating /home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages/serbot_controller\n'}
+[15.646425] (serbot_controller) StdoutLine: {'line': b'copying /home/pi/ros2_ws/build/serbot_controller/build/lib/serbot_controller/__init__.py -> /home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages/serbot_controller\n'}
+[15.647746] (my_car_controller) StdoutLine: {'line': b"writing manifest file '../../build/my_car_controller/my_car_controller.egg-info/SOURCES.txt'\n"}
+[15.649613] (my_car_controller) StdoutLine: {'line': b'running build\n'}
+[15.650911] (serbot_controller) StdoutLine: {'line': b'copying /home/pi/ros2_ws/build/serbot_controller/build/lib/serbot_controller/serbot_controller.py -> /home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages/serbot_controller\n'}
+[15.652658] (my_car_controller) StdoutLine: {'line': b'running build_py\n'}
+[15.653946] (my_car_controller) StdoutLine: {'line': b'creating /home/pi/ros2_ws/build/my_car_controller/build\n'}
+[15.665578] (-) TimerEvent: {}
+[15.666733] (my_car_controller) StdoutLine: {'line': b'creating /home/pi/ros2_ws/build/my_car_controller/build/lib\n'}
+[15.668293] (serbot_description) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/local_setup.sh\n'}
+[15.669502] (my_car_controller) StdoutLine: {'line': b'creating /home/pi/ros2_ws/build/my_car_controller/build/lib/my_car_controller\n'}
+[15.670587] (serbot_controller) StdoutLine: {'line': b'byte-compiling /home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages/serbot_controller/__init__.py to __init__.cpython-310.pyc\n'}
+[15.671853] (my_car_controller) StdoutLine: {'line': b'copying my_car_controller/__init__.py -> /home/pi/ros2_ws/build/my_car_controller/build/lib/my_car_controller\n'}
+[15.673204] (serbot_description) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/local_setup.zsh\n'}
+[15.674389] (my_car_controller) StdoutLine: {'line': b'copying my_car_controller/serial_bridge.py -> /home/pi/ros2_ws/build/my_car_controller/build/lib/my_car_controller\n'}
+[15.675416] (serbot_controller) StdoutLine: {'line': b'byte-compiling /home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages/serbot_controller/serbot_controller.py to serbot_controller.cpython-310.pyc\n'}
+[15.681155] (my_car_controller) StdoutLine: {'line': b'copying my_car_controller/serial_bridge_2.py -> /home/pi/ros2_ws/build/my_car_controller/build/lib/my_car_controller\n'}
+[15.686598] (my_car_controller) StdoutLine: {'line': b'running install\n'}
+[15.701910] (my_car_controller) StdoutLine: {'line': b'running install_lib\n'}
+[15.725446] (serbot_description) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/local_setup.dsv\n'}
+[15.726745] (serbot_controller) StdoutLine: {'line': b'running install_data\n'}
+[15.728437] (serbot_controller) StdoutLine: {'line': b'copying package.xml -> /home/pi/ros2_ws/install/serbot_controller/share/serbot_controller\n'}
+[15.729723] (serbot_description) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/package.dsv\n'}
+[15.730882] (serbot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.731928] (serbot_description) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/serbot_description/share/ament_index/resource_index/packages/serbot_description\n'}
+[15.733392] (my_car_controller) StdoutLine: {'line': b'creating /home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages/my_car_controller\n'}
+[15.734797] (my_car_controller) StdoutLine: {'line': b'copying /home/pi/ros2_ws/build/my_car_controller/build/lib/my_car_controller/__init__.py -> /home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages/my_car_controller\n'}
+[15.736641] (my_car_controller) StdoutLine: {'line': b'copying /home/pi/ros2_ws/build/my_car_controller/build/lib/my_car_controller/serial_bridge.py -> /home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages/my_car_controller\n'}
+[15.738381] (my_car_controller) StdoutLine: {'line': b'copying /home/pi/ros2_ws/build/my_car_controller/build/lib/my_car_controller/serial_bridge_2.py -> /home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages/my_car_controller\n'}
+[15.739701] (my_car_controller) StdoutLine: {'line': b'byte-compiling /home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages/my_car_controller/__init__.py to __init__.cpython-310.pyc\n'}
+[15.742190] (serbot_description) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/cmake/serbot_descriptionConfig.cmake\n'}
+[15.754563] (serbot_controller) StdoutLine: {'line': b'Copying ../../build/serbot_controller/serbot_controller.egg-info to /home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages/serbot_controller-0.0.1-py3.10.egg-info\n'}
+[15.763512] (my_car_controller) StdoutLine: {'line': b'byte-compiling /home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages/my_car_controller/serial_bridge.py to serial_bridge.cpython-310.pyc\n'}
+[15.765553] (serbot_description) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/cmake/serbot_descriptionConfig-version.cmake\n'}
+[15.767023] (-) TimerEvent: {}
+[15.769665] (serbot_description) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/package.xml\n'}
+[15.771046] (my_car_controller) StdoutLine: {'line': b'byte-compiling /home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages/my_car_controller/serial_bridge_2.py to serial_bridge_2.cpython-310.pyc\n'}
+[15.772456] (my_car_controller) StdoutLine: {'line': b'running install_data\n'}
+[15.773718] (serbot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[15.774993] (my_car_controller) StdoutLine: {'line': b'creating /home/pi/ros2_ws/install/my_car_controller/share/ament_index\n'}
+[15.776126] (my_car_controller) StdoutLine: {'line': b'creating /home/pi/ros2_ws/install/my_car_controller/share/ament_index/resource_index\n'}
+[15.778049] (my_car_controller) StdoutLine: {'line': b'creating /home/pi/ros2_ws/install/my_car_controller/share/ament_index/resource_index/packages\n'}
+[15.794950] (my_car_controller) StdoutLine: {'line': b'copying resource/my_car_controller -> /home/pi/ros2_ws/install/my_car_controller/share/ament_index/resource_index/packages\n'}
+[15.796274] (my_car_controller) StdoutLine: {'line': b'copying package.xml -> /home/pi/ros2_ws/install/my_car_controller/share/my_car_controller\n'}
+[15.797513] (my_car_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.798693] (serbot_description) CommandEnded: {'returncode': 0}
+[15.801614] (my_car_controller) StdoutLine: {'line': b'Copying ../../build/my_car_controller/my_car_controller.egg-info to /home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages/my_car_controller-0.0.0-py3.10.egg-info\n'}
+[15.803056] (my_car_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[15.868400] (-) TimerEvent: {}
+[15.913823] (serbot_description) JobEnded: {'identifier': 'serbot_description', 'rc': 0}
+[15.920323] (teleop_twist_keyboard) JobStarted: {'identifier': 'teleop_twist_keyboard'}
+[15.926929] (serbot_controller) StdoutLine: {'line': b'Installing serbot_controller script to /home/pi/ros2_ws/install/serbot_controller/lib/serbot_controller\n'}
+[15.931569] (serbot_controller) StdoutLine: {'line': b"writing list of installed files to '/home/pi/ros2_ws/build/serbot_controller/install.log'\n"}
+[15.968829] (-) TimerEvent: {}
+[15.986576] (my_car_controller) StdoutLine: {'line': b'Installing serial_bridge script to /home/pi/ros2_ws/install/my_car_controller/lib/my_car_controller\n'}
+[15.993777] (my_car_controller) StdoutLine: {'line': b'Installing serial_bridge_2 script to /home/pi/ros2_ws/install/my_car_controller/lib/my_car_controller\n'}
+[15.998805] (my_car_controller) StdoutLine: {'line': b"writing list of installed files to '/home/pi/ros2_ws/build/my_car_controller/install.log'\n"}
+[16.071303] (-) TimerEvent: {}
+[16.174298] (-) TimerEvent: {}
+[16.277690] (-) TimerEvent: {}
+[16.381042] (-) TimerEvent: {}
+[16.482497] (-) TimerEvent: {}
+[16.583902] (-) TimerEvent: {}
+[16.685418] (-) TimerEvent: {}
+[16.786908] (-) TimerEvent: {}
+[16.888908] (-) TimerEvent: {}
+[16.991303] (-) TimerEvent: {}
+[17.093438] (-) TimerEvent: {}
+[17.194790] (-) TimerEvent: {}
+[17.296098] (-) TimerEvent: {}
+[17.397408] (-) TimerEvent: {}
+[17.498654] (-) TimerEvent: {}
+[17.599940] (-) TimerEvent: {}
+[17.701261] (-) TimerEvent: {}
+[17.802528] (-) TimerEvent: {}
+[17.903828] (-) TimerEvent: {}
+[18.005135] (-) TimerEvent: {}
+[18.106415] (-) TimerEvent: {}
+[18.207691] (-) TimerEvent: {}
+[18.309008] (-) TimerEvent: {}
+[18.410275] (-) TimerEvent: {}
+[18.511542] (-) TimerEvent: {}
+[18.612904] (-) TimerEvent: {}
+[18.714155] (-) TimerEvent: {}
+[18.815663] (-) TimerEvent: {}
+[18.917568] (-) TimerEvent: {}
+[18.980417] (serial_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/serial_control', 'build', '--build-base', '/home/pi/ros2_ws/build/serial_control/build', 'install', '--record', '/home/pi/ros2_ws/build/serial_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/ros2_ws/src/serial_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.137.1 53050 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/ros2_ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/ros2_ws/build/serial_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 53050 192.168.137.101 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros2_ws/build/serial_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/joy_config_pkg'}, 'shell': False}
+[19.010112] (serbot_controller) CommandEnded: {'returncode': 0}
+[19.017794] (-) TimerEvent: {}
+[19.079102] (serbot_controller) JobEnded: {'identifier': 'serbot_controller', 'rc': 0}
+[19.084522] (my_car_controller) CommandEnded: {'returncode': 0}
+[19.118350] (-) TimerEvent: {}
+[19.156673] (my_car_controller) JobEnded: {'identifier': 'my_car_controller', 'rc': 0}
+[19.218728] (-) TimerEvent: {}
+[19.320639] (-) TimerEvent: {}
+[19.423154] (-) TimerEvent: {}
+[19.525623] (-) TimerEvent: {}
+[19.628409] (-) TimerEvent: {}
+[19.730796] (-) TimerEvent: {}
+[19.833215] (-) TimerEvent: {}
+[19.935804] (-) TimerEvent: {}
+[20.039327] (-) TimerEvent: {}
+[20.141641] (-) TimerEvent: {}
+[20.244112] (-) TimerEvent: {}
+[20.346465] (-) TimerEvent: {}
+[20.448858] (-) TimerEvent: {}
+[20.551304] (-) TimerEvent: {}
+[20.653746] (-) TimerEvent: {}
+[20.756287] (-) TimerEvent: {}
+[20.858722] (-) TimerEvent: {}
+[20.961138] (-) TimerEvent: {}
+[21.063499] (-) TimerEvent: {}
+[21.165997] (-) TimerEvent: {}
+[21.268653] (-) TimerEvent: {}
+[21.371119] (-) TimerEvent: {}
+[21.473683] (-) TimerEvent: {}
+[21.576082] (-) TimerEvent: {}
+[21.678645] (-) TimerEvent: {}
+[21.735628] (serial_control) StdoutLine: {'line': b'running egg_info\n'}
+[21.742765] (serial_control) StdoutLine: {'line': b'creating ../../build/serial_control/serial_control.egg-info\n'}
+[21.744632] (serial_control) StdoutLine: {'line': b'writing ../../build/serial_control/serial_control.egg-info/PKG-INFO\n'}
+[21.746756] (serial_control) StdoutLine: {'line': b'writing dependency_links to ../../build/serial_control/serial_control.egg-info/dependency_links.txt\n'}
+[21.748283] (serial_control) StdoutLine: {'line': b'writing entry points to ../../build/serial_control/serial_control.egg-info/entry_points.txt\n'}
+[21.749820] (serial_control) StdoutLine: {'line': b'writing requirements to ../../build/serial_control/serial_control.egg-info/requires.txt\n'}
+[21.751226] (serial_control) StdoutLine: {'line': b'writing top-level names to ../../build/serial_control/serial_control.egg-info/top_level.txt\n'}
+[21.752888] (serial_control) StdoutLine: {'line': b"writing manifest file '../../build/serial_control/serial_control.egg-info/SOURCES.txt'\n"}
+[21.768342] (serial_control) StdoutLine: {'line': b"reading manifest file '../../build/serial_control/serial_control.egg-info/SOURCES.txt'\n"}
+[21.776746] (serial_control) StdoutLine: {'line': b"writing manifest file '../../build/serial_control/serial_control.egg-info/SOURCES.txt'\n"}
+[21.778300] (serial_control) StdoutLine: {'line': b'running build\n'}
+[21.779277] (-) TimerEvent: {}
+[21.781789] (serial_control) StdoutLine: {'line': b'running build_py\n'}
+[21.783265] (serial_control) StdoutLine: {'line': b'creating /home/pi/ros2_ws/build/serial_control/build\n'}
+[21.784523] (serial_control) StdoutLine: {'line': b'creating /home/pi/ros2_ws/build/serial_control/build/lib\n'}
+[21.785576] (serial_control) StdoutLine: {'line': b'creating /home/pi/ros2_ws/build/serial_control/build/lib/serial_control\n'}
+[21.786899] (serial_control) StdoutLine: {'line': b'copying serial_control/__init__.py -> /home/pi/ros2_ws/build/serial_control/build/lib/serial_control\n'}
+[21.787956] (serial_control) StdoutLine: {'line': b'copying serial_control/serial_node.py -> /home/pi/ros2_ws/build/serial_control/build/lib/serial_control\n'}
+[21.789140] (serial_control) StdoutLine: {'line': b'copying serial_control/serial_node2.py -> /home/pi/ros2_ws/build/serial_control/build/lib/serial_control\n'}
+[21.790537] (serial_control) StdoutLine: {'line': b'running install\n'}
+[21.792691] (serial_control) StdoutLine: {'line': b'running install_lib\n'}
+[21.799559] (serial_control) StdoutLine: {'line': b'creating /home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages/serial_control\n'}
+[21.801220] (serial_control) StdoutLine: {'line': b'copying /home/pi/ros2_ws/build/serial_control/build/lib/serial_control/__init__.py -> /home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages/serial_control\n'}
+[21.802549] (serial_control) StdoutLine: {'line': b'copying /home/pi/ros2_ws/build/serial_control/build/lib/serial_control/serial_node.py -> /home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages/serial_control\n'}
+[21.804463] (serial_control) StdoutLine: {'line': b'copying /home/pi/ros2_ws/build/serial_control/build/lib/serial_control/serial_node2.py -> /home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages/serial_control\n'}
+[21.810610] (serial_control) StdoutLine: {'line': b'byte-compiling /home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages/serial_control/__init__.py to __init__.cpython-310.pyc\n'}
+[21.813827] (serial_control) StdoutLine: {'line': b'byte-compiling /home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages/serial_control/serial_node.py to serial_node.cpython-310.pyc\n'}
+[21.821285] (serial_control) StdoutLine: {'line': b'byte-compiling /home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages/serial_control/serial_node2.py to serial_node2.cpython-310.pyc\n'}
+[21.825520] (serial_control) StdoutLine: {'line': b'running install_data\n'}
+[21.827081] (serial_control) StdoutLine: {'line': b'creating /home/pi/ros2_ws/install/serial_control/share/ament_index\n'}
+[21.829041] (serial_control) StdoutLine: {'line': b'creating /home/pi/ros2_ws/install/serial_control/share/ament_index/resource_index\n'}
+[21.830113] (serial_control) StdoutLine: {'line': b'creating /home/pi/ros2_ws/install/serial_control/share/ament_index/resource_index/packages\n'}
+[21.831357] (serial_control) StdoutLine: {'line': b'copying resource/serial_control -> /home/pi/ros2_ws/install/serial_control/share/ament_index/resource_index/packages\n'}
+[21.832913] (serial_control) StdoutLine: {'line': b'copying package.xml -> /home/pi/ros2_ws/install/serial_control/share/serial_control\n'}
+[21.833967] (serial_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[21.850699] (serial_control) StdoutLine: {'line': b'Copying ../../build/serial_control/serial_control.egg-info to /home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages/serial_control-0.0.0-py3.10.egg-info\n'}
+[21.866561] (serial_control) StdoutLine: {'line': b'running install_scripts\n'}
+[21.879616] (-) TimerEvent: {}
+[21.982202] (-) TimerEvent: {}
+[22.077702] (serial_control) StdoutLine: {'line': b'Installing serial_node script to /home/pi/ros2_ws/install/serial_control/lib/serial_control\n'}
+[22.114627] (-) TimerEvent: {}
+[22.117374] (serial_control) StdoutLine: {'line': b"writing list of installed files to '/home/pi/ros2_ws/build/serial_control/install.log'\n"}
+[22.215066] (-) TimerEvent: {}
+[22.318277] (-) TimerEvent: {}
+[22.341504] (serial_control) CommandEnded: {'returncode': 0}
+[22.408627] (serial_control) JobEnded: {'identifier': 'serial_control', 'rc': 0}
+[22.418461] (-) TimerEvent: {}
+[22.519466] (-) TimerEvent: {}
+[22.620587] (-) TimerEvent: {}
+[22.721705] (-) TimerEvent: {}
+[22.822930] (-) TimerEvent: {}
+[22.924297] (-) TimerEvent: {}
+[23.025828] (-) TimerEvent: {}
+[23.127188] (-) TimerEvent: {}
+[23.145005] (teleop_twist_keyboard) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/teleop_twist_keyboard', 'build', '--build-base', '/home/pi/ros2_ws/build/teleop_twist_keyboard/build', 'install', '--record', '/home/pi/ros2_ws/build/teleop_twist_keyboard/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/ros2_ws/src/teleop_twist_keyboard', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.137.1 53050 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/ros2_ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/ros2_ws/build/teleop_twist_keyboard', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 53050 192.168.137.101 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros2_ws/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/joy_config_pkg'}, 'shell': False}
+[23.227431] (-) TimerEvent: {}
+[23.328675] (-) TimerEvent: {}
+[23.429851] (-) TimerEvent: {}
+[23.531040] (-) TimerEvent: {}
+[23.632283] (-) TimerEvent: {}
+[23.733417] (-) TimerEvent: {}
+[23.834552] (-) TimerEvent: {}
+[23.935676] (-) TimerEvent: {}
+[24.036863] (-) TimerEvent: {}
+[24.137989] (-) TimerEvent: {}
+[24.239127] (-) TimerEvent: {}
+[24.340274] (-) TimerEvent: {}
+[24.441382] (-) TimerEvent: {}
+[24.542494] (-) TimerEvent: {}
+[24.643602] (-) TimerEvent: {}
+[24.744778] (-) TimerEvent: {}
+[24.845861] (-) TimerEvent: {}
+[24.946973] (-) TimerEvent: {}
+[25.048106] (-) TimerEvent: {}
+[25.149369] (-) TimerEvent: {}
+[25.250487] (-) TimerEvent: {}
+[25.351680] (-) TimerEvent: {}
+[25.452911] (-) TimerEvent: {}
+[25.554037] (-) TimerEvent: {}
+[25.655196] (-) TimerEvent: {}
+[25.719973] (teleop_twist_keyboard) StdoutLine: {'line': b'running egg_info\n'}
+[25.725626] (teleop_twist_keyboard) StdoutLine: {'line': b'creating ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info\n'}
+[25.727114] (teleop_twist_keyboard) StdoutLine: {'line': b'writing ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO\n'}
+[25.729473] (teleop_twist_keyboard) StdoutLine: {'line': b'writing dependency_links to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt\n'}
+[25.730834] (teleop_twist_keyboard) StdoutLine: {'line': b'writing entry points to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt\n'}
+[25.732059] (teleop_twist_keyboard) StdoutLine: {'line': b'writing requirements to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt\n'}
+[25.733352] (teleop_twist_keyboard) StdoutLine: {'line': b'writing top-level names to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt\n'}
+[25.735013] (teleop_twist_keyboard) StdoutLine: {'line': b"writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[25.747873] (teleop_twist_keyboard) StdoutLine: {'line': b"reading manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[25.750530] (teleop_twist_keyboard) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[25.755437] (-) TimerEvent: {}
+[25.757992] (teleop_twist_keyboard) StdoutLine: {'line': b"writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[25.759483] (teleop_twist_keyboard) StdoutLine: {'line': b'running build\n'}
+[25.761070] (teleop_twist_keyboard) StdoutLine: {'line': b'running build_py\n'}
+[25.762079] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/pi/ros2_ws/build/teleop_twist_keyboard/build\n'}
+[25.763072] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/pi/ros2_ws/build/teleop_twist_keyboard/build/lib\n'}
+[25.764375] (teleop_twist_keyboard) StdoutLine: {'line': b'copying teleop_twist_keyboard.py -> /home/pi/ros2_ws/build/teleop_twist_keyboard/build/lib\n'}
+[25.765292] (teleop_twist_keyboard) StdoutLine: {'line': b'running install\n'}
+[25.766332] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_lib\n'}
+[25.772565] (teleop_twist_keyboard) StdoutLine: {'line': b'copying /home/pi/ros2_ws/build/teleop_twist_keyboard/build/lib/teleop_twist_keyboard.py -> /home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages\n'}
+[25.778734] (teleop_twist_keyboard) StdoutLine: {'line': b'byte-compiling /home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard.py to teleop_twist_keyboard.cpython-310.pyc\n'}
+[25.790885] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_data\n'}
+[25.792114] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/pi/ros2_ws/install/teleop_twist_keyboard/share/ament_index\n'}
+[25.793535] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/pi/ros2_ws/install/teleop_twist_keyboard/share/ament_index/resource_index\n'}
+[25.794617] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/pi/ros2_ws/install/teleop_twist_keyboard/share/ament_index/resource_index/packages\n'}
+[25.795468] (teleop_twist_keyboard) StdoutLine: {'line': b'copying resource/teleop_twist_keyboard -> /home/pi/ros2_ws/install/teleop_twist_keyboard/share/ament_index/resource_index/packages\n'}
+[25.796660] (teleop_twist_keyboard) StdoutLine: {'line': b'copying package.xml -> /home/pi/ros2_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard\n'}
+[25.797781] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_egg_info\n'}
+[25.814321] (teleop_twist_keyboard) StdoutLine: {'line': b'Copying ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.4.0-py3.10.egg-info\n'}
+[25.828715] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_scripts\n'}
+[25.855719] (-) TimerEvent: {}
+[25.957012] (-) TimerEvent: {}
+[26.025701] (teleop_twist_keyboard) StdoutLine: {'line': b'Installing teleop_twist_keyboard script to /home/pi/ros2_ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard\n'}
+[26.027899] (teleop_twist_keyboard) StdoutLine: {'line': b"writing list of installed files to '/home/pi/ros2_ws/build/teleop_twist_keyboard/install.log'\n"}
+[26.057400] (-) TimerEvent: {}
+[26.159119] (-) TimerEvent: {}
+[26.230920] (teleop_twist_keyboard) CommandEnded: {'returncode': 0}
+[26.259313] (-) TimerEvent: {}
+[26.295625] (teleop_twist_keyboard) JobEnded: {'identifier': 'teleop_twist_keyboard', 'rc': 0}
+[26.302256] (-) EventReactorShutdown: {}

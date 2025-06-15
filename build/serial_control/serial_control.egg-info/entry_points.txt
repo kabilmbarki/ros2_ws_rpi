@@ -1,0 +1,3 @@
+[console_scripts]
+serial_node = serial_control.serial_node:main
+

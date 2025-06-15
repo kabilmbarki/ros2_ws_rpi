@@ -1,0 +1,20 @@
+[0.295s] Invoking command in '/home/pi/ros2_ws/build/joy_config_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/joy_config_pkg -- -j4 -l4
+[6.738s] Invoked command in '/home/pi/ros2_ws/build/joy_config_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/joy_config_pkg -- -j4 -l4
+[6.833s] Invoking command in '/home/pi/ros2_ws/build/joy_config_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/joy_config_pkg
+[6.907s] -- Install configuration: ""
+[6.911s] -- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/ament_index/resource_index/package_run_dependencies/joy_config_pkg
+[6.913s] -- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/ament_index/resource_index/parent_prefix_path/joy_config_pkg
+[6.915s] -- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/environment/ament_prefix_path.sh
+[6.920s] -- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/environment/ament_prefix_path.dsv
+[6.925s] -- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/environment/path.sh
+[6.926s] -- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/environment/path.dsv
+[6.928s] -- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/local_setup.bash
+[6.929s] -- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/local_setup.sh
+[6.932s] -- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/local_setup.zsh
+[6.933s] -- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/local_setup.dsv
+[6.935s] -- Installing: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/package.dsv
+[6.938s] -- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/ament_index/resource_index/packages/joy_config_pkg
+[6.939s] -- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/cmake/joy_config_pkgConfig.cmake
+[6.943s] -- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/cmake/joy_config_pkgConfig-version.cmake
+[6.959s] -- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/package.xml
+[6.971s] Invoked command in '/home/pi/ros2_ws/build/joy_config_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/joy_config_pkg

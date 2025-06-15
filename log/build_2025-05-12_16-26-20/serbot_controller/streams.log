@@ -1,0 +1,21 @@
+[11.242s] Invoking command in '/home/pi/ros2_ws/src/serbot_controller': PYTHONPATH=/home/pi/ros2_ws/build/serbot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/serbot_controller build --build-base /home/pi/ros2_ws/build/serbot_controller/build install --record /home/pi/ros2_ws/build/serbot_controller/install.log --single-version-externally-managed install_data
+[14.459s] running egg_info
+[14.466s] writing ../../build/serbot_controller/serbot_controller.egg-info/PKG-INFO
+[14.469s] writing dependency_links to ../../build/serbot_controller/serbot_controller.egg-info/dependency_links.txt
+[14.472s] writing entry points to ../../build/serbot_controller/serbot_controller.egg-info/entry_points.txt
+[14.475s] writing requirements to ../../build/serbot_controller/serbot_controller.egg-info/requires.txt
+[14.479s] writing top-level names to ../../build/serbot_controller/serbot_controller.egg-info/top_level.txt
+[14.497s] reading manifest file '../../build/serbot_controller/serbot_controller.egg-info/SOURCES.txt'
+[14.514s] writing manifest file '../../build/serbot_controller/serbot_controller.egg-info/SOURCES.txt'
+[14.515s] running build
+[14.516s] running build_py
+[14.517s] running install
+[14.519s] running install_lib
+[14.534s] running install_data
+[14.536s] running install_egg_info
+[14.554s] removing '/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages/serbot_controller-0.0.1-py3.10.egg-info' (and everything under it)
+[14.559s] Copying ../../build/serbot_controller/serbot_controller.egg-info to /home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages/serbot_controller-0.0.1-py3.10.egg-info
+[14.579s] running install_scripts
+[14.834s] Installing serbot_controller script to /home/pi/ros2_ws/install/serbot_controller/lib/serbot_controller
+[14.841s] writing list of installed files to '/home/pi/ros2_ws/build/serbot_controller/install.log'
+[15.173s] Invoked command in '/home/pi/ros2_ws/src/serbot_controller' returned '0': PYTHONPATH=/home/pi/ros2_ws/build/serbot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/serbot_controller build --build-base /home/pi/ros2_ws/build/serbot_controller/build install --record /home/pi/ros2_ws/build/serbot_controller/install.log --single-version-externally-managed install_data

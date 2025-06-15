@@ -1,0 +1,18 @@
+[12.070s] Invoking command in '/home/pi/ros2_ws/build/serbot_controller': PYTHONPATH=/home/pi/ros2_ws/build/serbot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ros2_ws/build/serbot_controller/build --no-deps symlink_data --force
+[16.690s] running develop
+[19.561s] running egg_info
+[19.566s] writing serbot_controller.egg-info/PKG-INFO
+[19.577s] writing dependency_links to serbot_controller.egg-info/dependency_links.txt
+[19.583s] writing entry points to serbot_controller.egg-info/entry_points.txt
+[19.588s] writing requirements to serbot_controller.egg-info/requires.txt
+[19.600s] writing top-level names to serbot_controller.egg-info/top_level.txt
+[19.636s] reading manifest file 'serbot_controller.egg-info/SOURCES.txt'
+[19.654s] writing manifest file 'serbot_controller.egg-info/SOURCES.txt'
+[19.673s] running build_ext
+[19.676s] Creating /home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages/serbot-controller.egg-link (link to .)
+[19.689s] Installing serbot_controller script to /home/pi/ros2_ws/install/serbot_controller/lib/serbot_controller
+[19.694s] 
+[19.696s] Installed /home/pi/ros2_ws/build/serbot_controller
+[19.698s] running symlink_data
+[19.700s] symbolically linking /home/pi/ros2_ws/build/serbot_controller/package.xml -> /home/pi/ros2_ws/install/serbot_controller/share/serbot_controller
+[20.195s] Invoked command in '/home/pi/ros2_ws/build/serbot_controller' returned '0': PYTHONPATH=/home/pi/ros2_ws/build/serbot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ros2_ws/build/serbot_controller/build --no-deps symlink_data --force

@@ -1,0 +1,11 @@
+[0.120s] Invoking command in '/home/pi/ros2_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/lslidar_msgs -- -j4 -l4
+[1.303s] failed to create symbolic link '/home/pi/ros2_ws/build/lslidar_msgs/ament_cmake_python/lslidar_msgs/lslidar_msgs' because existing path cannot be removed: Is a directory
+[1.305s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_lslidar_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_lslidar_msgs] Error 1
+[1.307s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_lslidar_msgs.dir/all] Error 2
+[1.310s] gmake[1]: *** Waiting for unfinished jobs....
+[1.310s] gmake: *** [Makefile:146: all] Error 2
+[1.314s] [  1%] Built target lslidar_msgs__cpp
+[1.315s] [ 12%] Built target lslidar_msgs__rosidl_generator_c
+[1.315s] [ 23%] Built target lslidar_msgs__rosidl_typesupport_cpp
+[1.316s] [ 34%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp
+[1.352s] Invoked command in '/home/pi/ros2_ws/build/lslidar_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/lslidar_msgs -- -j4 -l4

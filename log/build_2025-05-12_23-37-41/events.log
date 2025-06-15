@@ -1,0 +1,905 @@
+[0.000000] (-) TimerEvent: {}
+[0.002541] (joy_config_pkg) JobQueued: {'identifier': 'joy_config_pkg', 'dependencies': OrderedDict()}
+[0.003138] (lslidar_msgs) JobQueued: {'identifier': 'lslidar_msgs', 'dependencies': OrderedDict()}
+[0.003881] (my_car_controller) JobQueued: {'identifier': 'my_car_controller', 'dependencies': OrderedDict()}
+[0.004133] (serbot_controller) JobQueued: {'identifier': 'serbot_controller', 'dependencies': OrderedDict()}
+[0.004365] (serbot_description) JobQueued: {'identifier': 'serbot_description', 'dependencies': OrderedDict()}
+[0.004597] (serial_control) JobQueued: {'identifier': 'serial_control', 'dependencies': OrderedDict()}
+[0.004822] (teleop_twist_keyboard) JobQueued: {'identifier': 'teleop_twist_keyboard', 'dependencies': OrderedDict()}
+[0.005048] (lslidar_driver) JobQueued: {'identifier': 'lslidar_driver', 'dependencies': OrderedDict([('lslidar_msgs', '/home/pi/ros2_ws/install/lslidar_msgs')])}
+[0.005298] (lslidar_msgs) JobStarted: {'identifier': 'lslidar_msgs'}
+[0.094001] (joy_config_pkg) JobStarted: {'identifier': 'joy_config_pkg'}
+[0.096376] (-) TimerEvent: {}
+[0.121228] (my_car_controller) JobStarted: {'identifier': 'my_car_controller'}
+[0.195801] (serbot_controller) JobStarted: {'identifier': 'serbot_controller'}
+[0.200207] (-) TimerEvent: {}
+[0.277245] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'cmake'}
+[0.287191] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'build'}
+[0.293407] (lslidar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ros2_ws/build/lslidar_msgs', '--', '-j4', '-l4'], 'cwd': '/home/pi/ros2_ws/build/lslidar_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.137.1 51179 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ros2_ws/src/Lslidar_ROS2_driver'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/lslidar_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 51179 192.168.137.98 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble')]), 'shell': False}
+[0.301146] (-) TimerEvent: {}
+[0.323885] (joy_config_pkg) JobProgress: {'identifier': 'joy_config_pkg', 'progress': 'cmake'}
+[0.332616] (joy_config_pkg) JobProgress: {'identifier': 'joy_config_pkg', 'progress': 'build'}
+[0.334937] (joy_config_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ros2_ws/build/joy_config_pkg', '--', '-j4', '-l4'], 'cwd': '/home/pi/ros2_ws/build/joy_config_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.137.1 51179 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ros2_ws/src/Lslidar_ROS2_driver'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/joy_config_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 51179 192.168.137.98 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble')]), 'shell': False}
+[0.401549] (-) TimerEvent: {}
+[0.503347] (-) TimerEvent: {}
+[0.605002] (-) TimerEvent: {}
+[0.706866] (-) TimerEvent: {}
+[0.810252] (-) TimerEvent: {}
+[0.911948] (-) TimerEvent: {}
+[1.013892] (-) TimerEvent: {}
+[1.115584] (-) TimerEvent: {}
+[1.216978] (-) TimerEvent: {}
+[1.318479] (-) TimerEvent: {}
+[1.419821] (-) TimerEvent: {}
+[1.521272] (-) TimerEvent: {}
+[1.622707] (-) TimerEvent: {}
+[1.724088] (-) TimerEvent: {}
+[1.825449] (-) TimerEvent: {}
+[1.926909] (-) TimerEvent: {}
+[2.028489] (-) TimerEvent: {}
+[2.130376] (-) TimerEvent: {}
+[2.231780] (-) TimerEvent: {}
+[2.333162] (-) TimerEvent: {}
+[2.434634] (-) TimerEvent: {}
+[2.535997] (-) TimerEvent: {}
+[2.637389] (-) TimerEvent: {}
+[2.739000] (-) TimerEvent: {}
+[2.840310] (-) TimerEvent: {}
+[2.941727] (-) TimerEvent: {}
+[3.043220] (-) TimerEvent: {}
+[3.144609] (-) TimerEvent: {}
+[3.246206] (-) TimerEvent: {}
+[3.348323] (-) TimerEvent: {}
+[3.414472] (lslidar_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.417134] (lslidar_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[3.418077] (lslidar_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.420857] (lslidar_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.421852] (lslidar_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.424149] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.428575] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.431771] (lslidar_msgs) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.438878] (joy_config_pkg) CommandEnded: {'returncode': 0}
+[3.447851] (joy_config_pkg) JobProgress: {'identifier': 'joy_config_pkg', 'progress': 'install'}
+[3.448632] (-) TimerEvent: {}
+[3.530950] (joy_config_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/ros2_ws/build/joy_config_pkg'], 'cwd': '/home/pi/ros2_ws/build/joy_config_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.137.1 51179 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ros2_ws/src/Lslidar_ROS2_driver'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/joy_config_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 51179 192.168.137.98 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble')]), 'shell': False}
+[3.552701] (-) TimerEvent: {}
+[3.654222] (-) TimerEvent: {}
+[3.685927] (lslidar_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.754524] (-) TimerEvent: {}
+[3.791534] (lslidar_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.854773] (-) TimerEvent: {}
+[3.957019] (-) TimerEvent: {}
+[4.059331] (-) TimerEvent: {}
+[4.162278] (-) TimerEvent: {}
+[4.264741] (-) TimerEvent: {}
+[4.367189] (-) TimerEvent: {}
+[4.470178] (-) TimerEvent: {}
+[4.573782] (-) TimerEvent: {}
+[4.675992] (-) TimerEvent: {}
+[4.778114] (-) TimerEvent: {}
+[4.880848] (-) TimerEvent: {}
+[4.983147] (-) TimerEvent: {}
+[5.085476] (-) TimerEvent: {}
+[5.187856] (-) TimerEvent: {}
+[5.290773] (-) TimerEvent: {}
+[5.394825] (-) TimerEvent: {}
+[5.497103] (-) TimerEvent: {}
+[5.599481] (-) TimerEvent: {}
+[5.701271] (-) TimerEvent: {}
+[5.803347] (-) TimerEvent: {}
+[5.905304] (-) TimerEvent: {}
+[6.007165] (-) TimerEvent: {}
+[6.109009] (-) TimerEvent: {}
+[6.211184] (-) TimerEvent: {}
+[6.313460] (-) TimerEvent: {}
+[6.415362] (-) TimerEvent: {}
+[6.517673] (-) TimerEvent: {}
+[6.606363] (joy_config_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.609783] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/ament_index/resource_index/package_run_dependencies/joy_config_pkg\n'}
+[6.611223] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/ament_index/resource_index/parent_prefix_path/joy_config_pkg\n'}
+[6.612234] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/environment/ament_prefix_path.sh\n'}
+[6.615718] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/environment/ament_prefix_path.dsv\n'}
+[6.617168] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/environment/path.sh\n'}
+[6.618082] (-) TimerEvent: {}
+[6.620118] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/environment/path.dsv\n'}
+[6.624340] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/local_setup.bash\n'}
+[6.626046] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/local_setup.sh\n'}
+[6.633336] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/local_setup.zsh\n'}
+[6.635646] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/local_setup.dsv\n'}
+[6.636670] (joy_config_pkg) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/package.dsv\n'}
+[6.637578] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/ament_index/resource_index/packages/joy_config_pkg\n'}
+[6.639058] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/cmake/joy_config_pkgConfig.cmake\n'}
+[6.640298] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/cmake/joy_config_pkgConfig-version.cmake\n'}
+[6.641451] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/package.xml\n'}
+[6.650453] (joy_config_pkg) CommandEnded: {'returncode': 0}
+[6.718531] (-) TimerEvent: {}
+[6.820965] (-) TimerEvent: {}
+[6.892337] (joy_config_pkg) JobEnded: {'identifier': 'joy_config_pkg', 'rc': 0}
+[6.905059] (serbot_description) JobStarted: {'identifier': 'serbot_description'}
+[6.922420] (-) TimerEvent: {}
+[6.991451] (serbot_description) JobProgress: {'identifier': 'serbot_description', 'progress': 'cmake'}
+[7.001971] (serbot_description) JobProgress: {'identifier': 'serbot_description', 'progress': 'build'}
+[7.011421] (serbot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ros2_ws/build/serbot_description', '--', '-j4', '-l4'], 'cwd': '/home/pi/ros2_ws/build/serbot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.137.1 51179 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ros2_ws/src/Lslidar_ROS2_driver'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/serbot_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 51179 192.168.137.98 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble')]), 'shell': False}
+[7.026015] (-) TimerEvent: {}
+[7.128598] (-) TimerEvent: {}
+[7.231428] (-) TimerEvent: {}
+[7.333994] (-) TimerEvent: {}
+[7.416787] (lslidar_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[7.434494] (-) TimerEvent: {}
+[7.481680] (serbot_description) CommandEnded: {'returncode': 0}
+[7.493650] (serbot_description) JobProgress: {'identifier': 'serbot_description', 'progress': 'install'}
+[7.496475] (serbot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/ros2_ws/build/serbot_description'], 'cwd': '/home/pi/ros2_ws/build/serbot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.137.1 51179 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ros2_ws/src/Lslidar_ROS2_driver'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/serbot_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 51179 192.168.137.98 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble')]), 'shell': False}
+[7.534672] (-) TimerEvent: {}
+[7.597525] (serbot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.600880] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/urdf\n'}
+[7.606752] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/urdf/serbot.urdf\n'}
+[7.609583] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/urdf/serbot2.urdf\n'}
+[7.612318] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/urdf/serbot3.urdf\n'}
+[7.614898] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/launch\n'}
+[7.619773] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/launch/display.launch.py\n'}
+[7.623235] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/ament_index/resource_index/package_run_dependencies/serbot_description\n'}
+[7.627809] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/ament_index/resource_index/parent_prefix_path/serbot_description\n'}
+[7.631340] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/environment/ament_prefix_path.sh\n'}
+[7.634887] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/environment/ament_prefix_path.dsv\n'}
+[7.636100] (-) TimerEvent: {}
+[7.640639] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/environment/path.sh\n'}
+[7.643967] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/environment/path.dsv\n'}
+[7.647354] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/local_setup.bash\n'}
+[7.650865] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/local_setup.sh\n'}
+[7.654139] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/local_setup.zsh\n'}
+[7.657747] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/local_setup.dsv\n'}
+[7.661166] (serbot_description) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/package.dsv\n'}
+[7.669558] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/ament_index/resource_index/packages/serbot_description\n'}
+[7.673952] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/cmake/serbot_descriptionConfig.cmake\n'}
+[7.676981] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/cmake/serbot_descriptionConfig-version.cmake\n'}
+[7.680259] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/package.xml\n'}
+[7.702557] (serbot_description) CommandEnded: {'returncode': 0}
+[7.736410] (-) TimerEvent: {}
+[7.839527] (-) TimerEvent: {}
+[7.869919] (serbot_description) JobEnded: {'identifier': 'serbot_description', 'rc': 0}
+[7.877632] (serial_control) JobStarted: {'identifier': 'serial_control'}
+[7.940332] (-) TimerEvent: {}
+[8.042758] (-) TimerEvent: {}
+[8.145423] (-) TimerEvent: {}
+[8.248202] (-) TimerEvent: {}
+[8.351235] (-) TimerEvent: {}
+[8.454173] (-) TimerEvent: {}
+[8.557048] (-) TimerEvent: {}
+[8.659805] (-) TimerEvent: {}
+[8.762637] (-) TimerEvent: {}
+[8.865425] (-) TimerEvent: {}
+[8.968404] (-) TimerEvent: {}
+[9.071405] (-) TimerEvent: {}
+[9.174264] (-) TimerEvent: {}
+[9.277246] (-) TimerEvent: {}
+[9.380050] (-) TimerEvent: {}
+[9.482881] (-) TimerEvent: {}
+[9.585640] (-) TimerEvent: {}
+[9.688899] (-) TimerEvent: {}
+[9.791713] (-) TimerEvent: {}
+[9.894602] (-) TimerEvent: {}
+[10.007208] (-) TimerEvent: {}
+[10.109847] (-) TimerEvent: {}
+[10.213498] (-) TimerEvent: {}
+[10.316812] (-) TimerEvent: {}
+[10.419056] (-) TimerEvent: {}
+[10.520748] (-) TimerEvent: {}
+[10.624368] (-) TimerEvent: {}
+[10.727812] (-) TimerEvent: {}
+[10.831264] (-) TimerEvent: {}
+[10.934416] (-) TimerEvent: {}
+[11.037542] (-) TimerEvent: {}
+[11.140152] (-) TimerEvent: {}
+[11.243063] (-) TimerEvent: {}
+[11.346828] (-) TimerEvent: {}
+[11.450869] (-) TimerEvent: {}
+[11.553702] (-) TimerEvent: {}
+[11.656935] (-) TimerEvent: {}
+[11.760256] (-) TimerEvent: {}
+[11.863547] (-) TimerEvent: {}
+[11.966737] (-) TimerEvent: {}
+[12.070379] (-) TimerEvent: {}
+[12.175092] (-) TimerEvent: {}
+[12.279778] (-) TimerEvent: {}
+[12.383544] (-) TimerEvent: {}
+[12.428742] (serbot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/serbot_controller', 'build', '--build-base', '/home/pi/ros2_ws/build/serbot_controller/build', 'install', '--record', '/home/pi/ros2_ws/build/serbot_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/ros2_ws/src/serbot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.137.1 51179 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/ros2_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/ros2_ws/src/Lslidar_ROS2_driver', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/ros2_ws/build/serbot_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 51179 192.168.137.98 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros2_ws/build/serbot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg'}, 'shell': False}
+[12.466860] (my_car_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_car_controller', 'build', '--build-base', '/home/pi/ros2_ws/build/my_car_controller/build', 'install', '--record', '/home/pi/ros2_ws/build/my_car_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/ros2_ws/src/my_car_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.137.1 51179 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/ros2_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/ros2_ws/src/Lslidar_ROS2_driver', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/ros2_ws/build/my_car_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 51179 192.168.137.98 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros2_ws/build/my_car_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg'}, 'shell': False}
+[12.488399] (-) TimerEvent: {}
+[12.590174] (-) TimerEvent: {}
+[12.629826] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[12.690540] (-) TimerEvent: {}
+[12.793281] (-) TimerEvent: {}
+[12.894878] (-) TimerEvent: {}
+[12.996580] (-) TimerEvent: {}
+[13.098408] (-) TimerEvent: {}
+[13.200299] (-) TimerEvent: {}
+[13.302178] (-) TimerEvent: {}
+[13.404669] (-) TimerEvent: {}
+[13.506578] (-) TimerEvent: {}
+[13.608472] (-) TimerEvent: {}
+[13.710266] (-) TimerEvent: {}
+[13.812022] (-) TimerEvent: {}
+[13.913692] (-) TimerEvent: {}
+[14.016424] (-) TimerEvent: {}
+[14.119339] (-) TimerEvent: {}
+[14.222558] (-) TimerEvent: {}
+[14.326188] (-) TimerEvent: {}
+[14.429162] (-) TimerEvent: {}
+[14.532126] (-) TimerEvent: {}
+[14.570916] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[14.632413] (-) TimerEvent: {}
+[14.735282] (-) TimerEvent: {}
+[14.838197] (-) TimerEvent: {}
+[14.878076] (lslidar_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[14.938512] (-) TimerEvent: {}
+[15.041410] (-) TimerEvent: {}
+[15.144588] (-) TimerEvent: {}
+[15.194719] (lslidar_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[15.196232] (lslidar_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[15.197332] (lslidar_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[15.244901] (-) TimerEvent: {}
+[15.347769] (-) TimerEvent: {}
+[15.450821] (-) TimerEvent: {}
+[15.553916] (-) TimerEvent: {}
+[15.647123] (lslidar_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[15.654244] (-) TimerEvent: {}
+[15.692195] (lslidar_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.717209] (lslidar_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.722611] (serbot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[15.732080] (serbot_controller) StdoutLine: {'line': b'writing ../../build/serbot_controller/serbot_controller.egg-info/PKG-INFO\n'}
+[15.737851] (serbot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/serbot_controller/serbot_controller.egg-info/dependency_links.txt\n'}
+[15.742545] (serbot_controller) StdoutLine: {'line': b'writing entry points to ../../build/serbot_controller/serbot_controller.egg-info/entry_points.txt\n'}
+[15.746821] (serbot_controller) StdoutLine: {'line': b'writing requirements to ../../build/serbot_controller/serbot_controller.egg-info/requires.txt\n'}
+[15.750409] (serbot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/serbot_controller/serbot_controller.egg-info/top_level.txt\n'}
+[15.754832] (-) TimerEvent: {}
+[15.777524] (serbot_controller) StdoutLine: {'line': b"reading manifest file '../../build/serbot_controller/serbot_controller.egg-info/SOURCES.txt'\n"}
+[15.793800] (serbot_controller) StdoutLine: {'line': b"writing manifest file '../../build/serbot_controller/serbot_controller.egg-info/SOURCES.txt'\n"}
+[15.795989] (serbot_controller) StdoutLine: {'line': b'running build\n'}
+[15.798387] (serbot_controller) StdoutLine: {'line': b'running build_py\n'}
+[15.800224] (my_car_controller) StdoutLine: {'line': b'running egg_info\n'}
+[15.808194] (serbot_controller) StdoutLine: {'line': b'running install\n'}
+[15.810491] (my_car_controller) StdoutLine: {'line': b'writing ../../build/my_car_controller/my_car_controller.egg-info/PKG-INFO\n'}
+[15.813147] (serbot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[15.817128] (my_car_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/my_car_controller/my_car_controller.egg-info/dependency_links.txt\n'}
+[15.822074] (my_car_controller) StdoutLine: {'line': b'writing entry points to ../../build/my_car_controller/my_car_controller.egg-info/entry_points.txt\n'}
+[15.826625] (my_car_controller) StdoutLine: {'line': b'writing requirements to ../../build/my_car_controller/my_car_controller.egg-info/requires.txt\n'}
+[15.829730] (my_car_controller) StdoutLine: {'line': b'writing top-level names to ../../build/my_car_controller/my_car_controller.egg-info/top_level.txt\n'}
+[15.832722] (lslidar_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.837884] (serbot_controller) StdoutLine: {'line': b'running install_data\n'}
+[15.839330] (serbot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.854888] (-) TimerEvent: {}
+[15.862084] (serbot_controller) StdoutLine: {'line': b"removing '/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages/serbot_controller-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[15.864218] (my_car_controller) StdoutLine: {'line': b"reading manifest file '../../build/my_car_controller/my_car_controller.egg-info/SOURCES.txt'\n"}
+[15.867151] (serbot_controller) StdoutLine: {'line': b'Copying ../../build/serbot_controller/serbot_controller.egg-info to /home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages/serbot_controller-0.0.1-py3.10.egg-info\n'}
+[15.880016] (my_car_controller) StdoutLine: {'line': b"writing manifest file '../../build/my_car_controller/my_car_controller.egg-info/SOURCES.txt'\n"}
+[15.883079] (my_car_controller) StdoutLine: {'line': b'running build\n'}
+[15.885218] (serbot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[15.887599] (my_car_controller) StdoutLine: {'line': b'running build_py\n'}
+[15.899652] (my_car_controller) StdoutLine: {'line': b'running install\n'}
+[15.907523] (my_car_controller) StdoutLine: {'line': b'running install_lib\n'}
+[15.929904] (my_car_controller) StdoutLine: {'line': b'running install_data\n'}
+[15.935555] (my_car_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.955195] (-) TimerEvent: {}
+[15.962129] (my_car_controller) StdoutLine: {'line': b"removing '/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages/my_car_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[15.970005] (my_car_controller) StdoutLine: {'line': b'Copying ../../build/my_car_controller/my_car_controller.egg-info to /home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages/my_car_controller-0.0.0-py3.10.egg-info\n'}
+[15.991657] (my_car_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[16.055528] (-) TimerEvent: {}
+[16.126721] (serbot_controller) StdoutLine: {'line': b'Installing serbot_controller script to /home/pi/ros2_ws/install/serbot_controller/lib/serbot_controller\n'}
+[16.136435] (serbot_controller) StdoutLine: {'line': b"writing list of installed files to '/home/pi/ros2_ws/build/serbot_controller/install.log'\n"}
+[16.156264] (-) TimerEvent: {}
+[16.261058] (-) TimerEvent: {}
+[16.336884] (my_car_controller) StdoutLine: {'line': b'Installing serial_bridge script to /home/pi/ros2_ws/install/my_car_controller/lib/my_car_controller\n'}
+[16.344509] (my_car_controller) StdoutLine: {'line': b'Installing serial_bridge_2 script to /home/pi/ros2_ws/install/my_car_controller/lib/my_car_controller\n'}
+[16.353902] (my_car_controller) StdoutLine: {'line': b"writing list of installed files to '/home/pi/ros2_ws/build/my_car_controller/install.log'\n"}
+[16.361795] (-) TimerEvent: {}
+[16.469210] (-) TimerEvent: {}
+[16.523461] (serial_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/serial_control', 'build', '--build-base', '/home/pi/ros2_ws/build/serial_control/build', 'install', '--record', '/home/pi/ros2_ws/build/serial_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/ros2_ws/src/serial_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.137.1 51179 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/ros2_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/ros2_ws/src/Lslidar_ROS2_driver', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/ros2_ws/build/serial_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 51179 192.168.137.98 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros2_ws/build/serial_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg'}, 'shell': False}
+[16.565146] (serbot_controller) CommandEnded: {'returncode': 0}
+[16.572329] (-) TimerEvent: {}
+[16.667067] (serbot_controller) JobEnded: {'identifier': 'serbot_controller', 'rc': 0}
+[16.680250] (-) TimerEvent: {}
+[16.682428] (teleop_twist_keyboard) JobStarted: {'identifier': 'teleop_twist_keyboard'}
+[16.764710] (my_car_controller) CommandEnded: {'returncode': 0}
+[16.780521] (-) TimerEvent: {}
+[16.847439] (my_car_controller) JobEnded: {'identifier': 'my_car_controller', 'rc': 0}
+[16.880888] (-) TimerEvent: {}
+[16.903403] (lslidar_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[16.981167] (-) TimerEvent: {}
+[17.073046] (lslidar_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/pi/ros2_ws/build/lslidar_msgs\n'}
+[17.081473] (-) TimerEvent: {}
+[17.185424] (-) TimerEvent: {}
+[17.288870] (-) TimerEvent: {}
+[17.392213] (-) TimerEvent: {}
+[17.416916] (lslidar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_generator_c\x1b[0m\n'}
+[17.492505] (-) TimerEvent: {}
+[17.595412] (-) TimerEvent: {}
+[17.630604] (lslidar_msgs) StdoutLine: {'line': b'[  1%] Built target lslidar_msgs__cpp\n'}
+[17.658093] (lslidar_msgs) StdoutLine: {'line': b'[ 12%] Built target lslidar_msgs__rosidl_generator_c\n'}
+[17.695767] (-) TimerEvent: {}
+[17.726578] (lslidar_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_lslidar_msgs\n'}
+[17.796097] (-) TimerEvent: {}
+[17.879796] (lslidar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[17.888802] (lslidar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[17.896437] (-) TimerEvent: {}
+[17.915782] (lslidar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[17.960071] (lslidar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[17.996725] (-) TimerEvent: {}
+[18.099462] (-) TimerEvent: {}
+[18.141558] (lslidar_msgs) StdoutLine: {'line': b'[ 23%] Built target lslidar_msgs__rosidl_typesupport_c\n'}
+[18.198898] (lslidar_msgs) StdoutLine: {'line': b'[ 34%] Built target lslidar_msgs__rosidl_typesupport_introspection_c\n'}
+[18.200241] (-) TimerEvent: {}
+[18.221869] (lslidar_msgs) StdoutLine: {'line': b'[ 46%] Built target lslidar_msgs__rosidl_typesupport_cpp\n'}
+[18.300560] (-) TimerEvent: {}
+[18.306914] (lslidar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[18.316127] (lslidar_msgs) StdoutLine: {'line': b'[ 57%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[18.400950] (-) TimerEvent: {}
+[18.464315] (lslidar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[18.501265] (-) TimerEvent: {}
+[18.575226] (lslidar_msgs) StdoutLine: {'line': b'[ 68%] Built target lslidar_msgs__rosidl_typesupport_introspection_cpp\n'}
+[18.601566] (-) TimerEvent: {}
+[18.699891] (lslidar_msgs) StdoutLine: {'line': b'[ 79%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c\n'}
+[18.701814] (-) TimerEvent: {}
+[18.803625] (-) TimerEvent: {}
+[18.905388] (-) TimerEvent: {}
+[18.927593] (lslidar_msgs) StdoutLine: {'line': b'[ 79%] Built target lslidar_msgs\n'}
+[19.005813] (-) TimerEvent: {}
+[19.107708] (-) TimerEvent: {}
+[19.160793] (lslidar_msgs) StdoutLine: {'line': b'[ 80%] Built target lslidar_msgs__py\n'}
+[19.208072] (-) TimerEvent: {}
+[19.296612] (lslidar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_generator_py\x1b[0m\n'}
+[19.308388] (-) TimerEvent: {}
+[19.409977] (-) TimerEvent: {}
+[19.512892] (-) TimerEvent: {}
+[19.532349] (lslidar_msgs) StdoutLine: {'line': b'[ 90%] Built target lslidar_msgs__rosidl_generator_py\n'}
+[19.613194] (-) TimerEvent: {}
+[19.716076] (-) TimerEvent: {}
+[19.743346] (lslidar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[19.770945] (lslidar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[19.796171] (lslidar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[19.816372] (-) TimerEvent: {}
+[19.918993] (-) TimerEvent: {}
+[20.021712] (-) TimerEvent: {}
+[20.035126] (lslidar_msgs) StdoutLine: {'line': b'[ 93%] Built target lslidar_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[20.057936] (serial_control) StdoutLine: {'line': b'running egg_info\n'}
+[20.086594] (serial_control) StdoutLine: {'line': b'writing ../../build/serial_control/serial_control.egg-info/PKG-INFO\n'}
+[20.089650] (serial_control) StdoutLine: {'line': b'writing dependency_links to ../../build/serial_control/serial_control.egg-info/dependency_links.txt\n'}
+[20.092436] (serial_control) StdoutLine: {'line': b'writing entry points to ../../build/serial_control/serial_control.egg-info/entry_points.txt\n'}
+[20.094477] (serial_control) StdoutLine: {'line': b'writing requirements to ../../build/serial_control/serial_control.egg-info/requires.txt\n'}
+[20.096322] (serial_control) StdoutLine: {'line': b'writing top-level names to ../../build/serial_control/serial_control.egg-info/top_level.txt\n'}
+[20.102452] (lslidar_msgs) StdoutLine: {'line': b'[ 96%] Built target lslidar_msgs__rosidl_typesupport_c__pyext\n'}
+[20.120623] (serial_control) StdoutLine: {'line': b"reading manifest file '../../build/serial_control/serial_control.egg-info/SOURCES.txt'\n"}
+[20.121906] (-) TimerEvent: {}
+[20.126564] (lslidar_msgs) StdoutLine: {'line': b'[100%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[20.140906] (serial_control) StdoutLine: {'line': b"writing manifest file '../../build/serial_control/serial_control.egg-info/SOURCES.txt'\n"}
+[20.143460] (serial_control) StdoutLine: {'line': b'running build\n'}
+[20.144543] (serial_control) StdoutLine: {'line': b'running build_py\n'}
+[20.177793] (serial_control) StdoutLine: {'line': b'running install\n'}
+[20.181781] (serial_control) StdoutLine: {'line': b'running install_lib\n'}
+[20.209451] (serial_control) StdoutLine: {'line': b'running install_data\n'}
+[20.218134] (serial_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[20.222193] (-) TimerEvent: {}
+[20.238179] (serial_control) StdoutLine: {'line': b"removing '/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages/serial_control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[20.243575] (serial_control) StdoutLine: {'line': b'Copying ../../build/serial_control/serial_control.egg-info to /home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages/serial_control-0.0.0-py3.10.egg-info\n'}
+[20.269586] (serial_control) StdoutLine: {'line': b'running install_scripts\n'}
+[20.322492] (-) TimerEvent: {}
+[20.425829] (-) TimerEvent: {}
+[20.520136] (serial_control) StdoutLine: {'line': b'Installing serial_node script to /home/pi/ros2_ws/install/serial_control/lib/serial_control\n'}
+[20.526098] (-) TimerEvent: {}
+[20.535130] (serial_control) StdoutLine: {'line': b"writing list of installed files to '/home/pi/ros2_ws/build/serial_control/install.log'\n"}
+[20.626779] (-) TimerEvent: {}
+[20.732707] (-) TimerEvent: {}
+[20.790098] (serial_control) CommandEnded: {'returncode': 0}
+[20.833688] (-) TimerEvent: {}
+[20.868607] (serial_control) JobEnded: {'identifier': 'serial_control', 'rc': 0}
+[20.933995] (-) TimerEvent: {}
+[21.035304] (-) TimerEvent: {}
+[21.137318] (-) TimerEvent: {}
+[21.239355] (-) TimerEvent: {}
+[21.340662] (-) TimerEvent: {}
+[21.442839] (-) TimerEvent: {}
+[21.544753] (-) TimerEvent: {}
+[21.646757] (-) TimerEvent: {}
+[21.748171] (-) TimerEvent: {}
+[21.750139] (lslidar_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[21.756957] (lslidar_msgs) StdoutLine: {'line': b'writing lslidar_msgs.egg-info/PKG-INFO\n'}
+[21.759421] (lslidar_msgs) StdoutLine: {'line': b'writing dependency_links to lslidar_msgs.egg-info/dependency_links.txt\n'}
+[21.762576] (lslidar_msgs) StdoutLine: {'line': b'writing top-level names to lslidar_msgs.egg-info/top_level.txt\n'}
+[21.786555] (lslidar_msgs) StdoutLine: {'line': b"reading manifest file 'lslidar_msgs.egg-info/SOURCES.txt'\n"}
+[21.794706] (lslidar_msgs) StdoutLine: {'line': b"writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'\n"}
+[21.848542] (-) TimerEvent: {}
+[21.950409] (-) TimerEvent: {}
+[22.048413] (lslidar_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_lslidar_msgs_egg\n'}
+[22.050542] (-) TimerEvent: {}
+[22.153302] (-) TimerEvent: {}
+[22.160421] (lslidar_msgs) CommandEnded: {'returncode': 0}
+[22.166978] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'install'}
+[22.169265] (lslidar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/ros2_ws/build/lslidar_msgs'], 'cwd': '/home/pi/ros2_ws/build/lslidar_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.137.1 51179 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ros2_ws/src/Lslidar_ROS2_driver'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/lslidar_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 51179 192.168.137.98 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble')]), 'shell': False}
+[22.250914] (lslidar_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.253321] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/ament_index/resource_index/rosidl_interfaces/lslidar_msgs\n'}
+[22.254604] (-) TimerEvent: {}
+[22.256760] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[22.258204] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[22.259600] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.h\n'}
+[22.260894] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.h\n'}
+[22.262414] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.h\n'}
+[22.263683] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[22.264940] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.h\n'}
+[22.265940] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[22.267253] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__functions.h\n'}
+[22.268700] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.h\n'}
+[22.269729] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.h\n'}
+[22.271321] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.h\n'}
+[22.272540] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__functions.c\n'}
+[22.273920] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.h\n'}
+[22.275275] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__functions.c\n'}
+[22.276625] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.h\n'}
+[22.277966] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.h\n'}
+[22.279309] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.h\n'}
+[22.280626] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.h\n'}
+[22.281982] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.c\n'}
+[22.283348] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.c\n'}
+[22.284710] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__functions.h\n'}
+[22.285917] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.h\n'}
+[22.287284] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.h\n'}
+[22.288275] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.h\n'}
+[22.289247] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.h\n'}
+[22.290205] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.h\n'}
+[22.291385] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.c\n'}
+[22.292376] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.h\n'}
+[22.293903] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.sh\n'}
+[22.294963] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.dsv\n'}
+[22.296840] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so\n'}
+[22.300294] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[22.301621] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[22.303108] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[22.304331] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[22.305615] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_c.h\n'}
+[22.306932] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_c.h\n'}
+[22.308317] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_c.h\n'}
+[22.309625] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_c.h\n'}
+[22.310770] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_c.h\n'}
+[22.316381] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[22.320004] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[22.321304] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[22.322538] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.hpp\n'}
+[22.323975] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.hpp\n'}
+[22.325015] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.hpp\n'}
+[22.326567] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.hpp\n'}
+[22.327541] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.hpp\n'}
+[22.328862] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[22.330060] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.hpp\n'}
+[22.331531] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__builder.hpp\n'}
+[22.332713] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.hpp\n'}
+[22.334092] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__builder.hpp\n'}
+[22.335432] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.hpp\n'}
+[22.336756] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.hpp\n'}
+[22.337915] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__traits.hpp\n'}
+[22.339241] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__traits.hpp\n'}
+[22.340564] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__builder.hpp\n'}
+[22.341762] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__builder.hpp\n'}
+[22.343190] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.hpp\n'}
+[22.344387] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__traits.hpp\n'}
+[22.345794] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.hpp\n'}
+[22.347197] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.hpp\n'}
+[22.348364] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__traits.hpp\n'}
+[22.349683] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__traits.hpp\n'}
+[22.350783] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.hpp\n'}
+[22.352032] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.hpp\n'}
+[22.353222] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.hpp\n'}
+[22.354384] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__builder.hpp\n'}
+[22.355719] (-) TimerEvent: {}
+[22.357815] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[22.359070] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[22.360101] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[22.361052] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[22.362023] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[22.363043] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/dds_fastrtps\n'}
+[22.364462] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.365462] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.366431] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.367473] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.368869] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.370059] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[22.371199] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[22.372639] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[22.373812] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[22.375172] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_c.h\n'}
+[22.376623] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_c.h\n'}
+[22.377839] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.c\n'}
+[22.379111] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_c.h\n'}
+[22.380520] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_c.h\n'}
+[22.381756] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_c.h\n'}
+[22.382858] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.c\n'}
+[22.383859] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.c\n'}
+[22.384792] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.c\n'}
+[22.385742] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.c\n'}
+[22.386744] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[22.388063] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so\n'}
+[22.395928] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so\n'}
+[22.399083] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[22.400517] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[22.401714] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[22.403110] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.cpp\n'}
+[22.404351] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.405681] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.cpp\n'}
+[22.407007] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.cpp\n'}
+[22.408198] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.409398] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.cpp\n'}
+[22.410636] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.412110] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.413151] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.cpp\n'}
+[22.414239] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.418951] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[22.427753] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so\n'}
+[22.431276] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.sh\n'}
+[22.432537] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.dsv\n'}
+[22.435683] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info\n'}
+[22.437027] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/PKG-INFO\n'}
+[22.440569] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/top_level.txt\n'}
+[22.444087] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/SOURCES.txt\n'}
+[22.447585] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/dependency_links.txt\n'}
+[22.451404] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs\n'}
+[22.453979] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[22.455407] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[22.456488] (-) TimerEvent: {}
+[22.458387] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py\n'}
+[22.459835] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[22.461109] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so\n'}
+[22.462586] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[22.463685] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg\n'}
+[22.464860] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py\n'}
+[22.466142] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan.py\n'}
+[22.467464] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan_s.c\n'}
+[22.468847] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet_s.c\n'}
+[22.470090] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop.py\n'}
+[22.471666] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep.py\n'}
+[22.473024] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point_s.c\n'}
+[22.474176] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py\n'}
+[22.475492] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point.py\n'}
+[22.476541] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop_s.c\n'}
+[22.477559] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep_s.c\n'}
+[22.478839] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[22.479876] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[22.556733] (-) TimerEvent: {}
+[22.658737] (-) TimerEvent: {}
+[22.760040] (-) TimerEvent: {}
+[22.861304] (-) TimerEvent: {}
+[22.902562] (lslidar_msgs) StdoutLine: {'line': b"Listing '/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs'...\n"}
+[22.904612] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py'...\n"}
+[22.906537] (lslidar_msgs) StdoutLine: {'line': b"Listing '/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg'...\n"}
+[22.957068] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[22.961533] (-) TimerEvent: {}
+[22.966225] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[22.974699] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[22.984296] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so\n'}
+[22.989024] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.idl\n'}
+[22.990521] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.idl\n'}
+[22.991920] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.idl\n'}
+[22.993173] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.idl\n'}
+[22.994554] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.idl\n'}
+[22.995927] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.msg\n'}
+[22.998438] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.msg\n'}
+[23.001721] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.msg\n'}
+[23.004996] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.msg\n'}
+[23.008213] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.msg\n'}
+[23.011718] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/ament_index/resource_index/package_run_dependencies/lslidar_msgs\n'}
+[23.014011] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_msgs/share/ament_index/resource_index/parent_prefix_path/lslidar_msgs\n'}
+[23.017878] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.sh\n'}
+[23.019307] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.dsv\n'}
+[23.022657] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.sh\n'}
+[23.024015] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.dsv\n'}
+[23.027238] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.bash\n'}
+[23.028617] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.sh\n'}
+[23.030000] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.zsh\n'}
+[23.031510] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.dsv\n'}
+[23.034001] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/package.dsv\n'}
+[23.038558] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/ament_index/resource_index/packages/lslidar_msgs\n'}
+[23.042966] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport.cmake\n'}
+[23.044452] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[23.047788] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[23.049222] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[23.052471] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cppExport.cmake\n'}
+[23.055998] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[23.057390] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[23.060998] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[23.062129] (-) TimerEvent: {}
+[23.063557] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[23.066740] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport.cmake\n'}
+[23.068264] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[23.071525] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[23.072952] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[23.076261] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[23.077707] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[23.081262] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport.cmake\n'}
+[23.082831] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[23.084186] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[23.085591] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[23.086923] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[23.088388] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[23.089674] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[23.091057] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[23.092339] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[23.093515] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig.cmake\n'}
+[23.094876] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig-version.cmake\n'}
+[23.096157] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/package.xml\n'}
+[23.113309] (lslidar_msgs) CommandEnded: {'returncode': 0}
+[23.162495] (-) TimerEvent: {}
+[23.265822] (-) TimerEvent: {}
+[23.320146] (lslidar_msgs) JobEnded: {'identifier': 'lslidar_msgs', 'rc': 0}
+[23.329572] (lslidar_driver) JobStarted: {'identifier': 'lslidar_driver'}
+[23.366464] (-) TimerEvent: {}
+[23.427166] (lslidar_driver) JobProgress: {'identifier': 'lslidar_driver', 'progress': 'cmake'}
+[23.446404] (lslidar_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/pi/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver', '-DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/lslidar_driver'], 'cwd': '/home/pi/ros2_ws/build/lslidar_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.137.1 51179 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ros2_ws/src/Lslidar_ROS2_driver'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/lslidar_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 51179 192.168.137.98 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble')]), 'shell': False}
+[23.467343] (-) TimerEvent: {}
+[23.568617] (-) TimerEvent: {}
+[23.659874] (lslidar_driver) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread \n'}
+[23.667875] (lslidar_driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[23.669085] (-) TimerEvent: {}
+[23.770541] (-) TimerEvent: {}
+[23.871876] (-) TimerEvent: {}
+[23.973256] (-) TimerEvent: {}
+[24.074719] (-) TimerEvent: {}
+[24.176137] (-) TimerEvent: {}
+[24.277335] (-) TimerEvent: {}
+[24.378751] (-) TimerEvent: {}
+[24.480398] (-) TimerEvent: {}
+[24.581692] (-) TimerEvent: {}
+[24.683157] (-) TimerEvent: {}
+[24.785035] (-) TimerEvent: {}
+[24.886627] (-) TimerEvent: {}
+[24.925336] (teleop_twist_keyboard) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/teleop_twist_keyboard', 'build', '--build-base', '/home/pi/ros2_ws/build/teleop_twist_keyboard/build', 'install', '--record', '/home/pi/ros2_ws/build/teleop_twist_keyboard/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/ros2_ws/src/teleop_twist_keyboard', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.137.1 51179 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/ros2_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/ros2_ws/src/Lslidar_ROS2_driver', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/ros2_ws/build/teleop_twist_keyboard', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 51179 192.168.137.98 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros2_ws/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg'}, 'shell': False}
+[24.986867] (-) TimerEvent: {}
+[25.088311] (-) TimerEvent: {}
+[25.191149] (-) TimerEvent: {}
+[25.292460] (-) TimerEvent: {}
+[25.393842] (-) TimerEvent: {}
+[25.495191] (-) TimerEvent: {}
+[25.596461] (-) TimerEvent: {}
+[25.697720] (-) TimerEvent: {}
+[25.725901] (lslidar_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[25.758083] (lslidar_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[25.797983] (-) TimerEvent: {}
+[25.828326] (lslidar_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[25.898488] (-) TimerEvent: {}
+[25.946741] (lslidar_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[25.998703] (-) TimerEvent: {}
+[26.098238] (lslidar_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[26.099477] (-) TimerEvent: {}
+[26.200626] (-) TimerEvent: {}
+[26.301891] (-) TimerEvent: {}
+[26.403154] (-) TimerEvent: {}
+[26.486455] (lslidar_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[26.503399] (-) TimerEvent: {}
+[26.506169] (lslidar_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[26.603638] (-) TimerEvent: {}
+[26.720680] (-) TimerEvent: {}
+[26.821916] (-) TimerEvent: {}
+[26.923178] (-) TimerEvent: {}
+[27.024386] (-) TimerEvent: {}
+[27.125642] (-) TimerEvent: {}
+[27.226994] (-) TimerEvent: {}
+[27.328187] (-) TimerEvent: {}
+[27.429427] (-) TimerEvent: {}
+[27.530815] (-) TimerEvent: {}
+[27.632018] (-) TimerEvent: {}
+[27.683966] (teleop_twist_keyboard) StdoutLine: {'line': b'running egg_info\n'}
+[27.690567] (teleop_twist_keyboard) StdoutLine: {'line': b'writing ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO\n'}
+[27.694254] (teleop_twist_keyboard) StdoutLine: {'line': b'writing dependency_links to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt\n'}
+[27.696242] (teleop_twist_keyboard) StdoutLine: {'line': b'writing entry points to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt\n'}
+[27.698547] (teleop_twist_keyboard) StdoutLine: {'line': b'writing requirements to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt\n'}
+[27.700092] (teleop_twist_keyboard) StdoutLine: {'line': b'writing top-level names to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt\n'}
+[27.717352] (teleop_twist_keyboard) StdoutLine: {'line': b"reading manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[27.722429] (teleop_twist_keyboard) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[27.730772] (teleop_twist_keyboard) StdoutLine: {'line': b"writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[27.732255] (teleop_twist_keyboard) StdoutLine: {'line': b'running build\n'}
+[27.733702] (-) TimerEvent: {}
+[27.734725] (teleop_twist_keyboard) StdoutLine: {'line': b'running build_py\n'}
+[27.736473] (teleop_twist_keyboard) StdoutLine: {'line': b'running install\n'}
+[27.739789] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_lib\n'}
+[27.753782] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_data\n'}
+[27.757047] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_egg_info\n'}
+[27.775366] (teleop_twist_keyboard) StdoutLine: {'line': b"removing '/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.4.0-py3.10.egg-info' (and everything under it)\n"}
+[27.780172] (teleop_twist_keyboard) StdoutLine: {'line': b'Copying ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.4.0-py3.10.egg-info\n'}
+[27.795790] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_scripts\n'}
+[27.834012] (-) TimerEvent: {}
+[27.935400] (-) TimerEvent: {}
+[27.996969] (teleop_twist_keyboard) StdoutLine: {'line': b'Installing teleop_twist_keyboard script to /home/pi/ros2_ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard\n'}
+[28.000647] (teleop_twist_keyboard) StdoutLine: {'line': b"writing list of installed files to '/home/pi/ros2_ws/build/teleop_twist_keyboard/install.log'\n"}
+[28.035805] (-) TimerEvent: {}
+[28.137599] (-) TimerEvent: {}
+[28.207528] (teleop_twist_keyboard) CommandEnded: {'returncode': 0}
+[28.237851] (-) TimerEvent: {}
+[28.280906] (teleop_twist_keyboard) JobEnded: {'identifier': 'teleop_twist_keyboard', 'rc': 0}
+[28.338122] (-) TimerEvent: {}
+[28.439273] (-) TimerEvent: {}
+[28.540430] (-) TimerEvent: {}
+[28.641613] (-) TimerEvent: {}
+[28.719432] (lslidar_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[28.741868] (-) TimerEvent: {}
+[28.843158] (-) TimerEvent: {}
+[28.944380] (-) TimerEvent: {}
+[29.045610] (-) TimerEvent: {}
+[29.147057] (-) TimerEvent: {}
+[29.248310] (-) TimerEvent: {}
+[29.340935] (lslidar_driver) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[29.348538] (-) TimerEvent: {}
+[29.427980] (lslidar_driver) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[29.448802] (-) TimerEvent: {}
+[29.549996] (-) TimerEvent: {}
+[29.651320] (-) TimerEvent: {}
+[29.752474] (-) TimerEvent: {}
+[29.853638] (-) TimerEvent: {}
+[29.904635] (lslidar_driver) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)\n'}
+[29.953896] (-) TimerEvent: {}
+[30.055222] (-) TimerEvent: {}
+[30.156412] (-) TimerEvent: {}
+[30.257646] (-) TimerEvent: {}
+[30.359030] (-) TimerEvent: {}
+[30.460233] (-) TimerEvent: {}
+[30.561532] (-) TimerEvent: {}
+[30.662955] (-) TimerEvent: {}
+[30.764219] (-) TimerEvent: {}
+[30.865474] (-) TimerEvent: {}
+[30.966912] (-) TimerEvent: {}
+[31.068280] (-) TimerEvent: {}
+[31.169663] (-) TimerEvent: {}
+[31.271050] (-) TimerEvent: {}
+[31.372295] (-) TimerEvent: {}
+[31.473543] (-) TimerEvent: {}
+[31.574913] (-) TimerEvent: {}
+[31.676110] (-) TimerEvent: {}
+[31.777680] (-) TimerEvent: {}
+[31.879004] (-) TimerEvent: {}
+[31.980232] (-) TimerEvent: {}
+[32.081576] (-) TimerEvent: {}
+[32.182893] (-) TimerEvent: {}
+[32.284111] (-) TimerEvent: {}
+[32.385334] (-) TimerEvent: {}
+[32.486530] (-) TimerEvent: {}
+[32.587712] (-) TimerEvent: {}
+[32.688938] (-) TimerEvent: {}
+[32.790215] (-) TimerEvent: {}
+[32.891550] (-) TimerEvent: {}
+[32.967075] (lslidar_driver) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[32.991823] (-) TimerEvent: {}
+[33.021484] (lslidar_driver) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[33.023862] (lslidar_driver) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[33.092083] (-) TimerEvent: {}
+[33.193339] (-) TimerEvent: {}
+[33.294540] (-) TimerEvent: {}
+[33.395740] (-) TimerEvent: {}
+[33.496962] (-) TimerEvent: {}
+[33.598143] (-) TimerEvent: {}
+[33.699419] (-) TimerEvent: {}
+[33.800639] (-) TimerEvent: {}
+[33.901907] (-) TimerEvent: {}
+[34.003188] (-) TimerEvent: {}
+[34.104420] (-) TimerEvent: {}
+[34.205682] (-) TimerEvent: {}
+[34.306917] (-) TimerEvent: {}
+[34.408132] (-) TimerEvent: {}
+[34.509372] (-) TimerEvent: {}
+[34.610568] (-) TimerEvent: {}
+[34.635509] (lslidar_driver) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[34.691631] (lslidar_driver) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[34.710849] (-) TimerEvent: {}
+[34.747519] (lslidar_driver) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[34.811125] (-) TimerEvent: {}
+[34.912388] (-) TimerEvent: {}
+[35.013634] (-) TimerEvent: {}
+[35.114936] (-) TimerEvent: {}
+[35.216149] (-) TimerEvent: {}
+[35.317321] (-) TimerEvent: {}
+[35.418674] (-) TimerEvent: {}
+[35.519857] (-) TimerEvent: {}
+[35.621073] (-) TimerEvent: {}
+[35.722399] (-) TimerEvent: {}
+[35.823708] (-) TimerEvent: {}
+[35.924958] (-) TimerEvent: {}
+[36.026110] (-) TimerEvent: {}
+[36.127322] (-) TimerEvent: {}
+[36.228488] (-) TimerEvent: {}
+[36.281278] (lslidar_driver) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[36.328796] (-) TimerEvent: {}
+[36.430031] (-) TimerEvent: {}
+[36.531284] (-) TimerEvent: {}
+[36.632487] (-) TimerEvent: {}
+[36.733857] (-) TimerEvent: {}
+[36.835571] (-) TimerEvent: {}
+[36.936757] (-) TimerEvent: {}
+[37.037953] (-) TimerEvent: {}
+[37.139226] (-) TimerEvent: {}
+[37.240476] (-) TimerEvent: {}
+[37.341673] (-) TimerEvent: {}
+[37.443052] (-) TimerEvent: {}
+[37.544210] (-) TimerEvent: {}
+[37.645392] (-) TimerEvent: {}
+[37.746555] (-) TimerEvent: {}
+[37.847780] (-) TimerEvent: {}
+[37.858593] (lslidar_driver) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[37.948035] (-) TimerEvent: {}
+[38.049266] (-) TimerEvent: {}
+[38.150554] (-) TimerEvent: {}
+[38.251737] (-) TimerEvent: {}
+[38.352933] (-) TimerEvent: {}
+[38.454117] (-) TimerEvent: {}
+[38.555375] (-) TimerEvent: {}
+[38.656556] (-) TimerEvent: {}
+[38.757861] (-) TimerEvent: {}
+[38.859202] (-) TimerEvent: {}
+[38.960502] (-) TimerEvent: {}
+[39.061711] (-) TimerEvent: {}
+[39.162926] (-) TimerEvent: {}
+[39.264103] (-) TimerEvent: {}
+[39.365355] (-) TimerEvent: {}
+[39.387528] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[39.391007] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[39.394273] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[39.397522] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[39.401067] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[39.404582] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[39.408243] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[39.411369] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[39.414049] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[39.418808] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[39.422689] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[39.425933] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[39.430355] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[39.434664] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[39.438587] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[39.442688] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[39.446757] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[39.450609] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[39.455298] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[39.458797] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[39.465625] (-) TimerEvent: {}
+[39.466876] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[39.469437] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[39.472194] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[39.474989] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[39.478997] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[39.543980] (lslidar_driver) StdoutLine: {'line': b'-- Found diagnostic_updater: 4.0.3 (/opt/ros/humble/share/diagnostic_updater/cmake)\n'}
+[39.565871] (-) TimerEvent: {}
+[39.667108] (-) TimerEvent: {}
+[39.768410] (-) TimerEvent: {}
+[39.869614] (-) TimerEvent: {}
+[39.871440] (lslidar_driver) StdoutLine: {'line': b'-- Found lslidar_msgs: 1.2.0 (/home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake)\n'}
+[39.969879] (-) TimerEvent: {}
+[40.071146] (-) TimerEvent: {}
+[40.097040] (lslidar_driver) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[40.171411] (-) TimerEvent: {}
+[40.272582] (-) TimerEvent: {}
+[40.373743] (-) TimerEvent: {}
+[40.474957] (-) TimerEvent: {}
+[40.576131] (-) TimerEvent: {}
+[40.677313] (-) TimerEvent: {}
+[40.778525] (-) TimerEvent: {}
+[40.879693] (-) TimerEvent: {}
+[40.980843] (-) TimerEvent: {}
+[41.082015] (-) TimerEvent: {}
+[41.183267] (-) TimerEvent: {}
+[41.254569] (lslidar_driver) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:28 (find_package):\n'}
+[41.256349] (lslidar_driver) StderrLine: {'line': b'  By not providing "Findpcl_conversions.cmake" in CMAKE_MODULE_PATH this\n'}
+[41.257420] (lslidar_driver) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[41.258279] (lslidar_driver) StderrLine: {'line': b'  "pcl_conversions", but CMake did not find one.\n'}
+[41.259266] (lslidar_driver) StderrLine: {'line': b'\n'}
+[41.260075] (lslidar_driver) StderrLine: {'line': b'  Could not find a package configuration file provided by "pcl_conversions"\n'}
+[41.260854] (lslidar_driver) StderrLine: {'line': b'  with any of the following names:\n'}
+[41.261621] (lslidar_driver) StderrLine: {'line': b'\n'}
+[41.262487] (lslidar_driver) StderrLine: {'line': b'    pcl_conversionsConfig.cmake\n'}
+[41.263383] (lslidar_driver) StderrLine: {'line': b'    pcl_conversions-config.cmake\n'}
+[41.264214] (lslidar_driver) StderrLine: {'line': b'\n'}
+[41.265041] (lslidar_driver) StderrLine: {'line': b'  Add the installation prefix of "pcl_conversions" to CMAKE_PREFIX_PATH or\n'}
+[41.265875] (lslidar_driver) StderrLine: {'line': b'  set "pcl_conversions_DIR" to a directory containing one of the above files.\n'}
+[41.266833] (lslidar_driver) StderrLine: {'line': b'  If "pcl_conversions" provides a separate development package or SDK, be\n'}
+[41.267786] (lslidar_driver) StderrLine: {'line': b'  sure it has been installed.\n'}
+[41.268688] (lslidar_driver) StderrLine: {'line': b'\n'}
+[41.269621] (lslidar_driver) StderrLine: {'line': b'\x1b[0m\n'}
+[41.270648] (lslidar_driver) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[41.271908] (lslidar_driver) StdoutLine: {'line': b'See also "/home/pi/ros2_ws/build/lslidar_driver/CMakeFiles/CMakeOutput.log".\n'}
+[41.283585] (-) TimerEvent: {}
+[41.370636] (lslidar_driver) CommandEnded: {'returncode': 1}
+[41.386536] (-) TimerEvent: {}
+[41.489324] (-) TimerEvent: {}
+[41.535389] (lslidar_driver) JobEnded: {'identifier': 'lslidar_driver', 'rc': 1}
+[41.549343] (-) EventReactorShutdown: {}

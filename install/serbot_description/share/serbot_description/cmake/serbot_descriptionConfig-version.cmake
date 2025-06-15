@@ -1,0 +1,1 @@
+/home/pi/ros2_ws/build/serbot_description/ament_cmake_core/serbot_descriptionConfig-version.cmake

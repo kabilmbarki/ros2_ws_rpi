@@ -1,0 +1,2376 @@
+[0.000000] (-) TimerEvent: {}
+[0.002993] (joy_config_pkg) JobQueued: {'identifier': 'joy_config_pkg', 'dependencies': OrderedDict()}
+[0.004313] (lslidar_msgs) JobQueued: {'identifier': 'lslidar_msgs', 'dependencies': OrderedDict()}
+[0.004571] (my_car_controller) JobQueued: {'identifier': 'my_car_controller', 'dependencies': OrderedDict()}
+[0.004805] (serbot_controller) JobQueued: {'identifier': 'serbot_controller', 'dependencies': OrderedDict()}
+[0.005029] (serbot_description) JobQueued: {'identifier': 'serbot_description', 'dependencies': OrderedDict()}
+[0.005262] (serial_control) JobQueued: {'identifier': 'serial_control', 'dependencies': OrderedDict()}
+[0.005482] (teleop_twist_keyboard) JobQueued: {'identifier': 'teleop_twist_keyboard', 'dependencies': OrderedDict()}
+[0.005701] (lslidar_driver) JobQueued: {'identifier': 'lslidar_driver', 'dependencies': OrderedDict([('lslidar_msgs', '/home/pi/ros2_ws/install/lslidar_msgs')])}
+[0.005940] (lslidar_msgs) JobStarted: {'identifier': 'lslidar_msgs'}
+[0.077485] (joy_config_pkg) JobStarted: {'identifier': 'joy_config_pkg'}
+[0.096871] (-) TimerEvent: {}
+[0.127413] (my_car_controller) JobStarted: {'identifier': 'my_car_controller'}
+[0.196318] (serbot_controller) JobStarted: {'identifier': 'serbot_controller'}
+[0.200568] (-) TimerEvent: {}
+[0.275740] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'cmake'}
+[0.282101] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'build'}
+[0.288601] (lslidar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ros2_ws/build/lslidar_msgs', '--', '-j4', '-l4'], 'cwd': '/home/pi/ros2_ws/build/lslidar_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.137.1 51179 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/lslidar_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 51179 192.168.137.98 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble')]), 'shell': False}
+[0.300786] (-) TimerEvent: {}
+[0.319812] (joy_config_pkg) JobProgress: {'identifier': 'joy_config_pkg', 'progress': 'cmake'}
+[0.325599] (joy_config_pkg) JobProgress: {'identifier': 'joy_config_pkg', 'progress': 'build'}
+[0.327899] (joy_config_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ros2_ws/build/joy_config_pkg', '--', '-j4', '-l4'], 'cwd': '/home/pi/ros2_ws/build/joy_config_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.137.1 51179 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/joy_config_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 51179 192.168.137.98 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble')]), 'shell': False}
+[0.401191] (-) TimerEvent: {}
+[0.502945] (-) TimerEvent: {}
+[0.604538] (-) TimerEvent: {}
+[0.707862] (-) TimerEvent: {}
+[0.811157] (-) TimerEvent: {}
+[0.914417] (-) TimerEvent: {}
+[1.016183] (-) TimerEvent: {}
+[1.118139] (-) TimerEvent: {}
+[1.221095] (-) TimerEvent: {}
+[1.323602] (-) TimerEvent: {}
+[1.426284] (-) TimerEvent: {}
+[1.528976] (-) TimerEvent: {}
+[1.630735] (-) TimerEvent: {}
+[1.732303] (-) TimerEvent: {}
+[1.833865] (-) TimerEvent: {}
+[1.935566] (-) TimerEvent: {}
+[2.037169] (-) TimerEvent: {}
+[2.139587] (-) TimerEvent: {}
+[2.241956] (-) TimerEvent: {}
+[2.343642] (-) TimerEvent: {}
+[2.445292] (-) TimerEvent: {}
+[2.546886] (-) TimerEvent: {}
+[2.649424] (-) TimerEvent: {}
+[2.750949] (-) TimerEvent: {}
+[2.852796] (-) TimerEvent: {}
+[2.954703] (-) TimerEvent: {}
+[3.056690] (-) TimerEvent: {}
+[3.158739] (-) TimerEvent: {}
+[3.260682] (-) TimerEvent: {}
+[3.362538] (-) TimerEvent: {}
+[3.464429] (-) TimerEvent: {}
+[3.566301] (-) TimerEvent: {}
+[3.673489] (-) TimerEvent: {}
+[3.683451] (lslidar_msgs) StdoutLine: {'line': b'[  1%] Built target lslidar_msgs__cpp\n'}
+[3.690069] (lslidar_msgs) StdoutLine: {'line': b'[ 12%] Built target lslidar_msgs__rosidl_generator_c\n'}
+[3.693270] (lslidar_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_lslidar_msgs\n'}
+[3.699815] (lslidar_msgs) StdoutLine: {'line': b'[ 23%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[3.702583] (lslidar_msgs) StdoutLine: {'line': b'[ 34%] Built target lslidar_msgs__rosidl_typesupport_cpp\n'}
+[3.704205] (lslidar_msgs) StdoutLine: {'line': b'[ 46%] Built target lslidar_msgs__rosidl_typesupport_introspection_cpp\n'}
+[3.712464] (lslidar_msgs) StdoutLine: {'line': b'[ 57%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c\n'}
+[3.713979] (lslidar_msgs) StdoutLine: {'line': b'[ 68%] Built target lslidar_msgs__rosidl_typesupport_introspection_c\n'}
+[3.714967] (lslidar_msgs) StdoutLine: {'line': b'[ 79%] Built target lslidar_msgs__rosidl_typesupport_c\n'}
+[3.715876] (lslidar_msgs) StdoutLine: {'line': b'[ 79%] Built target lslidar_msgs\n'}
+[3.716716] (lslidar_msgs) StdoutLine: {'line': b'[ 80%] Built target lslidar_msgs__py\n'}
+[3.717575] (lslidar_msgs) StdoutLine: {'line': b'[ 90%] Built target lslidar_msgs__rosidl_generator_py\n'}
+[3.718557] (lslidar_msgs) StdoutLine: {'line': b'[ 93%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.719977] (lslidar_msgs) StdoutLine: {'line': b'[ 96%] Built target lslidar_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[3.721248] (lslidar_msgs) StdoutLine: {'line': b'[100%] Built target lslidar_msgs__rosidl_typesupport_c__pyext\n'}
+[3.773839] (-) TimerEvent: {}
+[3.875504] (-) TimerEvent: {}
+[3.977281] (-) TimerEvent: {}
+[4.079068] (-) TimerEvent: {}
+[4.189112] (-) TimerEvent: {}
+[4.290762] (-) TimerEvent: {}
+[4.369316] (lslidar_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.375954] (lslidar_msgs) StdoutLine: {'line': b'writing lslidar_msgs.egg-info/PKG-INFO\n'}
+[4.378752] (lslidar_msgs) StdoutLine: {'line': b'writing dependency_links to lslidar_msgs.egg-info/dependency_links.txt\n'}
+[4.382886] (lslidar_msgs) StdoutLine: {'line': b'writing top-level names to lslidar_msgs.egg-info/top_level.txt\n'}
+[4.391010] (-) TimerEvent: {}
+[4.407911] (lslidar_msgs) StdoutLine: {'line': b"reading manifest file 'lslidar_msgs.egg-info/SOURCES.txt'\n"}
+[4.415585] (lslidar_msgs) StdoutLine: {'line': b"writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'\n"}
+[4.491326] (-) TimerEvent: {}
+[4.593056] (-) TimerEvent: {}
+[4.670424] (lslidar_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_lslidar_msgs_egg\n'}
+[4.693334] (-) TimerEvent: {}
+[4.794847] (-) TimerEvent: {}
+[4.896162] (-) TimerEvent: {}
+[4.997429] (-) TimerEvent: {}
+[5.098779] (-) TimerEvent: {}
+[5.200059] (-) TimerEvent: {}
+[5.301300] (-) TimerEvent: {}
+[5.402611] (-) TimerEvent: {}
+[5.503849] (-) TimerEvent: {}
+[5.605072] (-) TimerEvent: {}
+[5.706416] (-) TimerEvent: {}
+[5.807683] (-) TimerEvent: {}
+[5.908949] (-) TimerEvent: {}
+[6.010342] (-) TimerEvent: {}
+[6.111597] (-) TimerEvent: {}
+[6.212838] (-) TimerEvent: {}
+[6.314106] (-) TimerEvent: {}
+[6.415560] (-) TimerEvent: {}
+[6.517415] (-) TimerEvent: {}
+[6.588595] (joy_config_pkg) CommandEnded: {'returncode': 0}
+[6.593445] (joy_config_pkg) JobProgress: {'identifier': 'joy_config_pkg', 'progress': 'install'}
+[6.617711] (-) TimerEvent: {}
+[6.673331] (joy_config_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/ros2_ws/build/joy_config_pkg'], 'cwd': '/home/pi/ros2_ws/build/joy_config_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.137.1 51179 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/joy_config_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 51179 192.168.137.98 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble')]), 'shell': False}
+[6.712640] (lslidar_msgs) CommandEnded: {'returncode': 0}
+[6.718385] (-) TimerEvent: {}
+[6.722283] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'install'}
+[6.725636] (lslidar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/ros2_ws/build/lslidar_msgs'], 'cwd': '/home/pi/ros2_ws/build/lslidar_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.137.1 51179 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/lslidar_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 51179 192.168.137.98 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble')]), 'shell': False}
+[6.748066] (joy_config_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.751277] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/ament_index/resource_index/package_run_dependencies/joy_config_pkg\n'}
+[6.752982] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/ament_index/resource_index/parent_prefix_path/joy_config_pkg\n'}
+[6.754858] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/environment/ament_prefix_path.sh\n'}
+[6.758175] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/environment/ament_prefix_path.dsv\n'}
+[6.760790] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/environment/path.sh\n'}
+[6.762288] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/environment/path.dsv\n'}
+[6.771082] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/local_setup.bash\n'}
+[6.773963] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/local_setup.sh\n'}
+[6.775405] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/local_setup.zsh\n'}
+[6.777151] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/local_setup.dsv\n'}
+[6.778458] (joy_config_pkg) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/package.dsv\n'}
+[6.779806] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/ament_index/resource_index/packages/joy_config_pkg\n'}
+[6.781424] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/cmake/joy_config_pkgConfig.cmake\n'}
+[6.783783] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/cmake/joy_config_pkgConfig-version.cmake\n'}
+[6.792980] (joy_config_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/package.xml\n'}
+[6.806007] (joy_config_pkg) CommandEnded: {'returncode': 0}
+[6.818620] (lslidar_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.821322] (-) TimerEvent: {}
+[6.823569] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/ament_index/resource_index/rosidl_interfaces/lslidar_msgs\n'}
+[6.826432] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[6.829162] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[6.835120] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.h\n'}
+[6.839071] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.h\n'}
+[6.848999] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.h\n'}
+[6.851394] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.855890] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.h\n'}
+[6.866926] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[6.869745] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__functions.h\n'}
+[6.871108] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.h\n'}
+[6.872154] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.h\n'}
+[6.873255] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.h\n'}
+[6.874530] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__functions.c\n'}
+[6.875739] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.h\n'}
+[6.876899] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__functions.c\n'}
+[6.878108] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.h\n'}
+[6.884368] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.h\n'}
+[6.891962] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.h\n'}
+[6.894291] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.h\n'}
+[6.896308] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.c\n'}
+[6.900371] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.c\n'}
+[6.904080] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__functions.h\n'}
+[6.906430] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.h\n'}
+[6.907774] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.h\n'}
+[6.913454] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.h\n'}
+[6.916019] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.h\n'}
+[6.920335] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.h\n'}
+[6.925436] (-) TimerEvent: {}
+[6.930009] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.c\n'}
+[6.931213] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.h\n'}
+[6.932146] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.sh\n'}
+[6.933208] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.dsv\n'}
+[6.934360] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so\n'}
+[6.935668] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[6.946618] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[6.949077] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.950781] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[6.952349] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_c.h\n'}
+[6.954505] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_c.h\n'}
+[6.955929] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_c.h\n'}
+[6.961891] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_c.h\n'}
+[6.963042] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_c.h\n'}
+[6.963988] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[6.964875] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[6.965912] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[6.967234] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.hpp\n'}
+[6.976873] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.hpp\n'}
+[6.978109] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.hpp\n'}
+[6.979359] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.hpp\n'}
+[6.980443] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.hpp\n'}
+[6.997413] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[7.003808] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.hpp\n'}
+[7.005372] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__builder.hpp\n'}
+[7.006938] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.hpp\n'}
+[7.008582] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__builder.hpp\n'}
+[7.011276] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.hpp\n'}
+[7.021554] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.hpp\n'}
+[7.023138] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__traits.hpp\n'}
+[7.024575] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__traits.hpp\n'}
+[7.025686] (-) TimerEvent: {}
+[7.034633] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__builder.hpp\n'}
+[7.036213] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__builder.hpp\n'}
+[7.037374] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.hpp\n'}
+[7.038865] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__traits.hpp\n'}
+[7.040140] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.hpp\n'}
+[7.041291] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.hpp\n'}
+[7.042537] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__traits.hpp\n'}
+[7.043749] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__traits.hpp\n'}
+[7.044812] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.hpp\n'}
+[7.046075] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.hpp\n'}
+[7.055994] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.hpp\n'}
+[7.060963] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__builder.hpp\n'}
+[7.062737] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.064045] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[7.065104] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[7.066507] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.067835] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[7.069042] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/dds_fastrtps\n'}
+[7.070150] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.071252] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.072231] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.073183] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.074055] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.091636] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.092783] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[7.093742] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[7.094961] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[7.096130] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_c.h\n'}
+[7.097412] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_c.h\n'}
+[7.098859] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.c\n'}
+[7.100106] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_c.h\n'}
+[7.101127] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_c.h\n'}
+[7.102206] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_c.h\n'}
+[7.116663] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.c\n'}
+[7.117726] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.c\n'}
+[7.118960] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.c\n'}
+[7.120061] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.c\n'}
+[7.121071] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.122177] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so\n'}
+[7.123607] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so\n'}
+[7.124738] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[7.125977] (-) TimerEvent: {}
+[7.138820] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[7.140074] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[7.141165] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.cpp\n'}
+[7.142449] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.143582] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.cpp\n'}
+[7.144562] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.cpp\n'}
+[7.145700] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.146967] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.cpp\n'}
+[7.147958] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.149048] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.150196] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.cpp\n'}
+[7.160428] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.161552] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[7.163089] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so\n'}
+[7.164041] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.sh\n'}
+[7.165017] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.dsv\n'}
+[7.166144] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info\n'}
+[7.167431] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/PKG-INFO\n'}
+[7.168795] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/top_level.txt\n'}
+[7.169935] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.171284] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.172710] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs\n'}
+[7.173753] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.194926] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[7.200892] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py\n'}
+[7.202458] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.203716] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so\n'}
+[7.205023] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.206764] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg\n'}
+[7.208958] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py\n'}
+[7.211848] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan.py\n'}
+[7.214120] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan_s.c\n'}
+[7.216069] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet_s.c\n'}
+[7.218077] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop.py\n'}
+[7.231452] (-) TimerEvent: {}
+[7.238942] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep.py\n'}
+[7.240540] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point_s.c\n'}
+[7.241674] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py\n'}
+[7.242774] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point.py\n'}
+[7.243751] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop_s.c\n'}
+[7.244843] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep_s.c\n'}
+[7.246452] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.247632] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.263198] (joy_config_pkg) JobEnded: {'identifier': 'joy_config_pkg', 'rc': 0}
+[7.269763] (serbot_description) JobStarted: {'identifier': 'serbot_description'}
+[7.331814] (-) TimerEvent: {}
+[7.359019] (serbot_description) JobProgress: {'identifier': 'serbot_description', 'progress': 'cmake'}
+[7.367640] (serbot_description) JobProgress: {'identifier': 'serbot_description', 'progress': 'build'}
+[7.370627] (serbot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ros2_ws/build/serbot_description', '--', '-j4', '-l4'], 'cwd': '/home/pi/ros2_ws/build/serbot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.137.1 51179 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/serbot_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 51179 192.168.137.98 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble')]), 'shell': False}
+[7.432131] (-) TimerEvent: {}
+[7.481863] (lslidar_msgs) StdoutLine: {'line': b"Listing '/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs'...\n"}
+[7.484271] (lslidar_msgs) StdoutLine: {'line': b"Listing '/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg'...\n"}
+[7.532615] (-) TimerEvent: {}
+[7.544470] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.551478] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.558620] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.565292] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so\n'}
+[7.569190] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.idl\n'}
+[7.571795] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.idl\n'}
+[7.573566] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.idl\n'}
+[7.575294] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.idl\n'}
+[7.577541] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.idl\n'}
+[7.579994] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.msg\n'}
+[7.582414] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.msg\n'}
+[7.588633] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.msg\n'}
+[7.591990] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.msg\n'}
+[7.593151] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.msg\n'}
+[7.598924] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/ament_index/resource_index/package_run_dependencies/lslidar_msgs\n'}
+[7.604125] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/ament_index/resource_index/parent_prefix_path/lslidar_msgs\n'}
+[7.607933] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.sh\n'}
+[7.609899] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.dsv\n'}
+[7.611918] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.sh\n'}
+[7.613470] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.dsv\n'}
+[7.616221] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.bash\n'}
+[7.617670] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.sh\n'}
+[7.619271] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.zsh\n'}
+[7.620284] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.dsv\n'}
+[7.621320] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/package.dsv\n'}
+[7.622391] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/ament_index/resource_index/packages/lslidar_msgs\n'}
+[7.623618] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport.cmake\n'}
+[7.624516] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.625452] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.626707] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.628083] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cppExport.cmake\n'}
+[7.629193] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.630573] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.632559] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.634190] (-) TimerEvent: {}
+[7.637718] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.640343] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport.cmake\n'}
+[7.642597] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.645387] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.648235] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.650165] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[7.652179] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.654120] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport.cmake\n'}
+[7.655716] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.656791] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[7.657831] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.659057] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.660947] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.663735] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.664819] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.665899] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.667145] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig.cmake\n'}
+[7.668231] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig-version.cmake\n'}
+[7.669938] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/package.xml\n'}
+[7.687345] (lslidar_msgs) CommandEnded: {'returncode': 0}
+[7.736141] (-) TimerEvent: {}
+[7.837767] (-) TimerEvent: {}
+[7.926826] (lslidar_msgs) JobEnded: {'identifier': 'lslidar_msgs', 'rc': 0}
+[7.939450] (-) TimerEvent: {}
+[7.941246] (serial_control) JobStarted: {'identifier': 'serial_control'}
+[8.015852] (serbot_description) CommandEnded: {'returncode': 0}
+[8.023811] (serbot_description) JobProgress: {'identifier': 'serbot_description', 'progress': 'install'}
+[8.031805] (serbot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/ros2_ws/build/serbot_description'], 'cwd': '/home/pi/ros2_ws/build/serbot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.137.1 51179 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/serbot_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 51179 192.168.137.98 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble')]), 'shell': False}
+[8.041838] (-) TimerEvent: {}
+[8.112967] (serbot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.114780] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/urdf\n'}
+[8.116647] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/urdf/serbot.urdf\n'}
+[8.118372] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/urdf/serbot2.urdf\n'}
+[8.119991] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/urdf/serbot3.urdf\n'}
+[8.131068] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/launch\n'}
+[8.132777] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/launch/display.launch.py\n'}
+[8.133871] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/ament_index/resource_index/package_run_dependencies/serbot_description\n'}
+[8.135099] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/ament_index/resource_index/parent_prefix_path/serbot_description\n'}
+[8.136603] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/environment/ament_prefix_path.sh\n'}
+[8.137915] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/environment/ament_prefix_path.dsv\n'}
+[8.139304] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/environment/path.sh\n'}
+[8.140512] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/environment/path.dsv\n'}
+[8.141711] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/local_setup.bash\n'}
+[8.142905] (-) TimerEvent: {}
+[8.146990] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/local_setup.sh\n'}
+[8.148632] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/local_setup.zsh\n'}
+[8.149659] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/local_setup.dsv\n'}
+[8.150813] (serbot_description) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/package.dsv\n'}
+[8.151821] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/ament_index/resource_index/packages/serbot_description\n'}
+[8.152768] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/cmake/serbot_descriptionConfig.cmake\n'}
+[8.153757] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/cmake/serbot_descriptionConfig-version.cmake\n'}
+[8.155083] (serbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/package.xml\n'}
+[8.243188] (-) TimerEvent: {}
+[8.345666] (-) TimerEvent: {}
+[8.448171] (-) TimerEvent: {}
+[8.550796] (-) TimerEvent: {}
+[8.653289] (-) TimerEvent: {}
+[8.755801] (-) TimerEvent: {}
+[8.858170] (-) TimerEvent: {}
+[8.960762] (-) TimerEvent: {}
+[9.063366] (-) TimerEvent: {}
+[9.166869] (-) TimerEvent: {}
+[9.286209] (-) TimerEvent: {}
+[9.387795] (-) TimerEvent: {}
+[9.489319] (-) TimerEvent: {}
+[9.590973] (-) TimerEvent: {}
+[9.692623] (-) TimerEvent: {}
+[9.794435] (-) TimerEvent: {}
+[9.896087] (-) TimerEvent: {}
+[9.997785] (-) TimerEvent: {}
+[10.100920] (-) TimerEvent: {}
+[10.203816] (-) TimerEvent: {}
+[10.306210] (-) TimerEvent: {}
+[10.408529] (-) TimerEvent: {}
+[10.510982] (-) TimerEvent: {}
+[10.613354] (-) TimerEvent: {}
+[10.716029] (-) TimerEvent: {}
+[10.818461] (-) TimerEvent: {}
+[10.921436] (-) TimerEvent: {}
+[11.025040] (-) TimerEvent: {}
+[11.129746] (-) TimerEvent: {}
+[11.233991] (-) TimerEvent: {}
+[11.338952] (-) TimerEvent: {}
+[11.442832] (-) TimerEvent: {}
+[11.450605] (my_car_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_car_controller', 'build', '--build-base', '/home/pi/ros2_ws/build/my_car_controller/build', 'install', '--record', '/home/pi/ros2_ws/build/my_car_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/ros2_ws/src/my_car_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.137.1 51179 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/ros2_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/ros2_ws/build/my_car_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 51179 192.168.137.98 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros2_ws/build/my_car_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg'}, 'shell': False}
+[11.481020] (serbot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/serbot_controller', 'build', '--build-base', '/home/pi/ros2_ws/build/serbot_controller/build', 'install', '--record', '/home/pi/ros2_ws/build/serbot_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/ros2_ws/src/serbot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.137.1 51179 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/ros2_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/ros2_ws/build/serbot_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 51179 192.168.137.98 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros2_ws/build/serbot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg'}, 'shell': False}
+[11.507002] (serbot_description) CommandEnded: {'returncode': 0}
+[11.545041] (-) TimerEvent: {}
+[11.652584] (-) TimerEvent: {}
+[11.666174] (serbot_description) JobEnded: {'identifier': 'serbot_description', 'rc': 0}
+[11.676251] (teleop_twist_keyboard) JobStarted: {'identifier': 'teleop_twist_keyboard'}
+[11.760776] (-) TimerEvent: {}
+[11.862955] (-) TimerEvent: {}
+[11.965902] (-) TimerEvent: {}
+[12.068550] (-) TimerEvent: {}
+[12.171135] (-) TimerEvent: {}
+[12.273998] (-) TimerEvent: {}
+[12.377509] (-) TimerEvent: {}
+[12.480139] (-) TimerEvent: {}
+[12.583198] (-) TimerEvent: {}
+[12.685773] (-) TimerEvent: {}
+[12.788359] (-) TimerEvent: {}
+[12.890916] (-) TimerEvent: {}
+[12.993446] (-) TimerEvent: {}
+[13.095884] (-) TimerEvent: {}
+[13.198442] (-) TimerEvent: {}
+[13.300970] (-) TimerEvent: {}
+[13.403615] (-) TimerEvent: {}
+[13.506077] (-) TimerEvent: {}
+[13.607725] (-) TimerEvent: {}
+[13.709450] (-) TimerEvent: {}
+[13.811166] (-) TimerEvent: {}
+[13.912858] (-) TimerEvent: {}
+[14.014610] (-) TimerEvent: {}
+[14.116432] (-) TimerEvent: {}
+[14.218217] (-) TimerEvent: {}
+[14.330324] (-) TimerEvent: {}
+[14.431899] (-) TimerEvent: {}
+[14.533662] (-) TimerEvent: {}
+[14.635411] (-) TimerEvent: {}
+[14.653480] (my_car_controller) StdoutLine: {'line': b'running egg_info\n'}
+[14.661432] (my_car_controller) StdoutLine: {'line': b'writing ../../build/my_car_controller/my_car_controller.egg-info/PKG-INFO\n'}
+[14.664536] (my_car_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/my_car_controller/my_car_controller.egg-info/dependency_links.txt\n'}
+[14.667743] (my_car_controller) StdoutLine: {'line': b'writing entry points to ../../build/my_car_controller/my_car_controller.egg-info/entry_points.txt\n'}
+[14.669591] (my_car_controller) StdoutLine: {'line': b'writing requirements to ../../build/my_car_controller/my_car_controller.egg-info/requires.txt\n'}
+[14.672223] (serbot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[14.673958] (my_car_controller) StdoutLine: {'line': b'writing top-level names to ../../build/my_car_controller/my_car_controller.egg-info/top_level.txt\n'}
+[14.682800] (serbot_controller) StdoutLine: {'line': b'writing ../../build/serbot_controller/serbot_controller.egg-info/PKG-INFO\n'}
+[14.688022] (serbot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/serbot_controller/serbot_controller.egg-info/dependency_links.txt\n'}
+[14.692710] (serbot_controller) StdoutLine: {'line': b'writing entry points to ../../build/serbot_controller/serbot_controller.egg-info/entry_points.txt\n'}
+[14.694083] (my_car_controller) StdoutLine: {'line': b"reading manifest file '../../build/my_car_controller/my_car_controller.egg-info/SOURCES.txt'\n"}
+[14.698269] (serbot_controller) StdoutLine: {'line': b'writing requirements to ../../build/serbot_controller/serbot_controller.egg-info/requires.txt\n'}
+[14.701775] (serbot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/serbot_controller/serbot_controller.egg-info/top_level.txt\n'}
+[14.704052] (my_car_controller) StdoutLine: {'line': b"writing manifest file '../../build/my_car_controller/my_car_controller.egg-info/SOURCES.txt'\n"}
+[14.705755] (my_car_controller) StdoutLine: {'line': b'running build\n'}
+[14.707725] (my_car_controller) StdoutLine: {'line': b'running build_py\n'}
+[14.712927] (my_car_controller) StdoutLine: {'line': b'running install\n'}
+[14.717095] (my_car_controller) StdoutLine: {'line': b'running install_lib\n'}
+[14.722770] (serbot_controller) StdoutLine: {'line': b"reading manifest file '../../build/serbot_controller/serbot_controller.egg-info/SOURCES.txt'\n"}
+[14.733703] (serbot_controller) StdoutLine: {'line': b"writing manifest file '../../build/serbot_controller/serbot_controller.egg-info/SOURCES.txt'\n"}
+[14.736317] (-) TimerEvent: {}
+[14.737885] (my_car_controller) StdoutLine: {'line': b'running install_data\n'}
+[14.740053] (serbot_controller) StdoutLine: {'line': b'running build\n'}
+[14.741880] (serbot_controller) StdoutLine: {'line': b'running build_py\n'}
+[14.755244] (my_car_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.756624] (serbot_controller) StdoutLine: {'line': b'running install\n'}
+[14.757887] (serbot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[14.762567] (my_car_controller) StdoutLine: {'line': b"removing '/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages/my_car_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[14.764028] (serbot_controller) StdoutLine: {'line': b'running install_data\n'}
+[14.765418] (serbot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.769169] (my_car_controller) StdoutLine: {'line': b'Copying ../../build/my_car_controller/my_car_controller.egg-info to /home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages/my_car_controller-0.0.0-py3.10.egg-info\n'}
+[14.785027] (serbot_controller) StdoutLine: {'line': b"removing '/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages/serbot_controller-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[14.788656] (my_car_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[14.790283] (serbot_controller) StdoutLine: {'line': b'Copying ../../build/serbot_controller/serbot_controller.egg-info to /home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages/serbot_controller-0.0.1-py3.10.egg-info\n'}
+[14.807777] (serbot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[14.836633] (-) TimerEvent: {}
+[14.938165] (-) TimerEvent: {}
+[15.026666] (my_car_controller) StdoutLine: {'line': b'Installing serial_bridge script to /home/pi/ros2_ws/install/my_car_controller/lib/my_car_controller\n'}
+[15.029438] (my_car_controller) StdoutLine: {'line': b'Installing serial_bridge_2 script to /home/pi/ros2_ws/install/my_car_controller/lib/my_car_controller\n'}
+[15.035060] (my_car_controller) StdoutLine: {'line': b"writing list of installed files to '/home/pi/ros2_ws/build/my_car_controller/install.log'\n"}
+[15.038646] (-) TimerEvent: {}
+[15.045441] (serbot_controller) StdoutLine: {'line': b'Installing serbot_controller script to /home/pi/ros2_ws/install/serbot_controller/lib/serbot_controller\n'}
+[15.057630] (serbot_controller) StdoutLine: {'line': b"writing list of installed files to '/home/pi/ros2_ws/build/serbot_controller/install.log'\n"}
+[15.139195] (-) TimerEvent: {}
+[15.242768] (-) TimerEvent: {}
+[15.345678] (-) TimerEvent: {}
+[15.450102] (-) TimerEvent: {}
+[15.464409] (my_car_controller) CommandEnded: {'returncode': 0}
+[15.539213] (my_car_controller) JobEnded: {'identifier': 'my_car_controller', 'rc': 0}
+[15.551268] (-) TimerEvent: {}
+[15.552393] (lslidar_driver) JobStarted: {'identifier': 'lslidar_driver'}
+[15.599946] (serbot_controller) CommandEnded: {'returncode': 0}
+[15.652102] (-) TimerEvent: {}
+[15.673401] (serbot_controller) JobEnded: {'identifier': 'serbot_controller', 'rc': 0}
+[15.700014] (lslidar_driver) JobProgress: {'identifier': 'lslidar_driver', 'progress': 'cmake'}
+[15.710454] (lslidar_driver) JobProgress: {'identifier': 'lslidar_driver', 'progress': 'build'}
+[15.714859] (lslidar_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ros2_ws/build/lslidar_driver', '--', '-j4', '-l4'], 'cwd': '/home/pi/ros2_ws/build/lslidar_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.137.1 51179 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/lslidar_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 51179 192.168.137.98 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble')]), 'shell': False}
+[15.752401] (-) TimerEvent: {}
+[15.853895] (-) TimerEvent: {}
+[15.955936] (-) TimerEvent: {}
+[16.057769] (-) TimerEvent: {}
+[16.159662] (-) TimerEvent: {}
+[16.226157] (lslidar_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lslidar_driver_node\x1b[0m\n'}
+[16.260076] (-) TimerEvent: {}
+[16.363622] (-) TimerEvent: {}
+[16.401095] (lslidar_driver) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o\x1b[0m\n'}
+[16.436181] (lslidar_driver) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/input.cc.o\x1b[0m\n'}
+[16.463968] (-) TimerEvent: {}
+[16.465862] (lslidar_driver) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o\x1b[0m\n'}
+[16.486941] (serial_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/serial_control', 'build', '--build-base', '/home/pi/ros2_ws/build/serial_control/build', 'install', '--record', '/home/pi/ros2_ws/build/serial_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/ros2_ws/src/serial_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.137.1 51179 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/ros2_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/ros2_ws/build/serial_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 51179 192.168.137.98 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros2_ws/build/serial_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg'}, 'shell': False}
+[16.564320] (-) TimerEvent: {}
+[16.666811] (-) TimerEvent: {}
+[16.769405] (-) TimerEvent: {}
+[16.871735] (-) TimerEvent: {}
+[16.974006] (-) TimerEvent: {}
+[17.076562] (-) TimerEvent: {}
+[17.178878] (-) TimerEvent: {}
+[17.281178] (-) TimerEvent: {}
+[17.383540] (-) TimerEvent: {}
+[17.485894] (-) TimerEvent: {}
+[17.589271] (-) TimerEvent: {}
+[17.691669] (-) TimerEvent: {}
+[17.793896] (-) TimerEvent: {}
+[17.896776] (-) TimerEvent: {}
+[17.999139] (-) TimerEvent: {}
+[18.101564] (-) TimerEvent: {}
+[18.203861] (-) TimerEvent: {}
+[18.306140] (-) TimerEvent: {}
+[18.408432] (-) TimerEvent: {}
+[18.511090] (-) TimerEvent: {}
+[18.613477] (-) TimerEvent: {}
+[18.715754] (-) TimerEvent: {}
+[18.818058] (-) TimerEvent: {}
+[18.920663] (-) TimerEvent: {}
+[19.023030] (-) TimerEvent: {}
+[19.125231] (-) TimerEvent: {}
+[19.227758] (-) TimerEvent: {}
+[19.346076] (-) TimerEvent: {}
+[19.447582] (-) TimerEvent: {}
+[19.549108] (-) TimerEvent: {}
+[19.650953] (-) TimerEvent: {}
+[19.752415] (-) TimerEvent: {}
+[19.854726] (-) TimerEvent: {}
+[19.956846] (-) TimerEvent: {}
+[20.059017] (-) TimerEvent: {}
+[20.161254] (-) TimerEvent: {}
+[20.191175] (serial_control) StdoutLine: {'line': b'running egg_info\n'}
+[20.201002] (serial_control) StdoutLine: {'line': b'writing ../../build/serial_control/serial_control.egg-info/PKG-INFO\n'}
+[20.205023] (serial_control) StdoutLine: {'line': b'writing dependency_links to ../../build/serial_control/serial_control.egg-info/dependency_links.txt\n'}
+[20.209195] (serial_control) StdoutLine: {'line': b'writing entry points to ../../build/serial_control/serial_control.egg-info/entry_points.txt\n'}
+[20.213142] (serial_control) StdoutLine: {'line': b'writing requirements to ../../build/serial_control/serial_control.egg-info/requires.txt\n'}
+[20.216370] (serial_control) StdoutLine: {'line': b'writing top-level names to ../../build/serial_control/serial_control.egg-info/top_level.txt\n'}
+[20.238318] (serial_control) StdoutLine: {'line': b"reading manifest file '../../build/serial_control/serial_control.egg-info/SOURCES.txt'\n"}
+[20.250718] (serial_control) StdoutLine: {'line': b"writing manifest file '../../build/serial_control/serial_control.egg-info/SOURCES.txt'\n"}
+[20.253679] (serial_control) StdoutLine: {'line': b'running build\n'}
+[20.255842] (serial_control) StdoutLine: {'line': b'running build_py\n'}
+[20.261567] (-) TimerEvent: {}
+[20.265137] (serial_control) StdoutLine: {'line': b'running install\n'}
+[20.270305] (serial_control) StdoutLine: {'line': b'running install_lib\n'}
+[20.286772] (serial_control) StdoutLine: {'line': b'running install_data\n'}
+[20.290576] (serial_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[20.310899] (serial_control) StdoutLine: {'line': b"removing '/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages/serial_control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[20.317451] (serial_control) StdoutLine: {'line': b'Copying ../../build/serial_control/serial_control.egg-info to /home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages/serial_control-0.0.0-py3.10.egg-info\n'}
+[20.334592] (serial_control) StdoutLine: {'line': b'running install_scripts\n'}
+[20.361904] (-) TimerEvent: {}
+[20.463559] (-) TimerEvent: {}
+[20.565805] (-) TimerEvent: {}
+[20.604256] (serial_control) StdoutLine: {'line': b'Installing serial_node script to /home/pi/ros2_ws/install/serial_control/lib/serial_control\n'}
+[20.612067] (serial_control) StdoutLine: {'line': b"writing list of installed files to '/home/pi/ros2_ws/build/serial_control/install.log'\n"}
+[20.666298] (-) TimerEvent: {}
+[20.758323] (teleop_twist_keyboard) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/teleop_twist_keyboard', 'build', '--build-base', '/home/pi/ros2_ws/build/teleop_twist_keyboard/build', 'install', '--record', '/home/pi/ros2_ws/build/teleop_twist_keyboard/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/ros2_ws/src/teleop_twist_keyboard', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.137.1 51179 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/ros2_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/ros2_ws/build/teleop_twist_keyboard', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 51179 192.168.137.98 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros2_ws/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg'}, 'shell': False}
+[20.779828] (-) TimerEvent: {}
+[20.901107] (-) TimerEvent: {}
+[21.002607] (-) TimerEvent: {}
+[21.022172] (serial_control) CommandEnded: {'returncode': 0}
+[21.102919] (-) TimerEvent: {}
+[21.140113] (serial_control) JobEnded: {'identifier': 'serial_control', 'rc': 0}
+[21.203190] (-) TimerEvent: {}
+[21.304431] (-) TimerEvent: {}
+[21.405908] (-) TimerEvent: {}
+[21.507402] (-) TimerEvent: {}
+[21.608964] (-) TimerEvent: {}
+[21.710390] (-) TimerEvent: {}
+[21.811854] (-) TimerEvent: {}
+[21.913391] (-) TimerEvent: {}
+[22.014931] (-) TimerEvent: {}
+[22.116408] (-) TimerEvent: {}
+[22.217915] (-) TimerEvent: {}
+[22.319411] (-) TimerEvent: {}
+[22.420972] (-) TimerEvent: {}
+[22.522974] (-) TimerEvent: {}
+[22.624473] (-) TimerEvent: {}
+[22.726042] (-) TimerEvent: {}
+[22.827522] (-) TimerEvent: {}
+[22.929040] (-) TimerEvent: {}
+[23.030889] (-) TimerEvent: {}
+[23.132385] (-) TimerEvent: {}
+[23.233886] (-) TimerEvent: {}
+[23.335452] (-) TimerEvent: {}
+[23.437223] (-) TimerEvent: {}
+[23.538930] (-) TimerEvent: {}
+[23.640346] (-) TimerEvent: {}
+[23.739244] (teleop_twist_keyboard) StdoutLine: {'line': b'running egg_info\n'}
+[23.740592] (-) TimerEvent: {}
+[23.746896] (teleop_twist_keyboard) StdoutLine: {'line': b'writing ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO\n'}
+[23.749674] (teleop_twist_keyboard) StdoutLine: {'line': b'writing dependency_links to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt\n'}
+[23.752242] (teleop_twist_keyboard) StdoutLine: {'line': b'writing entry points to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt\n'}
+[23.753764] (teleop_twist_keyboard) StdoutLine: {'line': b'writing requirements to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt\n'}
+[23.755496] (teleop_twist_keyboard) StdoutLine: {'line': b'writing top-level names to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt\n'}
+[23.772542] (teleop_twist_keyboard) StdoutLine: {'line': b"reading manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[23.776706] (teleop_twist_keyboard) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[23.784938] (teleop_twist_keyboard) StdoutLine: {'line': b"writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[23.786567] (teleop_twist_keyboard) StdoutLine: {'line': b'running build\n'}
+[23.787672] (teleop_twist_keyboard) StdoutLine: {'line': b'running build_py\n'}
+[23.789112] (teleop_twist_keyboard) StdoutLine: {'line': b'running install\n'}
+[23.790782] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_lib\n'}
+[23.802567] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_data\n'}
+[23.804472] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_egg_info\n'}
+[23.822518] (teleop_twist_keyboard) StdoutLine: {'line': b"removing '/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.4.0-py3.10.egg-info' (and everything under it)\n"}
+[23.827034] (teleop_twist_keyboard) StdoutLine: {'line': b'Copying ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.4.0-py3.10.egg-info\n'}
+[23.840936] (-) TimerEvent: {}
+[23.842879] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_scripts\n'}
+[23.941259] (-) TimerEvent: {}
+[24.043381] (-) TimerEvent: {}
+[24.052437] (teleop_twist_keyboard) StdoutLine: {'line': b'Installing teleop_twist_keyboard script to /home/pi/ros2_ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard\n'}
+[24.055327] (teleop_twist_keyboard) StdoutLine: {'line': b"writing list of installed files to '/home/pi/ros2_ws/build/teleop_twist_keyboard/install.log'\n"}
+[24.143797] (-) TimerEvent: {}
+[24.246657] (-) TimerEvent: {}
+[24.280406] (teleop_twist_keyboard) CommandEnded: {'returncode': 0}
+[24.346912] (-) TimerEvent: {}
+[24.364877] (teleop_twist_keyboard) JobEnded: {'identifier': 'teleop_twist_keyboard', 'rc': 0}
+[24.447208] (-) TimerEvent: {}
+[24.548831] (-) TimerEvent: {}
+[24.650936] (-) TimerEvent: {}
+[24.753133] (-) TimerEvent: {}
+[24.855378] (-) TimerEvent: {}
+[24.957307] (-) TimerEvent: {}
+[25.059525] (-) TimerEvent: {}
+[25.161516] (-) TimerEvent: {}
+[25.263549] (-) TimerEvent: {}
+[25.365493] (-) TimerEvent: {}
+[25.467538] (-) TimerEvent: {}
+[25.569504] (-) TimerEvent: {}
+[25.671714] (-) TimerEvent: {}
+[25.773947] (-) TimerEvent: {}
+[25.875959] (-) TimerEvent: {}
+[25.977909] (-) TimerEvent: {}
+[26.080056] (-) TimerEvent: {}
+[26.182471] (-) TimerEvent: {}
+[26.284561] (-) TimerEvent: {}
+[26.386837] (-) TimerEvent: {}
+[26.488846] (-) TimerEvent: {}
+[26.590814] (-) TimerEvent: {}
+[26.692831] (-) TimerEvent: {}
+[26.795248] (-) TimerEvent: {}
+[26.897311] (-) TimerEvent: {}
+[26.999459] (-) TimerEvent: {}
+[27.101813] (-) TimerEvent: {}
+[27.204196] (-) TimerEvent: {}
+[27.306533] (-) TimerEvent: {}
+[27.408542] (-) TimerEvent: {}
+[27.510925] (-) TimerEvent: {}
+[27.613089] (-) TimerEvent: {}
+[27.715157] (-) TimerEvent: {}
+[27.817258] (-) TimerEvent: {}
+[27.919230] (-) TimerEvent: {}
+[28.021166] (-) TimerEvent: {}
+[28.123317] (-) TimerEvent: {}
+[28.225452] (-) TimerEvent: {}
+[28.327598] (-) TimerEvent: {}
+[28.429932] (-) TimerEvent: {}
+[28.532710] (-) TimerEvent: {}
+[28.634927] (-) TimerEvent: {}
+[28.737040] (-) TimerEvent: {}
+[28.839404] (-) TimerEvent: {}
+[28.941510] (-) TimerEvent: {}
+[29.043639] (-) TimerEvent: {}
+[29.145766] (-) TimerEvent: {}
+[29.247978] (-) TimerEvent: {}
+[29.356185] (-) TimerEvent: {}
+[29.458360] (-) TimerEvent: {}
+[29.560447] (-) TimerEvent: {}
+[29.662647] (-) TimerEvent: {}
+[29.764666] (-) TimerEvent: {}
+[29.867178] (-) TimerEvent: {}
+[29.969181] (-) TimerEvent: {}
+[30.071634] (-) TimerEvent: {}
+[30.173842] (-) TimerEvent: {}
+[30.276250] (-) TimerEvent: {}
+[30.378564] (-) TimerEvent: {}
+[30.481080] (-) TimerEvent: {}
+[30.583077] (-) TimerEvent: {}
+[30.686582] (-) TimerEvent: {}
+[30.789138] (-) TimerEvent: {}
+[30.891317] (-) TimerEvent: {}
+[30.993532] (-) TimerEvent: {}
+[31.095725] (-) TimerEvent: {}
+[31.198056] (-) TimerEvent: {}
+[31.300105] (-) TimerEvent: {}
+[31.402504] (-) TimerEvent: {}
+[31.504420] (-) TimerEvent: {}
+[31.606746] (-) TimerEvent: {}
+[31.708755] (-) TimerEvent: {}
+[31.810853] (-) TimerEvent: {}
+[31.912741] (-) TimerEvent: {}
+[32.014754] (-) TimerEvent: {}
+[32.116705] (-) TimerEvent: {}
+[32.219180] (-) TimerEvent: {}
+[32.321050] (-) TimerEvent: {}
+[32.422895] (-) TimerEvent: {}
+[32.524770] (-) TimerEvent: {}
+[32.626752] (-) TimerEvent: {}
+[32.728624] (-) TimerEvent: {}
+[32.830597] (-) TimerEvent: {}
+[32.932563] (-) TimerEvent: {}
+[33.034522] (-) TimerEvent: {}
+[33.136569] (-) TimerEvent: {}
+[33.238558] (-) TimerEvent: {}
+[33.340611] (-) TimerEvent: {}
+[33.442868] (-) TimerEvent: {}
+[33.544743] (-) TimerEvent: {}
+[33.646895] (-) TimerEvent: {}
+[33.748856] (-) TimerEvent: {}
+[33.850886] (-) TimerEvent: {}
+[33.952926] (-) TimerEvent: {}
+[34.055063] (-) TimerEvent: {}
+[34.156882] (-) TimerEvent: {}
+[34.259630] (-) TimerEvent: {}
+[34.368518] (-) TimerEvent: {}
+[34.470644] (-) TimerEvent: {}
+[34.579437] (-) TimerEvent: {}
+[34.681472] (-) TimerEvent: {}
+[34.783755] (-) TimerEvent: {}
+[34.885793] (-) TimerEvent: {}
+[34.988191] (-) TimerEvent: {}
+[35.091011] (-) TimerEvent: {}
+[35.193228] (-) TimerEvent: {}
+[35.295554] (-) TimerEvent: {}
+[35.397551] (-) TimerEvent: {}
+[35.499538] (-) TimerEvent: {}
+[35.601447] (-) TimerEvent: {}
+[35.703753] (-) TimerEvent: {}
+[35.805881] (-) TimerEvent: {}
+[35.908152] (-) TimerEvent: {}
+[36.010084] (-) TimerEvent: {}
+[36.112222] (-) TimerEvent: {}
+[36.214441] (-) TimerEvent: {}
+[36.316476] (-) TimerEvent: {}
+[36.418482] (-) TimerEvent: {}
+[36.520468] (-) TimerEvent: {}
+[36.622572] (-) TimerEvent: {}
+[36.724681] (-) TimerEvent: {}
+[36.827028] (-) TimerEvent: {}
+[36.928900] (-) TimerEvent: {}
+[37.031157] (-) TimerEvent: {}
+[37.133939] (-) TimerEvent: {}
+[37.235892] (-) TimerEvent: {}
+[37.338179] (-) TimerEvent: {}
+[37.440536] (-) TimerEvent: {}
+[37.542475] (-) TimerEvent: {}
+[37.644809] (-) TimerEvent: {}
+[37.747250] (-) TimerEvent: {}
+[37.849180] (-) TimerEvent: {}
+[37.951599] (-) TimerEvent: {}
+[38.053436] (-) TimerEvent: {}
+[38.155836] (-) TimerEvent: {}
+[38.257859] (-) TimerEvent: {}
+[38.359997] (-) TimerEvent: {}
+[38.461853] (-) TimerEvent: {}
+[38.563831] (-) TimerEvent: {}
+[38.665721] (-) TimerEvent: {}
+[38.768006] (-) TimerEvent: {}
+[38.870174] (-) TimerEvent: {}
+[38.972036] (-) TimerEvent: {}
+[39.074436] (-) TimerEvent: {}
+[39.176287] (-) TimerEvent: {}
+[39.278177] (-) TimerEvent: {}
+[39.384141] (-) TimerEvent: {}
+[39.486158] (-) TimerEvent: {}
+[39.588305] (-) TimerEvent: {}
+[39.690447] (-) TimerEvent: {}
+[39.792610] (-) TimerEvent: {}
+[39.894575] (-) TimerEvent: {}
+[39.996479] (-) TimerEvent: {}
+[40.098418] (-) TimerEvent: {}
+[40.200750] (-) TimerEvent: {}
+[40.303600] (-) TimerEvent: {}
+[40.406726] (-) TimerEvent: {}
+[40.508930] (-) TimerEvent: {}
+[40.611162] (-) TimerEvent: {}
+[40.713791] (-) TimerEvent: {}
+[40.815788] (-) TimerEvent: {}
+[40.917690] (-) TimerEvent: {}
+[41.019955] (-) TimerEvent: {}
+[41.122217] (-) TimerEvent: {}
+[41.224159] (-) TimerEvent: {}
+[41.326586] (-) TimerEvent: {}
+[41.428659] (-) TimerEvent: {}
+[41.530617] (-) TimerEvent: {}
+[41.632422] (-) TimerEvent: {}
+[41.734539] (-) TimerEvent: {}
+[41.836348] (-) TimerEvent: {}
+[41.938835] (-) TimerEvent: {}
+[42.040781] (-) TimerEvent: {}
+[42.142661] (-) TimerEvent: {}
+[42.244850] (-) TimerEvent: {}
+[42.347278] (-) TimerEvent: {}
+[42.449922] (-) TimerEvent: {}
+[42.552039] (-) TimerEvent: {}
+[42.654179] (-) TimerEvent: {}
+[42.756239] (-) TimerEvent: {}
+[42.858467] (-) TimerEvent: {}
+[42.960512] (-) TimerEvent: {}
+[43.062581] (-) TimerEvent: {}
+[43.164862] (-) TimerEvent: {}
+[43.267084] (-) TimerEvent: {}
+[43.369393] (-) TimerEvent: {}
+[43.471620] (-) TimerEvent: {}
+[43.574123] (-) TimerEvent: {}
+[43.676263] (-) TimerEvent: {}
+[43.778985] (-) TimerEvent: {}
+[43.881086] (-) TimerEvent: {}
+[43.983540] (-) TimerEvent: {}
+[44.085530] (-) TimerEvent: {}
+[44.188035] (-) TimerEvent: {}
+[44.290663] (-) TimerEvent: {}
+[44.395221] (-) TimerEvent: {}
+[44.497697] (-) TimerEvent: {}
+[44.601395] (-) TimerEvent: {}
+[44.704077] (-) TimerEvent: {}
+[44.806558] (-) TimerEvent: {}
+[44.909460] (-) TimerEvent: {}
+[45.011941] (-) TimerEvent: {}
+[45.114532] (-) TimerEvent: {}
+[45.216833] (-) TimerEvent: {}
+[45.319436] (-) TimerEvent: {}
+[45.422626] (-) TimerEvent: {}
+[45.525032] (-) TimerEvent: {}
+[45.627578] (-) TimerEvent: {}
+[45.730159] (-) TimerEvent: {}
+[45.832704] (-) TimerEvent: {}
+[45.935757] (-) TimerEvent: {}
+[46.039426] (-) TimerEvent: {}
+[46.141289] (-) TimerEvent: {}
+[46.243550] (-) TimerEvent: {}
+[46.345791] (-) TimerEvent: {}
+[46.448817] (-) TimerEvent: {}
+[46.550962] (-) TimerEvent: {}
+[46.653367] (-) TimerEvent: {}
+[46.755652] (-) TimerEvent: {}
+[46.857711] (-) TimerEvent: {}
+[46.959906] (-) TimerEvent: {}
+[47.062058] (-) TimerEvent: {}
+[47.164309] (-) TimerEvent: {}
+[47.266473] (-) TimerEvent: {}
+[47.368652] (-) TimerEvent: {}
+[47.470773] (-) TimerEvent: {}
+[47.572823] (-) TimerEvent: {}
+[47.674999] (-) TimerEvent: {}
+[47.777067] (-) TimerEvent: {}
+[47.879588] (-) TimerEvent: {}
+[47.981690] (-) TimerEvent: {}
+[48.083998] (-) TimerEvent: {}
+[48.186079] (-) TimerEvent: {}
+[48.288323] (-) TimerEvent: {}
+[48.390446] (-) TimerEvent: {}
+[48.492624] (-) TimerEvent: {}
+[48.594696] (-) TimerEvent: {}
+[48.696743] (-) TimerEvent: {}
+[48.799028] (-) TimerEvent: {}
+[48.901120] (-) TimerEvent: {}
+[49.003334] (-) TimerEvent: {}
+[49.105430] (-) TimerEvent: {}
+[49.207671] (-) TimerEvent: {}
+[49.309668] (-) TimerEvent: {}
+[49.414177] (-) TimerEvent: {}
+[49.516334] (-) TimerEvent: {}
+[49.618593] (-) TimerEvent: {}
+[49.720817] (-) TimerEvent: {}
+[49.822988] (-) TimerEvent: {}
+[49.925218] (-) TimerEvent: {}
+[50.027292] (-) TimerEvent: {}
+[50.129626] (-) TimerEvent: {}
+[50.231752] (-) TimerEvent: {}
+[50.334143] (-) TimerEvent: {}
+[50.436124] (-) TimerEvent: {}
+[50.538273] (-) TimerEvent: {}
+[50.640429] (-) TimerEvent: {}
+[50.743335] (-) TimerEvent: {}
+[50.846055] (-) TimerEvent: {}
+[50.948166] (-) TimerEvent: {}
+[51.050357] (-) TimerEvent: {}
+[51.152378] (-) TimerEvent: {}
+[51.254679] (-) TimerEvent: {}
+[51.356787] (-) TimerEvent: {}
+[51.458992] (-) TimerEvent: {}
+[51.561029] (-) TimerEvent: {}
+[51.663205] (-) TimerEvent: {}
+[51.765320] (-) TimerEvent: {}
+[51.867477] (-) TimerEvent: {}
+[51.969727] (-) TimerEvent: {}
+[52.072051] (-) TimerEvent: {}
+[52.174498] (-) TimerEvent: {}
+[52.276405] (-) TimerEvent: {}
+[52.378338] (-) TimerEvent: {}
+[52.480370] (-) TimerEvent: {}
+[52.582723] (-) TimerEvent: {}
+[52.684956] (-) TimerEvent: {}
+[52.786612] (-) TimerEvent: {}
+[52.888513] (-) TimerEvent: {}
+[52.990004] (-) TimerEvent: {}
+[53.091391] (-) TimerEvent: {}
+[53.192872] (-) TimerEvent: {}
+[53.294389] (-) TimerEvent: {}
+[53.395739] (-) TimerEvent: {}
+[53.497254] (-) TimerEvent: {}
+[53.598748] (-) TimerEvent: {}
+[53.700095] (-) TimerEvent: {}
+[53.801464] (-) TimerEvent: {}
+[53.902975] (-) TimerEvent: {}
+[54.004471] (-) TimerEvent: {}
+[54.105976] (-) TimerEvent: {}
+[54.207405] (-) TimerEvent: {}
+[54.309004] (-) TimerEvent: {}
+[54.410715] (-) TimerEvent: {}
+[54.512402] (-) TimerEvent: {}
+[54.613735] (-) TimerEvent: {}
+[54.715403] (-) TimerEvent: {}
+[54.816871] (-) TimerEvent: {}
+[54.918521] (-) TimerEvent: {}
+[55.019941] (-) TimerEvent: {}
+[55.121465] (-) TimerEvent: {}
+[55.223018] (-) TimerEvent: {}
+[55.324580] (-) TimerEvent: {}
+[55.425979] (-) TimerEvent: {}
+[55.527564] (-) TimerEvent: {}
+[55.629201] (-) TimerEvent: {}
+[55.730895] (-) TimerEvent: {}
+[55.832388] (-) TimerEvent: {}
+[55.933934] (-) TimerEvent: {}
+[56.035913] (-) TimerEvent: {}
+[56.137375] (-) TimerEvent: {}
+[56.238840] (-) TimerEvent: {}
+[56.340566] (-) TimerEvent: {}
+[56.441937] (-) TimerEvent: {}
+[56.543421] (-) TimerEvent: {}
+[56.644888] (-) TimerEvent: {}
+[56.746428] (-) TimerEvent: {}
+[56.848135] (-) TimerEvent: {}
+[56.949601] (-) TimerEvent: {}
+[57.050998] (-) TimerEvent: {}
+[57.152466] (-) TimerEvent: {}
+[57.253857] (-) TimerEvent: {}
+[57.355448] (-) TimerEvent: {}
+[57.456890] (-) TimerEvent: {}
+[57.558640] (-) TimerEvent: {}
+[57.660173] (-) TimerEvent: {}
+[57.762000] (-) TimerEvent: {}
+[57.863628] (-) TimerEvent: {}
+[57.965172] (-) TimerEvent: {}
+[58.066605] (-) TimerEvent: {}
+[58.168290] (-) TimerEvent: {}
+[58.269898] (-) TimerEvent: {}
+[58.371546] (-) TimerEvent: {}
+[58.472870] (-) TimerEvent: {}
+[58.574468] (-) TimerEvent: {}
+[58.676024] (-) TimerEvent: {}
+[58.777371] (-) TimerEvent: {}
+[58.878789] (-) TimerEvent: {}
+[58.980184] (-) TimerEvent: {}
+[59.081622] (-) TimerEvent: {}
+[59.183887] (-) TimerEvent: {}
+[59.285458] (-) TimerEvent: {}
+[59.387090] (-) TimerEvent: {}
+[59.488731] (-) TimerEvent: {}
+[59.590405] (-) TimerEvent: {}
+[59.692362] (-) TimerEvent: {}
+[59.793982] (-) TimerEvent: {}
+[59.895682] (-) TimerEvent: {}
+[59.997478] (-) TimerEvent: {}
+[60.099148] (-) TimerEvent: {}
+[60.200544] (-) TimerEvent: {}
+[60.302166] (-) TimerEvent: {}
+[60.403625] (-) TimerEvent: {}
+[60.505326] (-) TimerEvent: {}
+[60.606788] (-) TimerEvent: {}
+[60.708199] (-) TimerEvent: {}
+[60.809568] (-) TimerEvent: {}
+[60.910999] (-) TimerEvent: {}
+[61.012388] (-) TimerEvent: {}
+[61.113846] (-) TimerEvent: {}
+[61.215429] (-) TimerEvent: {}
+[61.316900] (-) TimerEvent: {}
+[61.418450] (-) TimerEvent: {}
+[61.519840] (-) TimerEvent: {}
+[61.621222] (-) TimerEvent: {}
+[61.722545] (-) TimerEvent: {}
+[61.823867] (-) TimerEvent: {}
+[61.925264] (-) TimerEvent: {}
+[62.026640] (-) TimerEvent: {}
+[62.128016] (-) TimerEvent: {}
+[62.229459] (-) TimerEvent: {}
+[62.330934] (-) TimerEvent: {}
+[62.432299] (-) TimerEvent: {}
+[62.533687] (-) TimerEvent: {}
+[62.635333] (-) TimerEvent: {}
+[62.736706] (-) TimerEvent: {}
+[62.838129] (-) TimerEvent: {}
+[62.939570] (-) TimerEvent: {}
+[63.040959] (-) TimerEvent: {}
+[63.142442] (-) TimerEvent: {}
+[63.244029] (-) TimerEvent: {}
+[63.345499] (-) TimerEvent: {}
+[63.446967] (-) TimerEvent: {}
+[63.548316] (-) TimerEvent: {}
+[63.649657] (-) TimerEvent: {}
+[63.751201] (-) TimerEvent: {}
+[63.852581] (-) TimerEvent: {}
+[63.954111] (-) TimerEvent: {}
+[64.055648] (-) TimerEvent: {}
+[64.157179] (-) TimerEvent: {}
+[64.258770] (-) TimerEvent: {}
+[64.360237] (-) TimerEvent: {}
+[64.461689] (-) TimerEvent: {}
+[64.563130] (-) TimerEvent: {}
+[64.664517] (-) TimerEvent: {}
+[64.765856] (-) TimerEvent: {}
+[64.867788] (-) TimerEvent: {}
+[64.969210] (-) TimerEvent: {}
+[65.070693] (-) TimerEvent: {}
+[65.172085] (-) TimerEvent: {}
+[65.273447] (-) TimerEvent: {}
+[65.374814] (-) TimerEvent: {}
+[65.476162] (-) TimerEvent: {}
+[65.577600] (-) TimerEvent: {}
+[65.679040] (-) TimerEvent: {}
+[65.780470] (-) TimerEvent: {}
+[65.881817] (-) TimerEvent: {}
+[65.983264] (-) TimerEvent: {}
+[66.084599] (-) TimerEvent: {}
+[66.185984] (-) TimerEvent: {}
+[66.287426] (-) TimerEvent: {}
+[66.388755] (-) TimerEvent: {}
+[66.490292] (-) TimerEvent: {}
+[66.591701] (-) TimerEvent: {}
+[66.693084] (-) TimerEvent: {}
+[66.794493] (-) TimerEvent: {}
+[66.895916] (-) TimerEvent: {}
+[66.997295] (-) TimerEvent: {}
+[67.098683] (-) TimerEvent: {}
+[67.200048] (-) TimerEvent: {}
+[67.301453] (-) TimerEvent: {}
+[67.402835] (-) TimerEvent: {}
+[67.504198] (-) TimerEvent: {}
+[67.605691] (-) TimerEvent: {}
+[67.707111] (-) TimerEvent: {}
+[67.808485] (-) TimerEvent: {}
+[67.909802] (-) TimerEvent: {}
+[68.011292] (-) TimerEvent: {}
+[68.112628] (-) TimerEvent: {}
+[68.213995] (-) TimerEvent: {}
+[68.315456] (-) TimerEvent: {}
+[68.416933] (-) TimerEvent: {}
+[68.518524] (-) TimerEvent: {}
+[68.619907] (-) TimerEvent: {}
+[68.721301] (-) TimerEvent: {}
+[68.822674] (-) TimerEvent: {}
+[68.924019] (-) TimerEvent: {}
+[69.025396] (-) TimerEvent: {}
+[69.126788] (-) TimerEvent: {}
+[69.228111] (-) TimerEvent: {}
+[69.329492] (-) TimerEvent: {}
+[69.430891] (-) TimerEvent: {}
+[69.532221] (-) TimerEvent: {}
+[69.633724] (-) TimerEvent: {}
+[69.735409] (-) TimerEvent: {}
+[69.837140] (-) TimerEvent: {}
+[69.938750] (-) TimerEvent: {}
+[70.040217] (-) TimerEvent: {}
+[70.141569] (-) TimerEvent: {}
+[70.242959] (-) TimerEvent: {}
+[70.344307] (-) TimerEvent: {}
+[70.445659] (-) TimerEvent: {}
+[70.547045] (-) TimerEvent: {}
+[70.648521] (-) TimerEvent: {}
+[70.750018] (-) TimerEvent: {}
+[70.851549] (-) TimerEvent: {}
+[70.953056] (-) TimerEvent: {}
+[71.054499] (-) TimerEvent: {}
+[71.155909] (-) TimerEvent: {}
+[71.257303] (-) TimerEvent: {}
+[71.359232] (-) TimerEvent: {}
+[71.460751] (-) TimerEvent: {}
+[71.562183] (-) TimerEvent: {}
+[71.663748] (-) TimerEvent: {}
+[71.765280] (-) TimerEvent: {}
+[71.866758] (-) TimerEvent: {}
+[71.968380] (-) TimerEvent: {}
+[72.070012] (-) TimerEvent: {}
+[72.171593] (-) TimerEvent: {}
+[72.273201] (-) TimerEvent: {}
+[72.374646] (-) TimerEvent: {}
+[72.476025] (-) TimerEvent: {}
+[72.577424] (-) TimerEvent: {}
+[72.678877] (-) TimerEvent: {}
+[72.780230] (-) TimerEvent: {}
+[72.881618] (-) TimerEvent: {}
+[72.983052] (-) TimerEvent: {}
+[73.084432] (-) TimerEvent: {}
+[73.185884] (-) TimerEvent: {}
+[73.287347] (-) TimerEvent: {}
+[73.388763] (-) TimerEvent: {}
+[73.490124] (-) TimerEvent: {}
+[73.591559] (-) TimerEvent: {}
+[73.692907] (-) TimerEvent: {}
+[73.794320] (-) TimerEvent: {}
+[73.895736] (-) TimerEvent: {}
+[73.997152] (-) TimerEvent: {}
+[74.098578] (-) TimerEvent: {}
+[74.199947] (-) TimerEvent: {}
+[74.301440] (-) TimerEvent: {}
+[74.402851] (-) TimerEvent: {}
+[74.504214] (-) TimerEvent: {}
+[74.605531] (-) TimerEvent: {}
+[74.706927] (-) TimerEvent: {}
+[74.808252] (-) TimerEvent: {}
+[74.909659] (-) TimerEvent: {}
+[75.011118] (-) TimerEvent: {}
+[75.112498] (-) TimerEvent: {}
+[75.214026] (-) TimerEvent: {}
+[75.315730] (-) TimerEvent: {}
+[75.417034] (-) TimerEvent: {}
+[75.518425] (-) TimerEvent: {}
+[75.619798] (-) TimerEvent: {}
+[75.721165] (-) TimerEvent: {}
+[75.822612] (-) TimerEvent: {}
+[75.923986] (-) TimerEvent: {}
+[76.025453] (-) TimerEvent: {}
+[76.126985] (-) TimerEvent: {}
+[76.228478] (-) TimerEvent: {}
+[76.329850] (-) TimerEvent: {}
+[76.431270] (-) TimerEvent: {}
+[76.532628] (-) TimerEvent: {}
+[76.634031] (-) TimerEvent: {}
+[76.735463] (-) TimerEvent: {}
+[76.836790] (-) TimerEvent: {}
+[76.938188] (-) TimerEvent: {}
+[77.039672] (-) TimerEvent: {}
+[77.141220] (-) TimerEvent: {}
+[77.242638] (-) TimerEvent: {}
+[77.343996] (-) TimerEvent: {}
+[77.445320] (-) TimerEvent: {}
+[77.546768] (-) TimerEvent: {}
+[77.648257] (-) TimerEvent: {}
+[77.749621] (-) TimerEvent: {}
+[77.851088] (-) TimerEvent: {}
+[77.952525] (-) TimerEvent: {}
+[78.053948] (-) TimerEvent: {}
+[78.155364] (-) TimerEvent: {}
+[78.256817] (-) TimerEvent: {}
+[78.358293] (-) TimerEvent: {}
+[78.459755] (-) TimerEvent: {}
+[78.561129] (-) TimerEvent: {}
+[78.662518] (-) TimerEvent: {}
+[78.763893] (-) TimerEvent: {}
+[78.865285] (-) TimerEvent: {}
+[78.966726] (-) TimerEvent: {}
+[79.068040] (-) TimerEvent: {}
+[79.169397] (-) TimerEvent: {}
+[79.270748] (-) TimerEvent: {}
+[79.372154] (-) TimerEvent: {}
+[79.473607] (-) TimerEvent: {}
+[79.575039] (-) TimerEvent: {}
+[79.676397] (-) TimerEvent: {}
+[79.777752] (-) TimerEvent: {}
+[79.879197] (-) TimerEvent: {}
+[79.980667] (-) TimerEvent: {}
+[80.082133] (-) TimerEvent: {}
+[80.183627] (-) TimerEvent: {}
+[80.285026] (-) TimerEvent: {}
+[80.386537] (-) TimerEvent: {}
+[80.487907] (-) TimerEvent: {}
+[80.589277] (-) TimerEvent: {}
+[80.690697] (-) TimerEvent: {}
+[80.792115] (-) TimerEvent: {}
+[80.893552] (-) TimerEvent: {}
+[80.995073] (-) TimerEvent: {}
+[81.096547] (-) TimerEvent: {}
+[81.197978] (-) TimerEvent: {}
+[81.299513] (-) TimerEvent: {}
+[81.400980] (-) TimerEvent: {}
+[81.502386] (-) TimerEvent: {}
+[81.603725] (-) TimerEvent: {}
+[81.705052] (-) TimerEvent: {}
+[81.806438] (-) TimerEvent: {}
+[81.907925] (-) TimerEvent: {}
+[82.009347] (-) TimerEvent: {}
+[82.110838] (-) TimerEvent: {}
+[82.212182] (-) TimerEvent: {}
+[82.313562] (-) TimerEvent: {}
+[82.414969] (-) TimerEvent: {}
+[82.516312] (-) TimerEvent: {}
+[82.617635] (-) TimerEvent: {}
+[82.719042] (-) TimerEvent: {}
+[82.820378] (-) TimerEvent: {}
+[82.921728] (-) TimerEvent: {}
+[83.023145] (-) TimerEvent: {}
+[83.124474] (-) TimerEvent: {}
+[83.225856] (-) TimerEvent: {}
+[83.327235] (-) TimerEvent: {}
+[83.428565] (-) TimerEvent: {}
+[83.529898] (-) TimerEvent: {}
+[83.631300] (-) TimerEvent: {}
+[83.732627] (-) TimerEvent: {}
+[83.834025] (-) TimerEvent: {}
+[83.935439] (-) TimerEvent: {}
+[84.036875] (-) TimerEvent: {}
+[84.138203] (-) TimerEvent: {}
+[84.239555] (-) TimerEvent: {}
+[84.340879] (-) TimerEvent: {}
+[84.442298] (-) TimerEvent: {}
+[84.543599] (-) TimerEvent: {}
+[84.644989] (-) TimerEvent: {}
+[84.746751] (-) TimerEvent: {}
+[84.848286] (-) TimerEvent: {}
+[84.949902] (-) TimerEvent: {}
+[85.051548] (-) TimerEvent: {}
+[85.153236] (-) TimerEvent: {}
+[85.254731] (-) TimerEvent: {}
+[85.356276] (-) TimerEvent: {}
+[85.457673] (-) TimerEvent: {}
+[85.559396] (-) TimerEvent: {}
+[85.660982] (-) TimerEvent: {}
+[85.762589] (-) TimerEvent: {}
+[85.864300] (-) TimerEvent: {}
+[85.966115] (-) TimerEvent: {}
+[86.067956] (-) TimerEvent: {}
+[86.169442] (-) TimerEvent: {}
+[86.271162] (-) TimerEvent: {}
+[86.372823] (-) TimerEvent: {}
+[86.474365] (-) TimerEvent: {}
+[86.575849] (-) TimerEvent: {}
+[86.677212] (-) TimerEvent: {}
+[86.778614] (-) TimerEvent: {}
+[86.879919] (-) TimerEvent: {}
+[86.981271] (-) TimerEvent: {}
+[87.082772] (-) TimerEvent: {}
+[87.184232] (-) TimerEvent: {}
+[87.285611] (-) TimerEvent: {}
+[87.386991] (-) TimerEvent: {}
+[87.488339] (-) TimerEvent: {}
+[87.589794] (-) TimerEvent: {}
+[87.691403] (-) TimerEvent: {}
+[87.792720] (-) TimerEvent: {}
+[87.894137] (-) TimerEvent: {}
+[87.995576] (-) TimerEvent: {}
+[88.096913] (-) TimerEvent: {}
+[88.198174] (-) TimerEvent: {}
+[88.299534] (-) TimerEvent: {}
+[88.400824] (-) TimerEvent: {}
+[88.502126] (-) TimerEvent: {}
+[88.603494] (-) TimerEvent: {}
+[88.704862] (-) TimerEvent: {}
+[88.806332] (-) TimerEvent: {}
+[88.907644] (-) TimerEvent: {}
+[89.009059] (-) TimerEvent: {}
+[89.110477] (-) TimerEvent: {}
+[89.211817] (-) TimerEvent: {}
+[89.313279] (-) TimerEvent: {}
+[89.414803] (-) TimerEvent: {}
+[89.516092] (-) TimerEvent: {}
+[89.617402] (-) TimerEvent: {}
+[89.718857] (-) TimerEvent: {}
+[89.820207] (-) TimerEvent: {}
+[89.921572] (-) TimerEvent: {}
+[90.023008] (-) TimerEvent: {}
+[90.124446] (-) TimerEvent: {}
+[90.225846] (-) TimerEvent: {}
+[90.327314] (-) TimerEvent: {}
+[90.428767] (-) TimerEvent: {}
+[90.530344] (-) TimerEvent: {}
+[90.631773] (-) TimerEvent: {}
+[90.733375] (-) TimerEvent: {}
+[90.834870] (-) TimerEvent: {}
+[90.936248] (-) TimerEvent: {}
+[91.037677] (-) TimerEvent: {}
+[91.139113] (-) TimerEvent: {}
+[91.240491] (-) TimerEvent: {}
+[91.341929] (-) TimerEvent: {}
+[91.443381] (-) TimerEvent: {}
+[91.544787] (-) TimerEvent: {}
+[91.646150] (-) TimerEvent: {}
+[91.747882] (-) TimerEvent: {}
+[91.849340] (-) TimerEvent: {}
+[91.951089] (-) TimerEvent: {}
+[92.052517] (-) TimerEvent: {}
+[92.153847] (-) TimerEvent: {}
+[92.255257] (-) TimerEvent: {}
+[92.356606] (-) TimerEvent: {}
+[92.458030] (-) TimerEvent: {}
+[92.559400] (-) TimerEvent: {}
+[92.660825] (-) TimerEvent: {}
+[92.762210] (-) TimerEvent: {}
+[92.863621] (-) TimerEvent: {}
+[92.964966] (-) TimerEvent: {}
+[93.066430] (-) TimerEvent: {}
+[93.167874] (-) TimerEvent: {}
+[93.269224] (-) TimerEvent: {}
+[93.370702] (-) TimerEvent: {}
+[93.472050] (-) TimerEvent: {}
+[93.573487] (-) TimerEvent: {}
+[93.674978] (-) TimerEvent: {}
+[93.776317] (-) TimerEvent: {}
+[93.877652] (-) TimerEvent: {}
+[93.979114] (-) TimerEvent: {}
+[94.080566] (-) TimerEvent: {}
+[94.181935] (-) TimerEvent: {}
+[94.283388] (-) TimerEvent: {}
+[94.384762] (-) TimerEvent: {}
+[94.486205] (-) TimerEvent: {}
+[94.587640] (-) TimerEvent: {}
+[94.689113] (-) TimerEvent: {}
+[94.790542] (-) TimerEvent: {}
+[94.891909] (-) TimerEvent: {}
+[94.993356] (-) TimerEvent: {}
+[95.094712] (-) TimerEvent: {}
+[95.196120] (-) TimerEvent: {}
+[95.297543] (-) TimerEvent: {}
+[95.399014] (-) TimerEvent: {}
+[95.500386] (-) TimerEvent: {}
+[95.601851] (-) TimerEvent: {}
+[95.703485] (-) TimerEvent: {}
+[95.804928] (-) TimerEvent: {}
+[95.906551] (-) TimerEvent: {}
+[96.008286] (-) TimerEvent: {}
+[96.109769] (-) TimerEvent: {}
+[96.211273] (-) TimerEvent: {}
+[96.312719] (-) TimerEvent: {}
+[96.414377] (-) TimerEvent: {}
+[96.515790] (-) TimerEvent: {}
+[96.617298] (-) TimerEvent: {}
+[96.718705] (-) TimerEvent: {}
+[96.820164] (-) TimerEvent: {}
+[96.921565] (-) TimerEvent: {}
+[97.022983] (-) TimerEvent: {}
+[97.124308] (-) TimerEvent: {}
+[97.225625] (-) TimerEvent: {}
+[97.327063] (-) TimerEvent: {}
+[97.428385] (-) TimerEvent: {}
+[97.529757] (-) TimerEvent: {}
+[97.631133] (-) TimerEvent: {}
+[97.732560] (-) TimerEvent: {}
+[97.833974] (-) TimerEvent: {}
+[97.935567] (-) TimerEvent: {}
+[98.037321] (-) TimerEvent: {}
+[98.139051] (-) TimerEvent: {}
+[98.240542] (-) TimerEvent: {}
+[98.341884] (-) TimerEvent: {}
+[98.443343] (-) TimerEvent: {}
+[98.544672] (-) TimerEvent: {}
+[98.646142] (-) TimerEvent: {}
+[98.747964] (-) TimerEvent: {}
+[98.849374] (-) TimerEvent: {}
+[98.950891] (-) TimerEvent: {}
+[99.052314] (-) TimerEvent: {}
+[99.153755] (-) TimerEvent: {}
+[99.255202] (-) TimerEvent: {}
+[99.356668] (-) TimerEvent: {}
+[99.458041] (-) TimerEvent: {}
+[99.559445] (-) TimerEvent: {}
+[99.660818] (-) TimerEvent: {}
+[99.762221] (-) TimerEvent: {}
+[99.863664] (-) TimerEvent: {}
+[99.965040] (-) TimerEvent: {}
+[100.066487] (-) TimerEvent: {}
+[100.167821] (-) TimerEvent: {}
+[100.269171] (-) TimerEvent: {}
+[100.370539] (-) TimerEvent: {}
+[100.471905] (-) TimerEvent: {}
+[100.573260] (-) TimerEvent: {}
+[100.674655] (-) TimerEvent: {}
+[100.775991] (-) TimerEvent: {}
+[100.877309] (-) TimerEvent: {}
+[100.978724] (-) TimerEvent: {}
+[101.080324] (-) TimerEvent: {}
+[101.181706] (-) TimerEvent: {}
+[101.283118] (-) TimerEvent: {}
+[101.384467] (-) TimerEvent: {}
+[101.485856] (-) TimerEvent: {}
+[101.587302] (-) TimerEvent: {}
+[101.688740] (-) TimerEvent: {}
+[101.790100] (-) TimerEvent: {}
+[101.891501] (-) TimerEvent: {}
+[101.992846] (-) TimerEvent: {}
+[102.094321] (-) TimerEvent: {}
+[102.195703] (-) TimerEvent: {}
+[102.297078] (-) TimerEvent: {}
+[102.398561] (-) TimerEvent: {}
+[102.499913] (-) TimerEvent: {}
+[102.601328] (-) TimerEvent: {}
+[102.702783] (-) TimerEvent: {}
+[102.804153] (-) TimerEvent: {}
+[102.905596] (-) TimerEvent: {}
+[103.006991] (-) TimerEvent: {}
+[103.108341] (-) TimerEvent: {}
+[103.209737] (-) TimerEvent: {}
+[103.311193] (-) TimerEvent: {}
+[103.412642] (-) TimerEvent: {}
+[103.513987] (-) TimerEvent: {}
+[103.615383] (-) TimerEvent: {}
+[103.716776] (-) TimerEvent: {}
+[103.818193] (-) TimerEvent: {}
+[103.919612] (-) TimerEvent: {}
+[104.021027] (-) TimerEvent: {}
+[104.122493] (-) TimerEvent: {}
+[104.223846] (-) TimerEvent: {}
+[104.325250] (-) TimerEvent: {}
+[104.426630] (-) TimerEvent: {}
+[104.527976] (-) TimerEvent: {}
+[104.629343] (-) TimerEvent: {}
+[104.730808] (-) TimerEvent: {}
+[104.832137] (-) TimerEvent: {}
+[104.933507] (-) TimerEvent: {}
+[105.034896] (-) TimerEvent: {}
+[105.136248] (-) TimerEvent: {}
+[105.237654] (-) TimerEvent: {}
+[105.339057] (-) TimerEvent: {}
+[105.440454] (-) TimerEvent: {}
+[105.541789] (-) TimerEvent: {}
+[105.643184] (-) TimerEvent: {}
+[105.744615] (-) TimerEvent: {}
+[105.845997] (-) TimerEvent: {}
+[105.947505] (-) TimerEvent: {}
+[106.048971] (-) TimerEvent: {}
+[106.150571] (-) TimerEvent: {}
+[106.252055] (-) TimerEvent: {}
+[106.353472] (-) TimerEvent: {}
+[106.454951] (-) TimerEvent: {}
+[106.556408] (-) TimerEvent: {}
+[106.657858] (-) TimerEvent: {}
+[106.759342] (-) TimerEvent: {}
+[106.860766] (-) TimerEvent: {}
+[106.962381] (-) TimerEvent: {}
+[107.063922] (-) TimerEvent: {}
+[107.165447] (-) TimerEvent: {}
+[107.266951] (-) TimerEvent: {}
+[107.368439] (-) TimerEvent: {}
+[107.469840] (-) TimerEvent: {}
+[107.571342] (-) TimerEvent: {}
+[107.672817] (-) TimerEvent: {}
+[107.774365] (-) TimerEvent: {}
+[107.875760] (-) TimerEvent: {}
+[107.977210] (-) TimerEvent: {}
+[108.078697] (-) TimerEvent: {}
+[108.180087] (-) TimerEvent: {}
+[108.281560] (-) TimerEvent: {}
+[108.383100] (-) TimerEvent: {}
+[108.484513] (-) TimerEvent: {}
+[108.586037] (-) TimerEvent: {}
+[108.687703] (-) TimerEvent: {}
+[108.789204] (-) TimerEvent: {}
+[108.890650] (-) TimerEvent: {}
+[108.992189] (-) TimerEvent: {}
+[109.093988] (-) TimerEvent: {}
+[109.195707] (-) TimerEvent: {}
+[109.297330] (-) TimerEvent: {}
+[109.398944] (-) TimerEvent: {}
+[109.500487] (-) TimerEvent: {}
+[109.602370] (-) TimerEvent: {}
+[109.704443] (-) TimerEvent: {}
+[109.805885] (-) TimerEvent: {}
+[109.907293] (-) TimerEvent: {}
+[110.008757] (-) TimerEvent: {}
+[110.110169] (-) TimerEvent: {}
+[110.211599] (-) TimerEvent: {}
+[110.312966] (-) TimerEvent: {}
+[110.414472] (-) TimerEvent: {}
+[110.515833] (-) TimerEvent: {}
+[110.617286] (-) TimerEvent: {}
+[110.718800] (-) TimerEvent: {}
+[110.820139] (-) TimerEvent: {}
+[110.921636] (-) TimerEvent: {}
+[111.023087] (-) TimerEvent: {}
+[111.124486] (-) TimerEvent: {}
+[111.225805] (-) TimerEvent: {}
+[111.327408] (-) TimerEvent: {}
+[111.428811] (-) TimerEvent: {}
+[111.530131] (-) TimerEvent: {}
+[111.631622] (-) TimerEvent: {}
+[111.733104] (-) TimerEvent: {}
+[111.834521] (-) TimerEvent: {}
+[111.935876] (-) TimerEvent: {}
+[112.037282] (-) TimerEvent: {}
+[112.138701] (-) TimerEvent: {}
+[112.240028] (-) TimerEvent: {}
+[112.341352] (-) TimerEvent: {}
+[112.442879] (-) TimerEvent: {}
+[112.544215] (-) TimerEvent: {}
+[112.645573] (-) TimerEvent: {}
+[112.747566] (-) TimerEvent: {}
+[112.848920] (-) TimerEvent: {}
+[112.950478] (-) TimerEvent: {}
+[113.051859] (-) TimerEvent: {}
+[113.153302] (-) TimerEvent: {}
+[113.254682] (-) TimerEvent: {}
+[113.355998] (-) TimerEvent: {}
+[113.457459] (-) TimerEvent: {}
+[113.559359] (-) TimerEvent: {}
+[113.661078] (-) TimerEvent: {}
+[113.762544] (-) TimerEvent: {}
+[113.863862] (-) TimerEvent: {}
+[113.965371] (-) TimerEvent: {}
+[114.066715] (-) TimerEvent: {}
+[114.168027] (-) TimerEvent: {}
+[114.269500] (-) TimerEvent: {}
+[114.370974] (-) TimerEvent: {}
+[114.472810] (-) TimerEvent: {}
+[114.574092] (-) TimerEvent: {}
+[114.675526] (-) TimerEvent: {}
+[114.776924] (-) TimerEvent: {}
+[114.878332] (-) TimerEvent: {}
+[114.979693] (-) TimerEvent: {}
+[115.081064] (-) TimerEvent: {}
+[115.182532] (-) TimerEvent: {}
+[115.283848] (-) TimerEvent: {}
+[115.385275] (-) TimerEvent: {}
+[115.486652] (-) TimerEvent: {}
+[115.587972] (-) TimerEvent: {}
+[115.689319] (-) TimerEvent: {}
+[115.790735] (-) TimerEvent: {}
+[115.892204] (-) TimerEvent: {}
+[115.995262] (-) TimerEvent: {}
+[116.096757] (-) TimerEvent: {}
+[116.198124] (-) TimerEvent: {}
+[116.299585] (-) TimerEvent: {}
+[116.400912] (-) TimerEvent: {}
+[116.502432] (-) TimerEvent: {}
+[116.603780] (-) TimerEvent: {}
+[116.705172] (-) TimerEvent: {}
+[116.806849] (-) TimerEvent: {}
+[116.908131] (-) TimerEvent: {}
+[117.009396] (-) TimerEvent: {}
+[117.110735] (-) TimerEvent: {}
+[117.211985] (-) TimerEvent: {}
+[117.313241] (-) TimerEvent: {}
+[117.414575] (-) TimerEvent: {}
+[117.515823] (-) TimerEvent: {}
+[117.617094] (-) TimerEvent: {}
+[117.718415] (-) TimerEvent: {}
+[117.819697] (-) TimerEvent: {}
+[117.920920] (-) TimerEvent: {}
+[118.022178] (-) TimerEvent: {}
+[118.123511] (-) TimerEvent: {}
+[118.224808] (-) TimerEvent: {}
+[118.326054] (-) TimerEvent: {}
+[118.427368] (-) TimerEvent: {}
+[118.528586] (-) TimerEvent: {}
+[118.629812] (-) TimerEvent: {}
+[118.731109] (-) TimerEvent: {}
+[118.832376] (-) TimerEvent: {}
+[118.933680] (-) TimerEvent: {}
+[119.035006] (-) TimerEvent: {}
+[119.136245] (-) TimerEvent: {}
+[119.237485] (-) TimerEvent: {}
+[119.338788] (-) TimerEvent: {}
+[119.440030] (-) TimerEvent: {}
+[119.541245] (-) TimerEvent: {}
+[119.642527] (-) TimerEvent: {}
+[119.743771] (-) TimerEvent: {}
+[119.845062] (-) TimerEvent: {}
+[119.946350] (-) TimerEvent: {}
+[120.047661] (-) TimerEvent: {}
+[120.148883] (-) TimerEvent: {}
+[120.250123] (-) TimerEvent: {}
+[120.351411] (-) TimerEvent: {}
+[120.452669] (-) TimerEvent: {}
+[120.553942] (-) TimerEvent: {}
+[120.655205] (-) TimerEvent: {}
+[120.756427] (-) TimerEvent: {}
+[120.857621] (-) TimerEvent: {}
+[120.958987] (-) TimerEvent: {}
+[121.060241] (-) TimerEvent: {}
+[121.161473] (-) TimerEvent: {}
+[121.262729] (-) TimerEvent: {}
+[121.363980] (-) TimerEvent: {}
+[121.465319] (-) TimerEvent: {}
+[121.566614] (-) TimerEvent: {}
+[121.668021] (-) TimerEvent: {}
+[121.769308] (-) TimerEvent: {}
+[121.870609] (-) TimerEvent: {}
+[121.971852] (-) TimerEvent: {}
+[122.073111] (-) TimerEvent: {}
+[122.174470] (-) TimerEvent: {}
+[122.275726] (-) TimerEvent: {}
+[122.377299] (-) TimerEvent: {}
+[122.479538] (-) TimerEvent: {}
+[122.580831] (-) TimerEvent: {}
+[122.682121] (-) TimerEvent: {}
+[122.783458] (-) TimerEvent: {}
+[122.884697] (-) TimerEvent: {}
+[122.985971] (-) TimerEvent: {}
+[123.087294] (-) TimerEvent: {}
+[123.188554] (-) TimerEvent: {}
+[123.289853] (-) TimerEvent: {}
+[123.391182] (-) TimerEvent: {}
+[123.492429] (-) TimerEvent: {}
+[123.593664] (-) TimerEvent: {}
+[123.694974] (-) TimerEvent: {}
+[123.796237] (-) TimerEvent: {}
+[123.897517] (-) TimerEvent: {}
+[123.998908] (-) TimerEvent: {}
+[124.100286] (-) TimerEvent: {}
+[124.201670] (-) TimerEvent: {}
+[124.302979] (-) TimerEvent: {}
+[124.404282] (-) TimerEvent: {}
+[124.505527] (-) TimerEvent: {}
+[124.606828] (-) TimerEvent: {}
+[124.708067] (-) TimerEvent: {}
+[124.809286] (-) TimerEvent: {}
+[124.910669] (-) TimerEvent: {}
+[125.011921] (-) TimerEvent: {}
+[125.113242] (-) TimerEvent: {}
+[125.214468] (-) TimerEvent: {}
+[125.315714] (-) TimerEvent: {}
+[125.416971] (-) TimerEvent: {}
+[125.518214] (-) TimerEvent: {}
+[125.619494] (-) TimerEvent: {}
+[125.720750] (-) TimerEvent: {}
+[125.822023] (-) TimerEvent: {}
+[125.923434] (-) TimerEvent: {}
+[126.025244] (-) TimerEvent: {}
+[126.127019] (-) TimerEvent: {}
+[126.228194] (-) TimerEvent: {}
+[126.329361] (-) TimerEvent: {}
+[126.430615] (-) TimerEvent: {}
+[126.531781] (-) TimerEvent: {}
+[126.632971] (-) TimerEvent: {}
+[126.734224] (-) TimerEvent: {}
+[126.835609] (-) TimerEvent: {}
+[126.936789] (-) TimerEvent: {}
+[127.037974] (-) TimerEvent: {}
+[127.139241] (-) TimerEvent: {}
+[127.240427] (-) TimerEvent: {}
+[127.341636] (-) TimerEvent: {}
+[127.442913] (-) TimerEvent: {}
+[127.544112] (-) TimerEvent: {}
+[127.645391] (-) TimerEvent: {}
+[127.746720] (-) TimerEvent: {}
+[127.847942] (-) TimerEvent: {}
+[127.949169] (-) TimerEvent: {}
+[128.050466] (-) TimerEvent: {}
+[128.151670] (-) TimerEvent: {}
+[128.252883] (-) TimerEvent: {}
+[128.354167] (-) TimerEvent: {}
+[128.455460] (-) TimerEvent: {}
+[128.556746] (-) TimerEvent: {}
+[128.657984] (-) TimerEvent: {}
+[128.759394] (-) TimerEvent: {}
+[128.860608] (-) TimerEvent: {}
+[128.961847] (-) TimerEvent: {}
+[129.063148] (-) TimerEvent: {}
+[129.164370] (-) TimerEvent: {}
+[129.265653] (-) TimerEvent: {}
+[129.366950] (-) TimerEvent: {}
+[129.468181] (-) TimerEvent: {}
+[129.569387] (-) TimerEvent: {}
+[129.670669] (-) TimerEvent: {}
+[129.771922] (-) TimerEvent: {}
+[129.873090] (-) TimerEvent: {}
+[129.974421] (-) TimerEvent: {}
+[130.075647] (-) TimerEvent: {}
+[130.177045] (-) TimerEvent: {}
+[130.278837] (-) TimerEvent: {}
+[130.380156] (-) TimerEvent: {}
+[130.481743] (-) TimerEvent: {}
+[130.583318] (-) TimerEvent: {}
+[130.684925] (-) TimerEvent: {}
+[130.786190] (-) TimerEvent: {}
+[130.887474] (-) TimerEvent: {}
+[130.988710] (-) TimerEvent: {}
+[131.090015] (-) TimerEvent: {}
+[131.191300] (-) TimerEvent: {}
+[131.292577] (-) TimerEvent: {}
+[131.393817] (-) TimerEvent: {}
+[131.495123] (-) TimerEvent: {}
+[131.596330] (-) TimerEvent: {}
+[131.697616] (-) TimerEvent: {}
+[131.799175] (-) TimerEvent: {}
+[131.900577] (-) TimerEvent: {}
+[132.001855] (-) TimerEvent: {}
+[132.103144] (-) TimerEvent: {}
+[132.204393] (-) TimerEvent: {}
+[132.305589] (-) TimerEvent: {}
+[132.407086] (-) TimerEvent: {}
+[132.509125] (-) TimerEvent: {}
+[132.611488] (-) TimerEvent: {}
+[132.713480] (-) TimerEvent: {}
+[132.816088] (-) TimerEvent: {}
+[132.917470] (-) TimerEvent: {}
+[133.019153] (-) TimerEvent: {}
+[133.120698] (-) TimerEvent: {}
+[133.221921] (-) TimerEvent: {}
+[133.323162] (-) TimerEvent: {}
+[133.424422] (-) TimerEvent: {}
+[133.525729] (-) TimerEvent: {}
+[133.627022] (-) TimerEvent: {}
+[133.728267] (-) TimerEvent: {}
+[133.829480] (-) TimerEvent: {}
+[133.930827] (-) TimerEvent: {}
+[134.032011] (-) TimerEvent: {}
+[134.133254] (-) TimerEvent: {}
+[134.234541] (-) TimerEvent: {}
+[134.335754] (-) TimerEvent: {}
+[134.437057] (-) TimerEvent: {}
+[134.538371] (-) TimerEvent: {}
+[134.639628] (-) TimerEvent: {}
+[134.740908] (-) TimerEvent: {}
+[134.842311] (-) TimerEvent: {}
+[134.943579] (-) TimerEvent: {}
+[135.044873] (-) TimerEvent: {}
+[135.146112] (-) TimerEvent: {}
+[135.247404] (-) TimerEvent: {}
+[135.348652] (-) TimerEvent: {}
+[135.449927] (-) TimerEvent: {}
+[135.551220] (-) TimerEvent: {}
+[135.652466] (-) TimerEvent: {}
+[135.753758] (-) TimerEvent: {}
+[135.854966] (-) TimerEvent: {}
+[135.956209] (-) TimerEvent: {}
+[136.057449] (-) TimerEvent: {}
+[136.158751] (-) TimerEvent: {}
+[136.259941] (-) TimerEvent: {}
+[136.361238] (-) TimerEvent: {}
+[136.462505] (-) TimerEvent: {}
+[136.563831] (-) TimerEvent: {}
+[136.665127] (-) TimerEvent: {}
+[136.766421] (-) TimerEvent: {}
+[136.867658] (-) TimerEvent: {}
+[136.968919] (-) TimerEvent: {}
+[137.070222] (-) TimerEvent: {}
+[137.171525] (-) TimerEvent: {}
+[137.272839] (-) TimerEvent: {}
+[137.374121] (-) TimerEvent: {}
+[137.475423] (-) TimerEvent: {}
+[137.576644] (-) TimerEvent: {}
+[137.677885] (-) TimerEvent: {}
+[137.779217] (-) TimerEvent: {}
+[137.880458] (-) TimerEvent: {}
+[137.981743] (-) TimerEvent: {}
+[138.083097] (-) TimerEvent: {}
+[138.184333] (-) TimerEvent: {}
+[138.285560] (-) TimerEvent: {}
+[138.386885] (-) TimerEvent: {}
+[138.488122] (-) TimerEvent: {}
+[138.589364] (-) TimerEvent: {}
+[138.690659] (-) TimerEvent: {}
+[138.791933] (-) TimerEvent: {}
+[138.893248] (-) TimerEvent: {}
+[138.994499] (-) TimerEvent: {}
+[139.095735] (-) TimerEvent: {}
+[139.196958] (-) TimerEvent: {}
+[139.298183] (-) TimerEvent: {}
+[139.399489] (-) TimerEvent: {}
+[139.500740] (-) TimerEvent: {}
+[139.602051] (-) TimerEvent: {}
+[139.703382] (-) TimerEvent: {}
+[139.804669] (-) TimerEvent: {}
+[139.905927] (-) TimerEvent: {}
+[140.007235] (-) TimerEvent: {}
+[140.108475] (-) TimerEvent: {}
+[140.209703] (-) TimerEvent: {}
+[140.311037] (-) TimerEvent: {}
+[140.412289] (-) TimerEvent: {}
+[140.513535] (-) TimerEvent: {}
+[140.614863] (-) TimerEvent: {}
+[140.716111] (-) TimerEvent: {}
+[140.817339] (-) TimerEvent: {}
+[140.918596] (-) TimerEvent: {}
+[141.019825] (-) TimerEvent: {}
+[141.121082] (-) TimerEvent: {}
+[141.222394] (-) TimerEvent: {}
+[141.323655] (-) TimerEvent: {}
+[141.424962] (-) TimerEvent: {}
+[141.526208] (-) TimerEvent: {}
+[141.627513] (-) TimerEvent: {}
+[141.728744] (-) TimerEvent: {}
+[141.829981] (-) TimerEvent: {}
+[141.931433] (-) TimerEvent: {}
+[142.032736] (-) TimerEvent: {}
+[142.134039] (-) TimerEvent: {}
+[142.235336] (-) TimerEvent: {}
+[142.336663] (-) TimerEvent: {}
+[142.437904] (-) TimerEvent: {}
+[142.539222] (-) TimerEvent: {}
+[142.640482] (-) TimerEvent: {}
+[142.741870] (-) TimerEvent: {}
+[142.843192] (-) TimerEvent: {}
+[142.944426] (-) TimerEvent: {}
+[143.045728] (-) TimerEvent: {}
+[143.147013] (-) TimerEvent: {}
+[143.248264] (-) TimerEvent: {}
+[143.349511] (-) TimerEvent: {}
+[143.450804] (-) TimerEvent: {}
+[143.552001] (-) TimerEvent: {}
+[143.653231] (-) TimerEvent: {}
+[143.754598] (-) TimerEvent: {}
+[143.855834] (-) TimerEvent: {}
+[143.957119] (-) TimerEvent: {}
+[144.058426] (-) TimerEvent: {}
+[144.159686] (-) TimerEvent: {}
+[144.260870] (-) TimerEvent: {}
+[144.362143] (-) TimerEvent: {}
+[144.463444] (-) TimerEvent: {}
+[144.564631] (-) TimerEvent: {}
+[144.665956] (-) TimerEvent: {}
+[144.767378] (-) TimerEvent: {}
+[144.868658] (-) TimerEvent: {}
+[144.969909] (-) TimerEvent: {}
+[145.071233] (-) TimerEvent: {}
+[145.172427] (-) TimerEvent: {}
+[145.273713] (-) TimerEvent: {}
+[145.375017] (-) TimerEvent: {}
+[145.476237] (-) TimerEvent: {}
+[145.577533] (-) TimerEvent: {}
+[145.678862] (-) TimerEvent: {}
+[145.780117] (-) TimerEvent: {}
+[145.881377] (-) TimerEvent: {}
+[145.982730] (-) TimerEvent: {}
+[146.083990] (-) TimerEvent: {}
+[146.185219] (-) TimerEvent: {}
+[146.286565] (-) TimerEvent: {}
+[146.387825] (-) TimerEvent: {}
+[146.489102] (-) TimerEvent: {}
+[146.590385] (-) TimerEvent: {}
+[146.691620] (-) TimerEvent: {}
+[146.792824] (-) TimerEvent: {}
+[146.894051] (-) TimerEvent: {}
+[146.995348] (-) TimerEvent: {}
+[147.096619] (-) TimerEvent: {}
+[147.197877] (-) TimerEvent: {}
+[147.299184] (-) TimerEvent: {}
+[147.400451] (-) TimerEvent: {}
+[147.501655] (-) TimerEvent: {}
+[147.602935] (-) TimerEvent: {}
+[147.704178] (-) TimerEvent: {}
+[147.805419] (-) TimerEvent: {}
+[147.906730] (-) TimerEvent: {}
+[148.007989] (-) TimerEvent: {}
+[148.109288] (-) TimerEvent: {}
+[148.210529] (-) TimerEvent: {}
+[148.311775] (-) TimerEvent: {}
+[148.413035] (-) TimerEvent: {}
+[148.514301] (-) TimerEvent: {}
+[148.615488] (-) TimerEvent: {}
+[148.716711] (-) TimerEvent: {}
+[148.817991] (-) TimerEvent: {}
+[148.919263] (-) TimerEvent: {}
+[149.020620] (-) TimerEvent: {}
+[149.121849] (-) TimerEvent: {}
+[149.223128] (-) TimerEvent: {}
+[149.324370] (-) TimerEvent: {}
+[149.425625] (-) TimerEvent: {}
+[149.526872] (-) TimerEvent: {}
+[149.628089] (-) TimerEvent: {}
+[149.729392] (-) TimerEvent: {}
+[149.830668] (-) TimerEvent: {}
+[149.931904] (-) TimerEvent: {}
+[150.033159] (-) TimerEvent: {}
+[150.134427] (-) TimerEvent: {}
+[150.235604] (-) TimerEvent: {}
+[150.336970] (-) TimerEvent: {}
+[150.438313] (-) TimerEvent: {}
+[150.539519] (-) TimerEvent: {}
+[150.640794] (-) TimerEvent: {}
+[150.741996] (-) TimerEvent: {}
+[150.843272] (-) TimerEvent: {}
+[150.944508] (-) TimerEvent: {}
+[151.045764] (-) TimerEvent: {}
+[151.147077] (-) TimerEvent: {}
+[151.248285] (-) TimerEvent: {}
+[151.349544] (-) TimerEvent: {}
+[151.450789] (-) TimerEvent: {}
+[151.551990] (-) TimerEvent: {}
+[151.653194] (-) TimerEvent: {}
+[151.754459] (-) TimerEvent: {}
+[151.855648] (-) TimerEvent: {}
+[151.956863] (-) TimerEvent: {}
+[152.058167] (-) TimerEvent: {}
+[152.159452] (-) TimerEvent: {}
+[152.260727] (-) TimerEvent: {}
+[152.361952] (-) TimerEvent: {}
+[152.463247] (-) TimerEvent: {}
+[152.564457] (-) TimerEvent: {}
+[152.665681] (-) TimerEvent: {}
+[152.766969] (-) TimerEvent: {}
+[152.868137] (-) TimerEvent: {}
+[152.969425] (-) TimerEvent: {}
+[153.070718] (-) TimerEvent: {}
+[153.171949] (-) TimerEvent: {}
+[153.273150] (-) TimerEvent: {}
+[153.374432] (-) TimerEvent: {}
+[153.475622] (-) TimerEvent: {}
+[153.576800] (-) TimerEvent: {}
+[153.678095] (-) TimerEvent: {}
+[153.779337] (-) TimerEvent: {}
+[153.880606] (-) TimerEvent: {}
+[153.981826] (-) TimerEvent: {}
+[154.083094] (-) TimerEvent: {}
+[154.184283] (-) TimerEvent: {}
+[154.285442] (-) TimerEvent: {}
+[154.386737] (-) TimerEvent: {}
+[154.487964] (-) TimerEvent: {}
+[154.589190] (-) TimerEvent: {}
+[154.690454] (-) TimerEvent: {}
+[154.791656] (-) TimerEvent: {}
+[154.892864] (-) TimerEvent: {}
+[154.994098] (-) TimerEvent: {}
+[155.095350] (-) TimerEvent: {}
+[155.196540] (-) TimerEvent: {}
+[155.297888] (-) TimerEvent: {}
+[155.399286] (-) TimerEvent: {}
+[155.500624] (-) TimerEvent: {}
+[155.601841] (-) TimerEvent: {}
+[155.703271] (-) TimerEvent: {}
+[155.804452] (-) TimerEvent: {}
+[155.905771] (-) TimerEvent: {}
+[156.007088] (-) TimerEvent: {}
+[156.108289] (-) TimerEvent: {}
+[156.209586] (-) TimerEvent: {}
+[156.310890] (-) TimerEvent: {}
+[156.412138] (-) TimerEvent: {}
+[156.513351] (-) TimerEvent: {}
+[156.614666] (-) TimerEvent: {}
+[156.715848] (-) TimerEvent: {}
+[156.817063] (-) TimerEvent: {}
+[156.918385] (-) TimerEvent: {}
+[157.019661] (-) TimerEvent: {}
+[157.120974] (-) TimerEvent: {}
+[157.222224] (-) TimerEvent: {}
+[157.323515] (-) TimerEvent: {}
+[157.424751] (-) TimerEvent: {}
+[157.526005] (-) TimerEvent: {}
+[157.627305] (-) TimerEvent: {}
+[157.728583] (-) TimerEvent: {}
+[157.829821] (-) TimerEvent: {}
+[157.931126] (-) TimerEvent: {}
+[158.032341] (-) TimerEvent: {}
+[158.133542] (-) TimerEvent: {}
+[158.234811] (-) TimerEvent: {}
+[158.336071] (-) TimerEvent: {}
+[158.437366] (-) TimerEvent: {}
+[158.538614] (-) TimerEvent: {}
+[158.639841] (-) TimerEvent: {}
+[158.741063] (-) TimerEvent: {}
+[158.842337] (-) TimerEvent: {}
+[158.943566] (-) TimerEvent: {}
+[159.044899] (-) TimerEvent: {}
+[159.146212] (-) TimerEvent: {}
+[159.247520] (-) TimerEvent: {}
+[159.348833] (-) TimerEvent: {}
+[159.450095] (-) TimerEvent: {}
+[159.551353] (-) TimerEvent: {}
+[159.652592] (-) TimerEvent: {}
+[159.753829] (-) TimerEvent: {}
+[159.855129] (-) TimerEvent: {}
+[159.956375] (-) TimerEvent: {}
+[160.057685] (-) TimerEvent: {}
+[160.158940] (-) TimerEvent: {}
+[160.260188] (-) TimerEvent: {}
+[160.361468] (-) TimerEvent: {}
+[160.462751] (-) TimerEvent: {}
+[160.563981] (-) TimerEvent: {}
+[160.665226] (-) TimerEvent: {}
+[160.766539] (-) TimerEvent: {}
+[160.867794] (-) TimerEvent: {}
+[160.969081] (-) TimerEvent: {}
+[161.070365] (-) TimerEvent: {}
+[161.171597] (-) TimerEvent: {}
+[161.272831] (-) TimerEvent: {}
+[161.374073] (-) TimerEvent: {}
+[161.475411] (-) TimerEvent: {}
+[161.576643] (-) TimerEvent: {}
+[161.677954] (-) TimerEvent: {}
+[161.779317] (-) TimerEvent: {}
+[161.880507] (-) TimerEvent: {}
+[161.981735] (-) TimerEvent: {}
+[162.083020] (-) TimerEvent: {}
+[162.184217] (-) TimerEvent: {}
+[162.285447] (-) TimerEvent: {}
+[162.386707] (-) TimerEvent: {}
+[162.487897] (-) TimerEvent: {}
+[162.589165] (-) TimerEvent: {}
+[162.690429] (-) TimerEvent: {}
+[162.791615] (-) TimerEvent: {}
+[162.892820] (-) TimerEvent: {}
+[162.994066] (-) TimerEvent: {}
+[163.095322] (-) TimerEvent: {}
+[163.196518] (-) TimerEvent: {}
+[163.297812] (-) TimerEvent: {}
+[163.399071] (-) TimerEvent: {}
+[163.500295] (-) TimerEvent: {}
+[163.601503] (-) TimerEvent: {}
+[163.702802] (-) TimerEvent: {}
+[163.804023] (-) TimerEvent: {}
+[163.905288] (-) TimerEvent: {}
+[164.006538] (-) TimerEvent: {}
+[164.107927] (-) TimerEvent: {}
+[164.209181] (-) TimerEvent: {}
+[164.310533] (-) TimerEvent: {}
+[164.411746] (-) TimerEvent: {}
+[164.512998] (-) TimerEvent: {}
+[164.614213] (-) TimerEvent: {}
+[164.715496] (-) TimerEvent: {}
+[164.816674] (-) TimerEvent: {}
+[164.917850] (-) TimerEvent: {}
+[165.019165] (-) TimerEvent: {}
+[165.120454] (-) TimerEvent: {}
+[165.221729] (-) TimerEvent: {}
+[165.323019] (-) TimerEvent: {}
+[165.424254] (-) TimerEvent: {}
+[165.525456] (-) TimerEvent: {}
+[165.626771] (-) TimerEvent: {}
+[165.727954] (-) TimerEvent: {}
+[165.829183] (-) TimerEvent: {}
+[165.930498] (-) TimerEvent: {}
+[166.031738] (-) TimerEvent: {}
+[166.133000] (-) TimerEvent: {}
+[166.234373] (-) TimerEvent: {}
+[166.335621] (-) TimerEvent: {}
+[166.436831] (-) TimerEvent: {}
+[166.538062] (-) TimerEvent: {}
+[166.639343] (-) TimerEvent: {}
+[166.740523] (-) TimerEvent: {}
+[166.841736] (-) TimerEvent: {}
+[166.943025] (-) TimerEvent: {}
+[167.044223] (-) TimerEvent: {}
+[167.145444] (-) TimerEvent: {}
+[167.246794] (-) TimerEvent: {}
+[167.348023] (-) TimerEvent: {}
+[167.449244] (-) TimerEvent: {}
+[167.550533] (-) TimerEvent: {}
+[167.651745] (-) TimerEvent: {}
+[167.753120] (-) TimerEvent: {}
+[167.854611] (-) TimerEvent: {}
+[167.956072] (-) TimerEvent: {}
+[168.057460] (-) TimerEvent: {}
+[168.158920] (-) TimerEvent: {}
+[168.260403] (-) TimerEvent: {}
+[168.361836] (-) TimerEvent: {}
+[168.463319] (-) TimerEvent: {}
+[168.564584] (-) TimerEvent: {}
+[168.665919] (-) TimerEvent: {}
+[168.767199] (-) TimerEvent: {}
+[168.868423] (-) TimerEvent: {}
+[168.969642] (-) TimerEvent: {}
+[169.070885] (-) TimerEvent: {}
+[169.172078] (-) TimerEvent: {}
+[169.273307] (-) TimerEvent: {}
+[169.374494] (-) TimerEvent: {}
+[169.475689] (-) TimerEvent: {}
+[169.576856] (-) TimerEvent: {}
+[169.678053] (-) TimerEvent: {}
+[169.779279] (-) TimerEvent: {}
+[169.880464] (-) TimerEvent: {}
+[169.981711] (-) TimerEvent: {}
+[170.082984] (-) TimerEvent: {}
+[170.184152] (-) TimerEvent: {}
+[170.285348] (-) TimerEvent: {}
+[170.386517] (-) TimerEvent: {}
+[170.487670] (-) TimerEvent: {}
+[170.588813] (-) TimerEvent: {}
+[170.690020] (-) TimerEvent: {}
+[170.791216] (-) TimerEvent: {}
+[170.892391] (-) TimerEvent: {}
+[170.993570] (-) TimerEvent: {}
+[171.094810] (-) TimerEvent: {}
+[171.196002] (-) TimerEvent: {}
+[171.297183] (-) TimerEvent: {}
+[171.398447] (-) TimerEvent: {}
+[171.499614] (-) TimerEvent: {}
+[171.600816] (-) TimerEvent: {}
+[171.701992] (-) TimerEvent: {}
+[171.803226] (-) TimerEvent: {}
+[171.904395] (-) TimerEvent: {}
+[172.005783] (-) TimerEvent: {}
+[172.107079] (-) TimerEvent: {}
+[172.208234] (-) TimerEvent: {}
+[172.309447] (-) TimerEvent: {}
+[172.410640] (-) TimerEvent: {}
+[172.511816] (-) TimerEvent: {}
+[172.612982] (-) TimerEvent: {}
+[172.714168] (-) TimerEvent: {}
+[172.815387] (-) TimerEvent: {}
+[172.916560] (-) TimerEvent: {}
+[173.017787] (-) TimerEvent: {}
+[173.119013] (-) TimerEvent: {}
+[173.220205] (-) TimerEvent: {}
+[173.321380] (-) TimerEvent: {}
+[173.422593] (-) TimerEvent: {}
+[173.523764] (-) TimerEvent: {}
+[173.624944] (-) TimerEvent: {}
+[173.726143] (-) TimerEvent: {}
+[173.827431] (-) TimerEvent: {}
+[173.928626] (-) TimerEvent: {}
+[174.029773] (-) TimerEvent: {}
+[174.130980] (-) TimerEvent: {}
+[174.232128] (-) TimerEvent: {}
+[174.333276] (-) TimerEvent: {}
+[174.434514] (-) TimerEvent: {}
+[174.535695] (-) TimerEvent: {}
+[174.636923] (-) TimerEvent: {}
+[174.738109] (-) TimerEvent: {}
+[174.839337] (-) TimerEvent: {}
+[174.940539] (-) TimerEvent: {}
+[175.041708] (-) TimerEvent: {}
+[175.142927] (-) TimerEvent: {}
+[175.244089] (-) TimerEvent: {}
+[175.345295] (-) TimerEvent: {}
+[175.446452] (-) TimerEvent: {}
+[175.547602] (-) TimerEvent: {}
+[175.648763] (-) TimerEvent: {}
+[175.749909] (-) TimerEvent: {}
+[175.851146] (-) TimerEvent: {}
+[175.952381] (-) TimerEvent: {}
+[176.053770] (-) TimerEvent: {}
+[176.155330] (-) TimerEvent: {}
+[176.257435] (-) TimerEvent: {}
+[176.359154] (-) TimerEvent: {}
+[176.460495] (-) TimerEvent: {}
+[176.561709] (-) TimerEvent: {}
+[176.662999] (-) TimerEvent: {}
+[176.764191] (-) TimerEvent: {}
+[176.865368] (-) TimerEvent: {}
+[176.966645] (-) TimerEvent: {}
+[177.068143] (-) TimerEvent: {}
+[177.169513] (-) TimerEvent: {}
+[177.270900] (-) TimerEvent: {}
+[177.372231] (-) TimerEvent: {}
+[177.473612] (-) TimerEvent: {}
+[177.575534] (-) TimerEvent: {}
+[177.676885] (-) TimerEvent: {}
+[177.778694] (-) TimerEvent: {}
+[177.879883] (-) TimerEvent: {}
+[177.981227] (-) TimerEvent: {}
+[178.082500] (-) TimerEvent: {}
+[178.183855] (-) TimerEvent: {}
+[178.284309] (lslidar_driver) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable lslidar_driver_node\x1b[0m\n'}
+[178.285558] (-) TimerEvent: {}
+[178.386858] (-) TimerEvent: {}
+[178.488037] (-) TimerEvent: {}
+[178.589188] (-) TimerEvent: {}
+[178.690412] (-) TimerEvent: {}
+[178.791640] (-) TimerEvent: {}
+[178.892907] (-) TimerEvent: {}
+[178.994389] (-) TimerEvent: {}
+[179.095660] (-) TimerEvent: {}
+[179.196982] (-) TimerEvent: {}
+[179.298399] (-) TimerEvent: {}
+[179.399635] (-) TimerEvent: {}
+[179.501115] (-) TimerEvent: {}
+[179.602721] (-) TimerEvent: {}
+[179.704044] (-) TimerEvent: {}
+[179.805528] (-) TimerEvent: {}
+[179.907204] (-) TimerEvent: {}
+[180.008617] (-) TimerEvent: {}
+[180.110416] (-) TimerEvent: {}
+[180.212049] (-) TimerEvent: {}
+[180.313666] (-) TimerEvent: {}
+[180.415384] (-) TimerEvent: {}
+[180.516794] (-) TimerEvent: {}
+[180.618356] (-) TimerEvent: {}
+[180.719570] (-) TimerEvent: {}
+[180.821070] (-) TimerEvent: {}
+[180.922833] (-) TimerEvent: {}
+[181.024387] (-) TimerEvent: {}
+[181.126014] (-) TimerEvent: {}
+[181.227736] (-) TimerEvent: {}
+[181.329400] (-) TimerEvent: {}
+[181.431038] (-) TimerEvent: {}
+[181.532694] (-) TimerEvent: {}
+[181.634345] (-) TimerEvent: {}
+[181.735881] (-) TimerEvent: {}
+[181.837687] (-) TimerEvent: {}
+[181.939381] (-) TimerEvent: {}
+[182.040919] (-) TimerEvent: {}
+[182.142832] (-) TimerEvent: {}
+[182.244241] (-) TimerEvent: {}
+[182.345798] (-) TimerEvent: {}
+[182.447535] (-) TimerEvent: {}
+[182.549008] (-) TimerEvent: {}
+[182.650762] (-) TimerEvent: {}
+[182.752483] (-) TimerEvent: {}
+[182.853879] (-) TimerEvent: {}
+[182.955625] (-) TimerEvent: {}
+[183.057477] (-) TimerEvent: {}
+[183.159082] (-) TimerEvent: {}
+[183.260859] (-) TimerEvent: {}
+[183.362544] (-) TimerEvent: {}
+[183.463934] (-) TimerEvent: {}
+[183.565388] (-) TimerEvent: {}
+[183.667011] (-) TimerEvent: {}
+[183.768361] (-) TimerEvent: {}
+[183.869832] (-) TimerEvent: {}
+[183.971180] (-) TimerEvent: {}
+[184.072607] (-) TimerEvent: {}
+[184.174404] (-) TimerEvent: {}
+[184.276055] (-) TimerEvent: {}
+[184.377599] (-) TimerEvent: {}
+[184.479321] (-) TimerEvent: {}
+[184.580958] (-) TimerEvent: {}
+[184.682538] (-) TimerEvent: {}
+[184.784094] (-) TimerEvent: {}
+[184.885457] (-) TimerEvent: {}
+[184.987200] (-) TimerEvent: {}
+[185.088654] (-) TimerEvent: {}
+[185.190332] (-) TimerEvent: {}
+[185.291973] (-) TimerEvent: {}
+[185.393499] (-) TimerEvent: {}
+[185.494976] (-) TimerEvent: {}
+[185.596476] (-) TimerEvent: {}
+[185.698296] (-) TimerEvent: {}
+[185.800175] (-) TimerEvent: {}
+[185.901907] (-) TimerEvent: {}
+[186.003396] (-) TimerEvent: {}
+[186.104891] (-) TimerEvent: {}
+[186.206551] (-) TimerEvent: {}
+[186.308043] (-) TimerEvent: {}
+[186.409636] (-) TimerEvent: {}
+[186.511536] (-) TimerEvent: {}
+[186.613154] (-) TimerEvent: {}
+[186.714697] (-) TimerEvent: {}
+[186.816167] (-) TimerEvent: {}
+[186.917793] (-) TimerEvent: {}
+[187.019541] (-) TimerEvent: {}
+[187.121099] (-) TimerEvent: {}
+[187.222586] (-) TimerEvent: {}
+[187.324301] (-) TimerEvent: {}
+[187.425946] (-) TimerEvent: {}
+[187.527677] (-) TimerEvent: {}
+[187.629061] (-) TimerEvent: {}
+[187.730707] (-) TimerEvent: {}
+[187.832262] (-) TimerEvent: {}
+[187.933979] (-) TimerEvent: {}
+[188.035858] (-) TimerEvent: {}
+[188.137603] (-) TimerEvent: {}
+[188.239322] (-) TimerEvent: {}
+[188.340634] (-) TimerEvent: {}
+[188.441976] (-) TimerEvent: {}
+[188.543455] (-) TimerEvent: {}
+[188.645132] (-) TimerEvent: {}
+[188.746677] (-) TimerEvent: {}
+[188.848190] (-) TimerEvent: {}
+[188.949742] (-) TimerEvent: {}
+[189.051195] (-) TimerEvent: {}
+[189.153004] (-) TimerEvent: {}
+[189.254634] (-) TimerEvent: {}
+[189.356419] (-) TimerEvent: {}
+[189.458132] (-) TimerEvent: {}
+[189.559519] (-) TimerEvent: {}
+[189.660718] (-) TimerEvent: {}
+[189.761580] (-) TimerEvent: {}
+[189.862958] (-) TimerEvent: {}
+[189.964225] (-) TimerEvent: {}
+[190.065477] (-) TimerEvent: {}
+[190.166937] (-) TimerEvent: {}
+[190.268459] (-) TimerEvent: {}
+[190.369916] (-) TimerEvent: {}
+[190.471319] (-) TimerEvent: {}
+[190.572588] (-) TimerEvent: {}
+[190.673937] (-) TimerEvent: {}
+[190.775238] (-) TimerEvent: {}
+[190.876504] (-) TimerEvent: {}
+[190.977758] (-) TimerEvent: {}
+[191.079014] (-) TimerEvent: {}
+[191.180253] (-) TimerEvent: {}
+[191.281504] (-) TimerEvent: {}
+[191.382776] (-) TimerEvent: {}
+[191.484110] (-) TimerEvent: {}
+[191.585461] (-) TimerEvent: {}
+[191.687006] (-) TimerEvent: {}
+[191.788504] (-) TimerEvent: {}
+[191.890093] (-) TimerEvent: {}
+[191.991391] (-) TimerEvent: {}
+[192.092864] (-) TimerEvent: {}
+[192.194177] (-) TimerEvent: {}
+[192.295383] (-) TimerEvent: {}
+[192.396719] (-) TimerEvent: {}
+[192.497730] (-) TimerEvent: {}
+[192.599027] (-) TimerEvent: {}
+[192.700733] (-) TimerEvent: {}
+[192.802222] (-) TimerEvent: {}
+[192.903734] (-) TimerEvent: {}
+[193.004939] (-) TimerEvent: {}
+[193.105875] (-) TimerEvent: {}
+[193.207220] (-) TimerEvent: {}
+[193.308556] (-) TimerEvent: {}
+[193.409898] (-) TimerEvent: {}
+[193.511266] (-) TimerEvent: {}
+[193.612553] (-) TimerEvent: {}
+[193.713890] (-) TimerEvent: {}
+[193.815283] (-) TimerEvent: {}
+[193.916682] (-) TimerEvent: {}
+[194.017826] (-) TimerEvent: {}
+[194.118884] (-) TimerEvent: {}
+[194.220259] (-) TimerEvent: {}
+[194.321833] (-) TimerEvent: {}
+[194.423048] (-) TimerEvent: {}
+[194.524248] (-) TimerEvent: {}
+[194.625423] (-) TimerEvent: {}
+[194.726630] (-) TimerEvent: {}
+[194.827805] (-) TimerEvent: {}
+[194.928936] (-) TimerEvent: {}
+[195.030090] (-) TimerEvent: {}
+[195.131506] (-) TimerEvent: {}
+[195.233032] (-) TimerEvent: {}
+[195.334224] (-) TimerEvent: {}
+[195.435444] (-) TimerEvent: {}
+[195.536644] (-) TimerEvent: {}
+[195.637801] (-) TimerEvent: {}
+[195.739070] (-) TimerEvent: {}
+[195.840432] (-) TimerEvent: {}
+[195.941859] (-) TimerEvent: {}
+[196.043262] (-) TimerEvent: {}
+[196.144555] (-) TimerEvent: {}
+[196.245698] (-) TimerEvent: {}
+[196.346873] (-) TimerEvent: {}
+[196.447961] (-) TimerEvent: {}
+[196.549094] (-) TimerEvent: {}
+[196.650407] (-) TimerEvent: {}
+[196.751608] (-) TimerEvent: {}
+[196.852815] (-) TimerEvent: {}
+[196.918873] (lslidar_driver) StdoutLine: {'line': b'[100%] Built target lslidar_driver_node\n'}
+[196.953119] (-) TimerEvent: {}
+[197.012354] (lslidar_driver) CommandEnded: {'returncode': 0}
+[197.017071] (lslidar_driver) JobProgress: {'identifier': 'lslidar_driver', 'progress': 'install'}
+[197.021041] (lslidar_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/ros2_ws/build/lslidar_driver'], 'cwd': '/home/pi/ros2_ws/build/lslidar_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.137.1 51179 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/lslidar_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 51179 192.168.137.98 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:/home/pi/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble')]), 'shell': False}
+[197.053404] (-) TimerEvent: {}
+[197.096866] (lslidar_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[197.098286] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/launch\n'}
+[197.100542] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py\n'}
+[197.104342] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_launch.py\n'}
+[197.107633] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/params\n'}
+[197.109031] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/params/lsx10_1.yaml\n'}
+[197.112357] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/params/lsx10.yaml\n'}
+[197.114835] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/params/lsx10_2.yaml\n'}
+[197.118133] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/rviz\n'}
+[197.120311] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar.rviz\n'}
+[197.125149] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node\n'}
+[197.153693] (-) TimerEvent: {}
+[197.224138] (lslidar_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/pi/ros2_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node" to ""\n'}
+[197.226316] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver\n'}
+[197.230619] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver\n'}
+[197.234528] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh\n'}
+[197.237428] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv\n'}
+[197.240407] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/environment/path.sh\n'}
+[197.243353] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/environment/path.dsv\n'}
+[197.246172] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/local_setup.bash\n'}
+[197.248946] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/local_setup.sh\n'}
+[197.251783] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/local_setup.zsh\n'}
+[197.253871] (-) TimerEvent: {}
+[197.254979] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/local_setup.dsv\n'}
+[197.257413] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/package.dsv\n'}
+[197.261347] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver\n'}
+[197.264982] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[197.268624] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[197.271838] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake\n'}
+[197.274449] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake\n'}
+[197.277387] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/package.xml\n'}
+[197.290429] (lslidar_driver) CommandEnded: {'returncode': 0}
+[197.354608] (-) TimerEvent: {}
+[197.456721] (lslidar_driver) JobEnded: {'identifier': 'lslidar_driver', 'rc': 0}
+[197.462891] (-) TimerEvent: {}
+[197.463614] (-) EventReactorShutdown: {}

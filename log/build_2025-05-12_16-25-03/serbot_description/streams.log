@@ -1,0 +1,50 @@
+[6.007s] Invoking command in '/home/pi/ros2_ws/build/serbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble /usr/bin/cmake /home/pi/ros2_ws/src/serbot_description -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/serbot_description
+[6.705s] -- The C compiler identification is GNU 11.4.0
+[7.393s] -- The CXX compiler identification is GNU 11.4.0
+[7.475s] -- Detecting C compiler ABI info
+[8.327s] -- Detecting C compiler ABI info - done
+[8.445s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.450s] -- Detecting C compile features
+[8.464s] -- Detecting C compile features - done
+[8.492s] -- Detecting CXX compiler ABI info
+[9.425s] -- Detecting CXX compiler ABI info - done
+[9.518s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[9.524s] -- Detecting CXX compile features
+[9.532s] -- Detecting CXX compile features - done
+[9.615s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[11.737s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[13.313s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.564s] -- Added test 'flake8' to check Python code syntax and style conventions
+[14.581s] -- Added test 'lint_cmake' to check CMake code style
+[14.593s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[14.624s] -- Added test 'xmllint' to check XML markup files
+[14.652s] -- Configuring done
+[14.720s] -- Generating done
+[14.749s] -- Build files have been written to: /home/pi/ros2_ws/build/serbot_description
+[14.802s] Invoked command in '/home/pi/ros2_ws/build/serbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble /usr/bin/cmake /home/pi/ros2_ws/src/serbot_description -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/serbot_description
+[14.806s] Invoking command in '/home/pi/ros2_ws/build/serbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/serbot_description -- -j4 -l4
+[15.224s] Invoked command in '/home/pi/ros2_ws/build/serbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/serbot_description -- -j4 -l4
+[15.233s] Invoking command in '/home/pi/ros2_ws/build/serbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/serbot_description
+[15.330s] -- Install configuration: ""
+[15.333s] -- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/urdf
+[15.340s] -- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/urdf/serbot.urdf
+[15.348s] -- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/urdf/serbot2.urdf
+[15.365s] -- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/urdf/serbot3.urdf
+[15.368s] -- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/launch
+[15.369s] -- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/launch/display.launch.py
+[15.376s] -- Installing: /home/pi/ros2_ws/install/serbot_description/share/ament_index/resource_index/package_run_dependencies/serbot_description
+[15.394s] -- Installing: /home/pi/ros2_ws/install/serbot_description/share/ament_index/resource_index/parent_prefix_path/serbot_description
+[15.420s] -- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/environment/ament_prefix_path.sh
+[15.438s] -- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/environment/ament_prefix_path.dsv
+[15.441s] -- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/environment/path.sh
+[15.457s] -- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/environment/path.dsv
+[15.459s] -- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/local_setup.bash
+[15.483s] -- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/local_setup.sh
+[15.488s] -- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/local_setup.zsh
+[15.541s] -- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/local_setup.dsv
+[15.545s] -- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/package.dsv
+[15.547s] -- Installing: /home/pi/ros2_ws/install/serbot_description/share/ament_index/resource_index/packages/serbot_description
+[15.568s] -- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/cmake/serbot_descriptionConfig.cmake
+[15.581s] -- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/cmake/serbot_descriptionConfig-version.cmake
+[15.585s] -- Installing: /home/pi/ros2_ws/install/serbot_description/share/serbot_description/package.xml
+[15.614s] Invoked command in '/home/pi/ros2_ws/build/serbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/serbot_description

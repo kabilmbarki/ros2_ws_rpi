@@ -1,0 +1,33 @@
+[12.267s] Invoking command in '/home/pi/ros2_ws/src/serbot_controller': PYTHONPATH=/home/pi/ros2_ws/build/serbot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/serbot_controller build --build-base /home/pi/ros2_ws/build/serbot_controller/build install --record /home/pi/ros2_ws/build/serbot_controller/install.log --single-version-externally-managed install_data
+[15.392s] running egg_info
+[15.400s] creating ../../build/serbot_controller/serbot_controller.egg-info
+[15.402s] writing ../../build/serbot_controller/serbot_controller.egg-info/PKG-INFO
+[15.407s] writing dependency_links to ../../build/serbot_controller/serbot_controller.egg-info/dependency_links.txt
+[15.408s] writing entry points to ../../build/serbot_controller/serbot_controller.egg-info/entry_points.txt
+[15.410s] writing requirements to ../../build/serbot_controller/serbot_controller.egg-info/requires.txt
+[15.421s] writing top-level names to ../../build/serbot_controller/serbot_controller.egg-info/top_level.txt
+[15.424s] writing manifest file '../../build/serbot_controller/serbot_controller.egg-info/SOURCES.txt'
+[15.448s] reading manifest file '../../build/serbot_controller/serbot_controller.egg-info/SOURCES.txt'
+[15.464s] writing manifest file '../../build/serbot_controller/serbot_controller.egg-info/SOURCES.txt'
+[15.478s] running build
+[15.480s] running build_py
+[15.482s] creating /home/pi/ros2_ws/build/serbot_controller/build
+[15.483s] creating /home/pi/ros2_ws/build/serbot_controller/build/lib
+[15.492s] creating /home/pi/ros2_ws/build/serbot_controller/build/lib/serbot_controller
+[15.494s] copying serbot_controller/__init__.py -> /home/pi/ros2_ws/build/serbot_controller/build/lib/serbot_controller
+[15.496s] copying serbot_controller/serbot_controller.py -> /home/pi/ros2_ws/build/serbot_controller/build/lib/serbot_controller
+[15.499s] running install
+[15.513s] running install_lib
+[15.517s] creating /home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages/serbot_controller
+[15.519s] copying /home/pi/ros2_ws/build/serbot_controller/build/lib/serbot_controller/__init__.py -> /home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages/serbot_controller
+[15.524s] copying /home/pi/ros2_ws/build/serbot_controller/build/lib/serbot_controller/serbot_controller.py -> /home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages/serbot_controller
+[15.543s] byte-compiling /home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages/serbot_controller/__init__.py to __init__.cpython-310.pyc
+[15.552s] byte-compiling /home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages/serbot_controller/serbot_controller.py to serbot_controller.cpython-310.pyc
+[15.599s] running install_data
+[15.601s] copying package.xml -> /home/pi/ros2_ws/install/serbot_controller/share/serbot_controller
+[15.603s] running install_egg_info
+[15.634s] Copying ../../build/serbot_controller/serbot_controller.egg-info to /home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages/serbot_controller-0.0.1-py3.10.egg-info
+[15.646s] running install_scripts
+[15.799s] Installing serbot_controller script to /home/pi/ros2_ws/install/serbot_controller/lib/serbot_controller
+[15.805s] writing list of installed files to '/home/pi/ros2_ws/build/serbot_controller/install.log'
+[18.883s] Invoked command in '/home/pi/ros2_ws/src/serbot_controller' returned '0': PYTHONPATH=/home/pi/ros2_ws/build/serbot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/serbot_controller build --build-base /home/pi/ros2_ws/build/serbot_controller/build install --record /home/pi/ros2_ws/build/serbot_controller/install.log --single-version-externally-managed install_data

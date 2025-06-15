@@ -1,0 +1,21 @@
+[12.711s] Invoking command in '/home/pi/ros2_ws/build/my_car_controller': PYTHONPATH=/home/pi/ros2_ws/build/my_car_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ros2_ws/build/my_car_controller/build --no-deps symlink_data --force
+[17.561s] running develop
+[20.121s] running egg_info
+[20.123s] writing my_car_controller.egg-info/PKG-INFO
+[20.125s] writing dependency_links to my_car_controller.egg-info/dependency_links.txt
+[20.127s] writing entry points to my_car_controller.egg-info/entry_points.txt
+[20.129s] writing requirements to my_car_controller.egg-info/requires.txt
+[20.132s] writing top-level names to my_car_controller.egg-info/top_level.txt
+[20.149s] reading manifest file 'my_car_controller.egg-info/SOURCES.txt'
+[20.159s] writing manifest file 'my_car_controller.egg-info/SOURCES.txt'
+[20.174s] running build_ext
+[20.177s] Creating /home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages/my-car-controller.egg-link (link to .)
+[20.185s] Installing serial_bridge script to /home/pi/ros2_ws/install/my_car_controller/lib/my_car_controller
+[20.187s] Installing serial_bridge_2 script to /home/pi/ros2_ws/install/my_car_controller/lib/my_car_controller
+[20.190s] Installing serial_bridge_3 script to /home/pi/ros2_ws/install/my_car_controller/lib/my_car_controller
+[20.192s] 
+[20.197s] Installed /home/pi/ros2_ws/build/my_car_controller
+[20.200s] running symlink_data
+[20.203s] symbolically linking /home/pi/ros2_ws/build/my_car_controller/resource/my_car_controller -> /home/pi/ros2_ws/install/my_car_controller/share/ament_index/resource_index/packages
+[20.213s] symbolically linking /home/pi/ros2_ws/build/my_car_controller/package.xml -> /home/pi/ros2_ws/install/my_car_controller/share/my_car_controller
+[20.546s] Invoked command in '/home/pi/ros2_ws/build/my_car_controller' returned '0': PYTHONPATH=/home/pi/ros2_ws/build/my_car_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ros2_ws/build/my_car_controller/build --no-deps symlink_data --force

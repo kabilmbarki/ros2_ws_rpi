@@ -1,0 +1,84 @@
+[0.195s] Invoking command in '/home/pi/ros2_ws/build/lslidar_driver': CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble /usr/bin/cmake /home/pi/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/lslidar_driver
+[0.412s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[0.421s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[2.644s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.677s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.749s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.870s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.027s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.446s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.467s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.723s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.344s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[6.431s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[6.909s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[9.970s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[10.025s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[10.027s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[11.666s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[11.722s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[11.778s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[13.336s] -- Found Qhull version 8.0.2
+[14.935s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[16.496s] -- looking for PCL_COMMON
+[16.499s] -- looking for PCL_KDTREE
+[16.502s] -- looking for PCL_OCTREE
+[16.506s] -- looking for PCL_SEARCH
+[16.509s] -- looking for PCL_SAMPLE_CONSENSUS
+[16.513s] -- looking for PCL_FILTERS
+[16.516s] -- looking for PCL_2D
+[16.519s] -- looking for PCL_GEOMETRY
+[16.522s] -- looking for PCL_IO
+[16.526s] -- looking for PCL_FEATURES
+[16.530s] -- looking for PCL_ML
+[16.533s] -- looking for PCL_SEGMENTATION
+[16.538s] -- looking for PCL_VISUALIZATION
+[16.542s] -- looking for PCL_SURFACE
+[16.546s] -- looking for PCL_REGISTRATION
+[16.550s] -- looking for PCL_KEYPOINTS
+[16.554s] -- looking for PCL_TRACKING
+[16.558s] -- looking for PCL_RECOGNITION
+[16.563s] -- looking for PCL_STEREO
+[16.566s] -- looking for PCL_APPS
+[16.574s] -- looking for PCL_IN_HAND_SCANNER
+[16.577s] -- looking for PCL_MODELER
+[16.579s] -- looking for PCL_POINT_CLOUD_EDITOR
+[16.582s] -- looking for PCL_OUTOFCORE
+[16.586s] -- looking for PCL_PEOPLE
+[16.599s] -- Found diagnostic_updater: 4.0.3 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[16.782s] -- Found lslidar_msgs: 1.2.0 (/home/pi/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake)
+[16.936s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[17.429s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[19.092s] -- Configuring done
+[20.436s] -- Generating done
+[20.614s] -- Build files have been written to: /home/pi/ros2_ws/build/lslidar_driver
+[20.739s] Invoked command in '/home/pi/ros2_ws/build/lslidar_driver' returned '0': CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble /usr/bin/cmake /home/pi/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/lslidar_driver
+[20.759s] Invoking command in '/home/pi/ros2_ws/build/lslidar_driver': CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/lslidar_driver -- -j4 -l4
+[21.315s] [ 20%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o[0m
+[21.325s] [ 60%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o[0m
+[21.327s] [ 60%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/input.cc.o[0m
+[21.347s] [ 80%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lsiosr.cpp.o[0m
+[21.912s] In file included from [01m[K/home/pi/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/src/input.cc:1[m[K:
+[21.915s] [01m[K/home/pi/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/input.h:32:10:[m[K [01;31m[Kfatal error: [m[Kpcap.h: No such file or directory
+[21.916s]    32 | #include [01;31m[K<pcap.h>[m[K
+[21.917s]       |          [01;31m[K^~~~~~~~[m[K
+[21.917s] compilation terminated.
+[21.923s] gmake[2]: *** [CMakeFiles/lslidar_driver_node.dir/build.make:104: CMakeFiles/lslidar_driver_node.dir/src/input.cc.o] Error 1
+[21.924s] gmake[2]: *** Waiting for unfinished jobs....
+[57.651s] In file included from [01m[K/home/pi/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/lslidar_driver.h:41[m[K,
+[57.652s]                  from [01m[K/home/pi/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/src/lslidar_driver_node.cc:19[m[K:
+[57.653s] [01m[K/home/pi/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/input.h:32:10:[m[K [01;31m[Kfatal error: [m[Kpcap.h: No such file or directory
+[57.654s]    32 | #include [01;31m[K<pcap.h>[m[K
+[57.655s]       |          [01;31m[K^~~~~~~~[m[K
+[57.656s] compilation terminated.
+[57.658s] In file included from [01m[K/home/pi/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/lslidar_driver.h:41[m[K,
+[57.660s]                  from [01m[K/home/pi/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/src/lslidar_driver.cc:31[m[K:
+[57.661s] [01m[K/home/pi/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/input.h:32:10:[m[K [01;31m[Kfatal error: [m[Kpcap.h: No such file or directory
+[57.662s]    32 | #include [01;31m[K<pcap.h>[m[K
+[57.663s]       |          [01;31m[K^~~~~~~~[m[K
+[57.664s] compilation terminated.
+[57.794s] gmake[2]: *** [CMakeFiles/lslidar_driver_node.dir/build.make:76: CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o] Error 1
+[57.804s] gmake[2]: *** [CMakeFiles/lslidar_driver_node.dir/build.make:90: CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o] Error 1
+[57.807s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lslidar_driver_node.dir/all] Error 2
+[57.809s] gmake: *** [Makefile:146: all] Error 2
+[57.825s] Invoked command in '/home/pi/ros2_ws/build/lslidar_driver' returned '2': CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/lslidar_driver -- -j4 -l4

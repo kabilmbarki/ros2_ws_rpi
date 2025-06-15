@@ -1,0 +1,20 @@
+[0.290s] Invoking command in '/home/pi/ros2_ws/build/joy_config_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/joy_config_pkg -- -j4 -l4
+[3.255s] Invoked command in '/home/pi/ros2_ws/build/joy_config_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/joy_config_pkg -- -j4 -l4
+[3.344s] Invoking command in '/home/pi/ros2_ws/build/joy_config_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/home/pi/ros2_ws/install/joy_config_pkg:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/joy_config_pkg
+[6.395s] -- Install configuration: ""
+[6.397s] -- Execute custom install script
+[6.397s] -- Up-to-date symlink: /home/pi/ros2_ws/install/joy_config_pkg/share/ament_index/resource_index/package_run_dependencies/joy_config_pkg
+[6.399s] -- Up-to-date symlink: /home/pi/ros2_ws/install/joy_config_pkg/share/ament_index/resource_index/parent_prefix_path/joy_config_pkg
+[6.400s] -- Up-to-date symlink: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/environment/ament_prefix_path.sh
+[6.401s] -- Up-to-date symlink: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/environment/ament_prefix_path.dsv
+[6.401s] -- Up-to-date symlink: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/environment/path.sh
+[6.402s] -- Up-to-date symlink: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/environment/path.dsv
+[6.403s] -- Up-to-date symlink: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/local_setup.bash
+[6.404s] -- Up-to-date symlink: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/local_setup.sh
+[6.405s] -- Up-to-date symlink: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/local_setup.zsh
+[6.405s] -- Up-to-date symlink: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/local_setup.dsv
+[6.406s] -- Up-to-date symlink: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/package.dsv
+[6.407s] -- Up-to-date symlink: /home/pi/ros2_ws/install/joy_config_pkg/share/ament_index/resource_index/packages/joy_config_pkg
+[6.408s] -- Up-to-date symlink: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/cmake/joy_config_pkgConfig.cmake
+[6.409s] -- Up-to-date symlink: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/cmake/joy_config_pkgConfig-version.cmake
+[6.409s] -- Up-to-date symlink: /home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/package.xml

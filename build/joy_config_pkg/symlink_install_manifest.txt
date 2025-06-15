@@ -1,0 +1,15 @@
+/home/pi/ros2_ws/install/joy_config_pkg/share/ament_index/resource_index/package_run_dependencies/joy_config_pkg
+/home/pi/ros2_ws/install/joy_config_pkg/share/ament_index/resource_index/parent_prefix_path/joy_config_pkg
+/home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/environment/ament_prefix_path.sh
+/home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/environment/ament_prefix_path.dsv
+/home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/environment/path.sh
+/home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/environment/path.dsv
+/home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/local_setup.bash
+/home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/local_setup.sh
+/home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/local_setup.zsh
+/home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/local_setup.dsv
+/home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/package.dsv
+/home/pi/ros2_ws/install/joy_config_pkg/share/ament_index/resource_index/packages/joy_config_pkg
+/home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/cmake/joy_config_pkgConfig.cmake
+/home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/cmake/joy_config_pkgConfig-version.cmake
+/home/pi/ros2_ws/install/joy_config_pkg/share/joy_config_pkg/package.xml

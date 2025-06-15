@@ -1,0 +1,21 @@
+[11.459s] Invoking command in '/home/pi/ros2_ws/src/serial_control': PYTHONPATH=/home/pi/ros2_ws/build/serial_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/serial_control build --build-base /home/pi/ros2_ws/build/serial_control/build install --record /home/pi/ros2_ws/build/serial_control/install.log --single-version-externally-managed install_data
+[14.294s] running egg_info
+[14.301s] writing ../../build/serial_control/serial_control.egg-info/PKG-INFO
+[14.303s] writing dependency_links to ../../build/serial_control/serial_control.egg-info/dependency_links.txt
+[14.305s] writing entry points to ../../build/serial_control/serial_control.egg-info/entry_points.txt
+[14.308s] writing requirements to ../../build/serial_control/serial_control.egg-info/requires.txt
+[14.310s] writing top-level names to ../../build/serial_control/serial_control.egg-info/top_level.txt
+[14.329s] reading manifest file '../../build/serial_control/serial_control.egg-info/SOURCES.txt'
+[14.340s] writing manifest file '../../build/serial_control/serial_control.egg-info/SOURCES.txt'
+[14.344s] running build
+[14.345s] running build_py
+[14.351s] running install
+[14.352s] running install_lib
+[14.366s] running install_data
+[14.368s] running install_egg_info
+[14.387s] removing '/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages/serial_control-0.0.0-py3.10.egg-info' (and everything under it)
+[14.422s] Copying ../../build/serial_control/serial_control.egg-info to /home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages/serial_control-0.0.0-py3.10.egg-info
+[14.438s] running install_scripts
+[14.653s] Installing serial_node script to /home/pi/ros2_ws/install/serial_control/lib/serial_control
+[14.657s] writing list of installed files to '/home/pi/ros2_ws/build/serial_control/install.log'
+[14.932s] Invoked command in '/home/pi/ros2_ws/src/serial_control' returned '0': PYTHONPATH=/home/pi/ros2_ws/build/serial_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/serial_control build --build-base /home/pi/ros2_ws/build/serial_control/build install --record /home/pi/ros2_ws/build/serial_control/install.log --single-version-externally-managed install_data

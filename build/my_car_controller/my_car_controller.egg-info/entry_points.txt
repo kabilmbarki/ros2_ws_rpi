@@ -1,0 +1,5 @@
+[console_scripts]
+serial_bridge = my_car_controller.serial_bridge:main
+serial_bridge_2 = my_car_controller.serial_bridge_2:main
+serial_bridge_3 = my_car_controller.serial_bridge_3:main
+

@@ -1,0 +1,18 @@
+[6.899s] Invoking command in '/home/pi/ros2_ws/build/my_car_controller': PYTHONPATH=/home/pi/ros2_ws/build/my_car_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ros2_ws/build/my_car_controller/build --no-deps symlink_data
+[8.547s] running develop
+[9.779s] running egg_info
+[9.781s] writing my_car_controller.egg-info/PKG-INFO
+[9.782s] writing dependency_links to my_car_controller.egg-info/dependency_links.txt
+[9.784s] writing entry points to my_car_controller.egg-info/entry_points.txt
+[9.785s] writing requirements to my_car_controller.egg-info/requires.txt
+[9.787s] writing top-level names to my_car_controller.egg-info/top_level.txt
+[9.801s] reading manifest file 'my_car_controller.egg-info/SOURCES.txt'
+[9.806s] writing manifest file 'my_car_controller.egg-info/SOURCES.txt'
+[9.813s] running build_ext
+[9.814s] Creating /home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages/my-car-controller.egg-link (link to .)
+[9.817s] Installing serial_bridge script to /home/pi/ros2_ws/install/my_car_controller/lib/my_car_controller
+[9.818s] Installing serial_bridge_2 script to /home/pi/ros2_ws/install/my_car_controller/lib/my_car_controller
+[9.819s] Installing serial_bridge_3 script to /home/pi/ros2_ws/install/my_car_controller/lib/my_car_controller
+[9.821s] 
+[9.821s] Installed /home/pi/ros2_ws/build/my_car_controller
+[9.822s] running symlink_data

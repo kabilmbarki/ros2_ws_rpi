@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing serbot_controller.egg-info/PKG-INFO
+writing dependency_links to serbot_controller.egg-info/dependency_links.txt
+writing entry points to serbot_controller.egg-info/entry_points.txt
+writing requirements to serbot_controller.egg-info/requires.txt
+writing top-level names to serbot_controller.egg-info/top_level.txt
+reading manifest file 'serbot_controller.egg-info/SOURCES.txt'
+writing manifest file 'serbot_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages/serbot-controller.egg-link (link to .)
+Installing serbot_controller script to /home/pi/ros2_ws/install/serbot_controller/lib/serbot_controller
+
+Installed /home/pi/ros2_ws/build/serbot_controller
+running symlink_data
+symbolically linking /home/pi/ros2_ws/build/serbot_controller/package.xml -> /home/pi/ros2_ws/install/serbot_controller/share/serbot_controller

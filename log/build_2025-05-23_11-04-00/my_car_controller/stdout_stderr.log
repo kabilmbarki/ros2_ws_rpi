@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing my_car_controller.egg-info/PKG-INFO
+writing dependency_links to my_car_controller.egg-info/dependency_links.txt
+writing entry points to my_car_controller.egg-info/entry_points.txt
+writing requirements to my_car_controller.egg-info/requires.txt
+writing top-level names to my_car_controller.egg-info/top_level.txt
+reading manifest file 'my_car_controller.egg-info/SOURCES.txt'
+writing manifest file 'my_car_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pi/ros2_ws/install/my_car_controller/lib/python3.10/site-packages/my-car-controller.egg-link (link to .)
+Installing serial_bridge script to /home/pi/ros2_ws/install/my_car_controller/lib/my_car_controller
+Installing serial_bridge_2 script to /home/pi/ros2_ws/install/my_car_controller/lib/my_car_controller
+Installing serial_bridge_3 script to /home/pi/ros2_ws/install/my_car_controller/lib/my_car_controller
+
+Installed /home/pi/ros2_ws/build/my_car_controller
+running symlink_data

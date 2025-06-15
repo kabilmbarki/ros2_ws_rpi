@@ -1,0 +1,11 @@
+teleop_twist_joy_node:
+  ros__parameters:
+    axis_linear: 1        # Axe vertical gauche
+    scale_linear: 1.5     # Vitesse par défaut
+    scale_linear_turbo: 2.5  # Mode turbo plus rapide
+    axis_angular: 4       # Axe horizontal droit
+    scale_angular: 1.5
+    scale_angular_turbo: 2
+
+    enable_button: 4          # L1 = activer commandes normales
+    enable_turbo_button: 6    # L2 = activer turbo (plus rapide)

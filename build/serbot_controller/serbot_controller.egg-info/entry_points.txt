@@ -1,0 +1,4 @@
+[console_scripts]
+serbot_controller = serbot_controller.serbot_controller:main
+serbot_controller_2 = serbot_controller.serbot_controller_2:main
+

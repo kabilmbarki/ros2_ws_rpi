@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/serbot_controller/serbot_controller.egg-info
+writing ../../build/serbot_controller/serbot_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/serbot_controller/serbot_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/serbot_controller/serbot_controller.egg-info/entry_points.txt
+writing requirements to ../../build/serbot_controller/serbot_controller.egg-info/requires.txt
+writing top-level names to ../../build/serbot_controller/serbot_controller.egg-info/top_level.txt
+writing manifest file '../../build/serbot_controller/serbot_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/serbot_controller/serbot_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/serbot_controller/serbot_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pi/ros2_ws/build/serbot_controller/build
+creating /home/pi/ros2_ws/build/serbot_controller/build/lib
+creating /home/pi/ros2_ws/build/serbot_controller/build/lib/serbot_controller
+copying serbot_controller/__init__.py -> /home/pi/ros2_ws/build/serbot_controller/build/lib/serbot_controller
+copying serbot_controller/serbot_controller.py -> /home/pi/ros2_ws/build/serbot_controller/build/lib/serbot_controller
+running install
+running install_lib
+creating /home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages/serbot_controller
+copying /home/pi/ros2_ws/build/serbot_controller/build/lib/serbot_controller/__init__.py -> /home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages/serbot_controller
+copying /home/pi/ros2_ws/build/serbot_controller/build/lib/serbot_controller/serbot_controller.py -> /home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages/serbot_controller
+byte-compiling /home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages/serbot_controller/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages/serbot_controller/serbot_controller.py to serbot_controller.cpython-310.pyc
+running install_data
+copying package.xml -> /home/pi/ros2_ws/install/serbot_controller/share/serbot_controller
+running install_egg_info
+Copying ../../build/serbot_controller/serbot_controller.egg-info to /home/pi/ros2_ws/install/serbot_controller/lib/python3.10/site-packages/serbot_controller-0.0.1-py3.10.egg-info
+running install_scripts
+Installing serbot_controller script to /home/pi/ros2_ws/install/serbot_controller/lib/serbot_controller
+writing list of installed files to '/home/pi/ros2_ws/build/serbot_controller/install.log'

@@ -1,0 +1,40 @@
+[10.142s] Invoking command in '/home/pi/ros2_ws/src/serial_control': PYTHONPATH=/home/pi/ros2_ws/build/serial_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/serial_control build --build-base /home/pi/ros2_ws/build/serial_control/build install --record /home/pi/ros2_ws/build/serial_control/install.log --single-version-externally-managed install_data
+[12.871s] running egg_info
+[12.878s] creating ../../build/serial_control/serial_control.egg-info
+[12.879s] writing ../../build/serial_control/serial_control.egg-info/PKG-INFO
+[12.881s] writing dependency_links to ../../build/serial_control/serial_control.egg-info/dependency_links.txt
+[12.883s] writing entry points to ../../build/serial_control/serial_control.egg-info/entry_points.txt
+[12.885s] writing requirements to ../../build/serial_control/serial_control.egg-info/requires.txt
+[12.886s] writing top-level names to ../../build/serial_control/serial_control.egg-info/top_level.txt
+[12.888s] writing manifest file '../../build/serial_control/serial_control.egg-info/SOURCES.txt'
+[12.903s] reading manifest file '../../build/serial_control/serial_control.egg-info/SOURCES.txt'
+[12.912s] writing manifest file '../../build/serial_control/serial_control.egg-info/SOURCES.txt'
+[12.913s] running build
+[12.917s] running build_py
+[12.918s] creating /home/pi/ros2_ws/build/serial_control/build
+[12.919s] creating /home/pi/ros2_ws/build/serial_control/build/lib
+[12.920s] creating /home/pi/ros2_ws/build/serial_control/build/lib/serial_control
+[12.922s] copying serial_control/__init__.py -> /home/pi/ros2_ws/build/serial_control/build/lib/serial_control
+[12.923s] copying serial_control/serial_node.py -> /home/pi/ros2_ws/build/serial_control/build/lib/serial_control
+[12.924s] copying serial_control/serial_node2.py -> /home/pi/ros2_ws/build/serial_control/build/lib/serial_control
+[12.925s] running install
+[12.927s] running install_lib
+[12.935s] creating /home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages/serial_control
+[12.936s] copying /home/pi/ros2_ws/build/serial_control/build/lib/serial_control/__init__.py -> /home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages/serial_control
+[12.937s] copying /home/pi/ros2_ws/build/serial_control/build/lib/serial_control/serial_node.py -> /home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages/serial_control
+[12.939s] copying /home/pi/ros2_ws/build/serial_control/build/lib/serial_control/serial_node2.py -> /home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages/serial_control
+[12.945s] byte-compiling /home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages/serial_control/__init__.py to __init__.cpython-310.pyc
+[12.949s] byte-compiling /home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages/serial_control/serial_node.py to serial_node.cpython-310.pyc
+[12.956s] byte-compiling /home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages/serial_control/serial_node2.py to serial_node2.cpython-310.pyc
+[12.960s] running install_data
+[12.962s] creating /home/pi/ros2_ws/install/serial_control/share/ament_index
+[12.964s] creating /home/pi/ros2_ws/install/serial_control/share/ament_index/resource_index
+[12.965s] creating /home/pi/ros2_ws/install/serial_control/share/ament_index/resource_index/packages
+[12.966s] copying resource/serial_control -> /home/pi/ros2_ws/install/serial_control/share/ament_index/resource_index/packages
+[12.968s] copying package.xml -> /home/pi/ros2_ws/install/serial_control/share/serial_control
+[12.969s] running install_egg_info
+[12.985s] Copying ../../build/serial_control/serial_control.egg-info to /home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages/serial_control-0.0.0-py3.10.egg-info
+[13.001s] running install_scripts
+[13.248s] Installing serial_node script to /home/pi/ros2_ws/install/serial_control/lib/serial_control
+[13.252s] writing list of installed files to '/home/pi/ros2_ws/build/serial_control/install.log'
+[13.479s] Invoked command in '/home/pi/ros2_ws/src/serial_control' returned '0': PYTHONPATH=/home/pi/ros2_ws/build/serial_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/serial_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/serial_control build --build-base /home/pi/ros2_ws/build/serial_control/build install --record /home/pi/ros2_ws/build/serial_control/install.log --single-version-externally-managed install_data

@@ -1,0 +1,39 @@
+[0.179s] Invoking command in '/home/pi/ros2_ws/build/lslidar_driver': CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/lslidar_driver -- -j4 -l4
+[0.676s] [35m[1mConsolidate compiler generated dependencies of target lslidar_driver_node[0m
+[0.850s] [ 20%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o[0m
+[0.885s] [ 40%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/input.cc.o[0m
+[0.915s] [ 60%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o[0m
+[162.733s] [ 80%] [32m[1mLinking CXX executable lslidar_driver_node[0m
+[181.367s] [100%] Built target lslidar_driver_node
+[181.461s] Invoked command in '/home/pi/ros2_ws/build/lslidar_driver' returned '0': CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/lslidar_driver -- -j4 -l4
+[181.476s] Invoking command in '/home/pi/ros2_ws/build/lslidar_driver': CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/lslidar_driver
+[181.545s] -- Install configuration: ""
+[181.546s] -- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/launch
+[181.549s] -- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py
+[181.552s] -- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_launch.py
+[181.556s] -- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/params
+[181.557s] -- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/params/lsx10_1.yaml
+[181.560s] -- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/params/lsx10.yaml
+[181.563s] -- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/params/lsx10_2.yaml
+[181.566s] -- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/rviz
+[181.568s] -- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar.rviz
+[181.573s] -- Installing: /home/pi/ros2_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node
+[181.672s] -- Set runtime path of "/home/pi/ros2_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node" to ""
+[181.674s] -- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver
+[181.679s] -- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver
+[181.683s] -- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh
+[181.685s] -- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv
+[181.688s] -- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/environment/path.sh
+[181.691s] -- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/environment/path.dsv
+[181.694s] -- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/local_setup.bash
+[181.697s] -- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/local_setup.sh
+[181.700s] -- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/local_setup.zsh
+[181.703s] -- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/local_setup.dsv
+[181.705s] -- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/package.dsv
+[181.709s] -- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver
+[181.713s] -- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[181.717s] -- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[181.720s] -- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake
+[181.723s] -- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake
+[181.725s] -- Installing: /home/pi/ros2_ws/install/lslidar_driver/share/lslidar_driver/package.xml
+[181.743s] Invoked command in '/home/pi/ros2_ws/build/lslidar_driver' returned '0': CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/lslidar_msgs:/home/pi/ros2_ws/install/serbot_description:/home/pi/ros2_ws/install/joy_config_pkg:/home/pi/ros2_ws/install/teleop_twist_keyboard:/home/pi/ros2_ws/install/serial_control:/home/pi/ros2_ws/install/serbot_controller:/home/pi/ros2_ws/install/my_car_controller:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/lslidar_driver
